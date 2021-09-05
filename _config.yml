@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Kamaljyoti Nath"
   avatar           : "profile.png"
-  bio              : "Postdoctoral Research Associate, Brown University"
+  bio              : "Postdoctoral Research Associate, \\ Division of Applied Mathematics, \\ Brown University"
   location         : "Providence, USA"
   employer         :
-  pubmed           : "h"
+  pubmed           : #"h"
   googlescholar    : "https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Kamaljyoti-Nath"
   uri              :
   bitbucket        :
   codepen          :
