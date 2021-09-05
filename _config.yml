@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Kamaljyoti Nath"
   avatar           : "profile.png"
-  bio              : "Postdoctoral Research Associate, \\ Division of Applied Mathematics, \\ Brown University"
+  bio              : "Postdoctoral Research Associate, <br> Division of Applied Mathematics, <br> Brown University"
   location         : "Providence, USA"
   employer         :
   pubmed           : #"h"
