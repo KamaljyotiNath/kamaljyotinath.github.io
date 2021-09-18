@@ -15,6 +15,4 @@ For list of publication please refer to my [Google Scholar profile](https://scho
 5. **Nath, K.**, Dutta, A., & Hazra, B. (2021). [Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness.](https://doi.org/10.1016/j.probengmech.2021.103159) *Probabilistic Engineering Mechanics*, 103159.
 
 ### Book Chapters
-1. **Nath, K.**, Dutta, A., & Hazra, B. Stochastic Finite Element Method. In *Reliability-Based Analysis and Design of Structures and Infrastructure* (pp. 101-116). CRC Press. 
-
-
+1. **Nath, K.**, Dutta, A., & Hazra, B. [Stochastic Finite Element Method](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096). In *[Reliability-Based Analysis and Design of Structures and Infrastructure](https://doi.org/10.1201/9781003194613)* (pp. 101-116). CRC Press.
