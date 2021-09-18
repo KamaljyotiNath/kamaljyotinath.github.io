@@ -6,7 +6,6 @@ permalink: /Background/
 author_profile: true
 ---
 
-
 # Education
 - Doctor of Philosophy in Civil Engineering, Indian Institute of Technology Guwahati, Guwahati, Assam, India. (2013 - 2020)
 - B. Tech in Civil Engineering, National Institute of Technology Silchar, Silchar, Assam, India. (2004 - 2008)
