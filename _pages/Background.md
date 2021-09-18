@@ -2,7 +2,7 @@
 layout: archive
 title: "Background"
 permalink: /Background/
-author_profile: false
+author_profile: true
 ---
 
 ## Education
