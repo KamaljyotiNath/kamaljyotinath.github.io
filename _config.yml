@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Kamaljyoti Nath"
-  avatar           : "profile.png"
+  avatar           : "kamaljyoti.png"
   bio              : "Postdoctoral Research Associate, <br> Division of Applied Mathematics, <br> Brown University"
   location         : "Providence, USA"
   employer         :
@@ -94,7 +94,7 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/nath.kamaljyoti/"
   foursquare       :
   github           : "kamaljyotinath"
   google_plus      :
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #
   lastfm           :
-  linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/kamaljyoti-nath-8a058567/"
+  orcid            : "https://orcid.org/0000-0002-5946-6329"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
