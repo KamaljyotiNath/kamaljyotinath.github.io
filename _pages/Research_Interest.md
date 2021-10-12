@@ -2,7 +2,7 @@
 layout: archive
 title: "Research Interest"
 permalink: /Research_Interest/
-author_profile: false
+author_profile: true
 ---
 
 My broad area of research is in Stochastic Structural Mechanics, Stochastic Finite Element Method (SFEM), Structural Health Monitoring
