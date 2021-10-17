@@ -6,13 +6,12 @@ author_profile: true
 ---
 
 ## Education
-- Doctor of Philosophy in Civil Engineering, Indian Institute of Technology Guwahati, Guwahati, Assam, India. (2013 - 2020)
-- B. Tech in Civil Engineering, National Institute of Technology Silchar, Silchar, Assam, India. (2004 - 2008)
+- <p style='text-align: justify;'> Doctor of Philosophy in Civil Engineering, Indian Institute of Technology Guwahati, Guwahati, Assam, India. (2013 - 2020)</p>
+- <p style='text-align: justify;'> B. Tech in Civil Engineering, National Institute of Technology Silchar, Silchar, Assam, India. (2004 - 2008) </p>
 
 ## Industrial Experience
 
-- From August 2008 to July 2013, I worked at TATA Consulting Engineers Limited, where I worked on Modelling, analysis, design and design review of civil structures of
-thermal power plants. Detailing and checking of civil construction drawings.
+- <p style='text-align: justify;'> From August 2008 to July 2013, I worked at TATA Consulting Engineers Limited, where I worked on Modelling, analysis, design and design review of civil structures of thermal power plants. Detailing and checking of civil construction drawings. </p>
 
 ## Links
 Links to my 
