@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Kamaljyoti"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Kamaljyoti Nath"
 description              : &description "personal description"
