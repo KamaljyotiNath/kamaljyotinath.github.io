@@ -21,12 +21,9 @@ body {
 </style>
 <button onclick="myFunction()">
 
-<div id="icon1" class="icon icon1">
-					<i class="fas fa-moon"></i>
-				</div>
-				<div id="icon2" class="icon icon2">
-					<i class="fas fa-sun"></i>
-				</div>
+<div id="icon2" class="icon icon2">
+	<i class="fas fa-sun"></i>
+</div>
 
 
 </button>
