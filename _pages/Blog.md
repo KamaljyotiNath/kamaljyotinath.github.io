@@ -7,23 +7,22 @@ author_profile: true
 ---
 
 <html>
-<style>
-body {
+
+#body {
   padding: 25px;
   background-color: white;
   color: black;
   font-size: 25px;
 }
-
 .dark-mode {
   background-color: black;
   color: white;
 }
-</style>
+
 
 <body>
 
-
+<p id="body">
 <details>
   <summary>Click to expand!</summary>
   
@@ -31,6 +30,7 @@ body {
 </details>
 
 <button onclick="myFunction()">Toggle dark mode</button>
+  </p>
 
 <script>
 function myFunction() {
