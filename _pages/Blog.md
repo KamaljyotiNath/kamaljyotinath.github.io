@@ -16,14 +16,13 @@ body {
   color: white;
 }
 </style>
-
+<button onclick="myFunction()">Toggle dark mode</button>
 <details>
   <summary>Click to expand!</summary>
   
   under construction
 </details>
 
-<button onclick="myFunction()">Toggle dark mode</button>
 
 
 <script>
