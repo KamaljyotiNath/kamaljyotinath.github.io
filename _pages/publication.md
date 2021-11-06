@@ -4,6 +4,26 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<style>
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+<button onclick="myFunction()">
+<i class="fa fa-adjust"></i>
+</button>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 
 For list of publication please refer to my [Google Scholar profile](https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en) and [Scopus profile](https://www.scopus.com/authid/detail.uri?authorId=57072835400).
 
