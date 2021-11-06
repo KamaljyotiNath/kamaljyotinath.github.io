@@ -6,10 +6,7 @@ permalink: /Blog/
 author_profile: true
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 body {
   padding: 25px;
@@ -23,7 +20,7 @@ body {
   color: white;
 }
 </style>
-</head>
+
 <body>
 
 
@@ -43,4 +40,3 @@ function myFunction() {
 </script>
 
 </body>
-</html>
