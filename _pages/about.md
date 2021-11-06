@@ -20,7 +20,7 @@ body {
 }
 </style>
 <button onclick="myFunction()">
-<i class="fa fa-sun"></i>
+<i class="fa fa-adjust"></i>
 </button>
 <script>
 function myFunction() {
