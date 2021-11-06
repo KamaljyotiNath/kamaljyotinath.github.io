@@ -20,7 +20,7 @@ body {
 }
 </style>
 <button onclick="myFunction()">
-<i class="fas fa-sun"></i>
+<i class="fa fa-sun"></i>
 </button>
 <script>
 function myFunction() {
