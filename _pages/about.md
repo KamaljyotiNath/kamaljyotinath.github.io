@@ -8,6 +8,7 @@ redirect_from:
   - /about.html
 ---
 
+<button onclick="myFunction()">Toggle dark mode</button>
 
 <br><br><br><br>
 <p style='text-align: justify;'>
