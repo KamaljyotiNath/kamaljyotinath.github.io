@@ -6,7 +6,7 @@ permalink: /Blog/
 author_profile: true
 ---
 
-
+<html>
 <style>
 body {
   padding: 25px;
@@ -38,5 +38,7 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
+  </body>
+  </html>
 
 </body>
