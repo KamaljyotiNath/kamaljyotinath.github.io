@@ -5,6 +5,27 @@ permalink: /Background/
 author_profile: true
 ---
 
+<style>
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+<button onclick="myFunction()">
+<i class="fa fa-adjust"></i>
+</button>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
 ## Education
 - <p style='text-align: justify;'> Doctor of Philosophy in Civil Engineering, Indian Institute of Technology Guwahati, Guwahati, Assam, India. (2013 - 2020)</p>
 - <p style='text-align: justify;'> B. Tech in Civil Engineering, National Institute of Technology Silchar, Silchar, Assam, India. (2004 - 2008) </p>
