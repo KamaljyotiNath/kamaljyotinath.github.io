@@ -1,3 +1,11 @@
+
+---
+layout: archive
+title:  Blog
+permalink: /Blog/
+author_profile: true
+---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,12 +26,6 @@ body {
 </head>
 <body>
 
----
-layout: archive
-title:  Blog
-permalink: /Blog/
-author_profile: true
----
 
 <details>
   <summary>Click to expand!</summary>
