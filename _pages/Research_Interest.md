@@ -18,9 +18,6 @@ author_profile: true
 			</div>
 		</div>
 	</div>
-	<div class="btn-container">
-		<button id="swap-btn" class="swap-btn">Switch to Dark Mode</button>
-	</div>
 </div>
 
 <a id="top"></a>
