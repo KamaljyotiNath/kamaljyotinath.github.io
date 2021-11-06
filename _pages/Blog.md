@@ -7,10 +7,8 @@ author_profile: true
 
 <style>
 body {
-  padding: 25px;
   background-color: white;
   color: black;
-  font-size: 25px;
 }
 
 .dark-mode {
