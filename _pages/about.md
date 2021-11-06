@@ -19,7 +19,17 @@ body {
   color: white;
 }
 </style>
-<button onclick="myFunction()">Toggle dark mode</button>
+<button onclick="myFunction()">
+
+<div id="icon1" class="icon icon1">
+					<i class="fas fa-moon"></i>
+				</div>
+				<div id="icon2" class="icon icon2">
+					<i class="fas fa-sun"></i>
+				</div>
+
+
+</button>
 <script>
 function myFunction() {
    var element = document.body;
