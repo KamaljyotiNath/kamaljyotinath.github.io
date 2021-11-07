@@ -9,6 +9,7 @@ redirect_from:
   - /about.html
 ---
 
+
 <style>
 body {
   background-color: white;
@@ -29,6 +30,7 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
+
 
 <br>
 <p style='text-align: justify;'>
