@@ -1,5 +1,5 @@
 ---
-permalink: /Kamaljyoti Nath/
+permalink: /
 title: 
 layout: archive
 excerpt: "About me"
