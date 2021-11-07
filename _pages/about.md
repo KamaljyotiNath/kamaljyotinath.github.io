@@ -1,4 +1,14 @@
 ---
+permalink: /
+title: Kamaljoti Nath
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
+---
 layout: archive
 title:  About me 
 permalink: /About me/
