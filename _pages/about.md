@@ -12,7 +12,7 @@ redirect_from:
 
 <style>
 body {
-  background-color: white;
+  background-color: #ededed;
   color: black;
 }
 
