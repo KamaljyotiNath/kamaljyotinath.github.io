@@ -6,7 +6,7 @@ author_profile: true
 ---
 <style>
 body {
-  background-color: white;
+  background-color: #ededed;
   color: black;
 }
 
