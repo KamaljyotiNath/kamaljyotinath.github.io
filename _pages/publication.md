@@ -24,7 +24,7 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
-
+<a href="#top">Back to top</a>
 For list of publication please refer to my [Google Scholar profile](https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en) and [Scopus profile](https://www.scopus.com/authid/detail.uri?authorId=57072835400).
 
 ### Journals
@@ -41,5 +41,5 @@ For list of publication please refer to my [Google Scholar profile](https://scho
 ### Conference
 1. <p style='text-align: justify;'> Dutta, A. <b> Nath, K.</b> (2020), <a href ="https://doi.org/10.1007/978-981-16-3690-5_31"> Learning via Long Short-Term Memory (LSTM) Network for Predicting Strains in Railway Bridge Members Under Train Induced Vibration.</a> 2nd International Conference on Data Science, Machine Learning and Applications (ICDSMLA) 2020 (held virtually), Pune, India. In: Kumar A., Senatore S., Gunjan V.K. (eds) Lecture Notes in Electrical Engineering, vol 783 (pp. 351-361). Springer, Singapore. https://doi.org/10.1007/978-981-16-3690-5_31 </p>
 
-<a href="#top">Back to top</a>
+
 <a id="top"></a>
