@@ -46,8 +46,8 @@ For list of publication please refer to my [Google Scholar profile](https://scho
 
 ### Conference
 <ol>
-<li> <p style='text-align: justify;'> Dutta, A. <b> Nath, K.</b> (2020), <a href ="https://doi.org/10.1007/978-981-16-3690-5_31"> Learning via Long Short-Term Memory (LSTM) Network for Predicting Strains in Railway Bridge Members Under Train Induced Vibration.</a> 2nd International Conference on Data Science, Machine Learning and Applications (ICDSMLA) 2020 (held virtually), Pune, India. In: Kumar A., Senatore S., Gunjan V.K. (eds) Lecture Notes in Electrical Engineering, vol 783 (pp. 351-361). Springer, Singapore. https://doi.org/10.1007/978-981-16-3690-5_31 </p>
-</ol> </li>
+<li> <p style='text-align: justify;'> Dutta, A. <b> Nath, K.</b> (2020), <a href ="https://doi.org/10.1007/978-981-16-3690-5_31"> Learning via Long Short-Term Memory (LSTM) Network for Predicting Strains in Railway Bridge Members Under Train Induced Vibration.</a> 2nd International Conference on Data Science, Machine Learning and Applications (ICDSMLA) 2020 (held virtually), Pune, India. In: Kumar A., Senatore S., Gunjan V.K. (eds) Lecture Notes in Electrical Engineering, vol 783 (pp. 351-361). Springer, Singapore. https://doi.org/10.1007/978-981-16-3690-5_31 </p> </li>
+</ol> 
 
-<a href="#top">Back to top</a> <a href="#Journal">Back to Journals</a> <a href="#Book chapter">Back to Book chapter</a> 
+<button><a href="#top">Back to top</a></button> <button><a href="#Journal">Back to Journals</a></button><button> <a href="#Book chapter">Back to Book chapter</a> </button>
 
