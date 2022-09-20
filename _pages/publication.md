@@ -30,7 +30,7 @@ For list of publication please refer to my [Google Scholar profile](https://scho
 
 ### Preprints
 <ol>
-  <li> <p style='text-align: justify;'> Liu, L., <b>Nath, K.</b>,Cai, W. (2022) <a href="https://arxiv.org/abs/2209.08397" > A Causality-DeepONet for Causal Responses of Linear Dynamical Systems.</a> <i>arXiv:2209.08397</i></p> </li>
+  <li> <p style='text-align: justify;'> Liu, L., <b>Nath, K.</b>, & Cai, W. (2022) <a href="https://arxiv.org/abs/2209.08397" > A Causality-DeepONet for Causal Responses of Linear Dynamical Systems.</a> <i>arXiv:2209.08397</i></p> </li>
 </ol>
 
 <a id="Journal"></a>
