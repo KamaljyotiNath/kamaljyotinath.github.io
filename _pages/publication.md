@@ -30,7 +30,7 @@ For list of publication please refer to my [Google Scholar profile](https://scho
 
 ### Preprints
 <ol><p style='text-align: justify;'> 
-  <li> <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a href="https://arxiv.org/abs/2304.13799" > Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. </a> <i>arXiv:2304.13799 </i></p> </li>
+  <li> <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a href="https://arxiv.org/abs/2304.13799" > Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. </a> <i>arXiv:2304.13799 </i> </li>
   <li> Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2022) <a href="https://arxiv.org/abs/2209.08397" > A Causality-DeepONet for Causal Responses of Linear Dynamical Systems.</a> <i>arXiv:2209.08397</i></li>
 </p> 
 </ol>
@@ -56,7 +56,7 @@ For list of publication please refer to my [Google Scholar profile](https://scho
 
 ### Conference
 <ol> <p style='text-align: justify;'>
-<li> Amartya Dutta, <b> Kamaljyoti Nath</b>, (2020). <a href ="https://doi.org/10.1007/978-981-16-3690-5_31"> Learning via Long Short-Term Memory (LSTM) Network for Predicting Strains in Railway Bridge Members Under Train Induced Vibration.</a> 2nd International Conference on Data Science, Machine Learning and Applications (ICDSMLA) 2020 (held virtually), Pune, India. In: Kumar A., Senatore S., Gunjan V.K. (eds) Lecture Notes in Electrical Engineering, vol 783 (pp. 351-361). Springer, Singapore. https://doi.org/10.1007/978-981-16-3690-5_31 </li>
+<li> Amartya Dutta, <b> Kamaljyoti Nath</b> (2020). <a href ="https://doi.org/10.1007/978-981-16-3690-5_31"> Learning via Long Short-Term Memory (LSTM) Network for Predicting Strains in Railway Bridge Members Under Train Induced Vibration.</a> 2nd International Conference on Data Science, Machine Learning and Applications (ICDSMLA) 2020 (held virtually), Pune, India. In: Kumar A., Senatore S., Gunjan V.K. (eds) Lecture Notes in Electrical Engineering, vol 783 (pp. 351-361). Springer, Singapore. https://doi.org/10.1007/978-981-16-3690-5_31 </li>
 </p>
 </ol> 
 
