@@ -26,7 +26,9 @@ function myFunction() {
 </script>
 
 <a id="top"></a>
-For list of publication please refer to my [Google Scholar profile](https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en) and [Scopus profile](https://www.scopus.com/authid/detail.uri?authorId=57072835400).
+For a list of publications, please refer to my [Google Scholar profile](https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en) and [Scopus profile](https://www.scopus.com/authid/detail.uri?authorId=57072835400).
+
+* *Contributed equally
 
 ### Preprints
 <ol><p style='text-align: justify;'> 
@@ -34,7 +36,6 @@ For list of publication please refer to my [Google Scholar profile](https://scho
   <li> Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2022) <a href="https://arxiv.org/abs/2209.08397" > A Causality-DeepONet for Causal Responses of Linear Dynamical Systems.</a> <i>arXiv:2209.08397</i></li>
 </p> 
 </ol>
-* *Contributed equally
 
 <a id="Journal"></a>
 ### Journals
