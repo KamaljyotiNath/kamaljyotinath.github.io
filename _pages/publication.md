@@ -31,8 +31,7 @@ For a list of publications, please refer to my [Google Scholar profile](https://
 * *Contributed equally
 
 ### Preprints
-<ol><p style='text-align: justify;'> 
-  <li> <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a href="https://arxiv.org/abs/2304.13799" > Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. </a> <i>arXiv:2304.13799 </i> </li>
+<ol><p style='text-align: justify;'>
   <li> Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2022) <a href="https://arxiv.org/abs/2209.08397" > A Causality-DeepONet for Causal Responses of Linear Dynamical Systems.</a> <i>arXiv:2209.08397</i></li>
 </p> 
 </ol>
@@ -40,6 +39,8 @@ For a list of publications, please refer to my [Google Scholar profile](https://
 <a id="Journal"></a>
 ### Journals
 <ol> <p style='text-align: justify;'> 
+<li> <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a href="https://doi.org/10.1038/s41598-023-39989-4"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines </a>. Scientific Reports, 13, 13683.
+</li>
 <li> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a href="https://doi.org/10.1016/j.probengmech.2021.103159" > Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness.</a> <i>Probabilistic Engineering Mechanics</i>, 66, 103159.</li>
 <li> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a href="https://doi.org/10.1007/s00366-021-01326-6"> An adaptive scheme for random field discretization using KL expansion.</a> <i>Engineering with Computers</i>, 1-18.</li>
 <li> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020). <a href="https://doi.org/10.1016/j.jcp.2020.109596"> Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. </a> <i>Journal of Computational Physics</i>, 418, 109596.</li>
