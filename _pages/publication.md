@@ -32,6 +32,7 @@ For a list of publications, please refer to my [Google Scholar profile](https://
 
 ### Preprints
 <ol><p style='text-align: justify;'>
+  <li> Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>b>, Alberto Luiz Serpa, George Em Karniadakis (2023) <a href = "https://arxiv.org/abs/2310.03001"> Learning characteristic parameters and dynamics of centrifugal pumps under multi-phase flow using physics-informed neural networks </a> <i> arXiv:2310.03001 </i> </li>
   <li> Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2022) <a href="https://arxiv.org/abs/2209.08397" > A Causality-DeepONet for Causal Responses of Linear Dynamical Systems.</a> <i>arXiv:2209.08397</i></li>
 </p> 
 </ol>
