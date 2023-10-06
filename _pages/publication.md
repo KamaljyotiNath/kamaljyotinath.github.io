@@ -40,7 +40,7 @@ For a list of publications, please refer to my [Google Scholar profile](https://
 <a id="Journal"></a>
 ### Journals
 <ol> <p style='text-align: justify;'> 
-<li> <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a href="https://doi.org/10.1038/s41598-023-39989-4"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines </a>. Scientific Reports, 13, 13683.
+<li> <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a href="https://doi.org/10.1038/s41598-023-39989-4"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines </a>. <i>Scientific Reports</i>, 13, 13683.
 </li>
 <li> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a href="https://doi.org/10.1016/j.probengmech.2021.103159" > Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness.</a> <i>Probabilistic Engineering Mechanics</i>, 66, 103159.</li>
 <li> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a href="https://doi.org/10.1007/s00366-021-01326-6"> An adaptive scheme for random field discretization using KL expansion.</a> <i>Engineering with Computers</i>, 38, 2937–2954.</li>
