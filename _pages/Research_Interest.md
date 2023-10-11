@@ -28,7 +28,7 @@ function myFunction() {
 
 <a id="top"></a>
 <p style='text-align: justify;'>
-My broad area of research is in Stochastic Structural Mechanics, Stochastic Finite Element Method (SFEM), Structural Health Monitoring
+My broad area of research is in Uncertainty quantification, Stochastic Finite Element Method (SFEM), Scientific Machine Learning, Structural Health Monitoring
 </p>
 - Uncertainty quantification
   - Stochastic mechanics
