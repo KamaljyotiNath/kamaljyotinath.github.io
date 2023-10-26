@@ -37,9 +37,11 @@ I am Kamaljyoti Nath, a Postdoctoral Research Associate in Applied Mathematics a
 
 ## Postdoc
 - <p style='text-align: justify;'> Postdoctoral Research Associate, Division of Applied Mathematics, Brown Univerity, Providence, USA (Feb, 2021 - Present)</p>
+
 ## Education
 - <p style='text-align: justify;'> Doctor of Philosophy in Civil Engineering, Indian Institute of Technology Guwahati, Guwahati, Assam, India. (2013 - 2020)</p>
 - <p style='text-align: justify;'> B. Tech in Civil Engineering, National Institute of Technology Silchar, Silchar, Assam, India. (2004 - 2008) </p>
+
 ## Industrial Experience
 - <p style='text-align: justify;'> From August 2008 to July 2013, I worked at TATA Consulting Engineers Limited, where I worked on Modelling, analysis, design and design review of civil structures of thermal power plants. Detailing and checking of civil construction drawings. </p>
 
