@@ -26,7 +26,7 @@ function myFunction() {
 </script>
 
 <a id="top"></a>
-For a list of publications, please refer to my <a target="_blank" rel="noopener noreferrer" https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en> Google Scholar profile </a> and <a target="_blank" rel="noopener noreferrer" https://www.scopus.com/authid/detail.uri?authorId=57072835400> Scopus profile</a>.
+For a list of publications, please refer to my <a target="_blank" rel="noopener noreferrer" href = "https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en"> Google Scholar profile </a> and <a target="_blank" rel="noopener noreferrer" href ="https://www.scopus.com/authid/detail.uri?authorId=57072835400"> Scopus profile</a>.
 
 * *Contributed equally
 
