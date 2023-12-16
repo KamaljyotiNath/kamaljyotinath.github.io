@@ -37,6 +37,13 @@ For a list of publications, please refer to my <a target="_blank" rel="noopener 
 </p> 
 </ol>
 
+<a id="Book chapter"></a>
+### Book Chapters
+<ol> <p style='text-align: justify;'>
+<li> <b> Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press.</li>
+</p>
+</ol>
+
 <a id="Journal"></a>
 ### Journals
 <ol> <p style='text-align: justify;'> 
@@ -50,18 +57,11 @@ For a list of publications, please refer to my <a target="_blank" rel="noopener 
 </p>
 </ol>
 
-<a id="Book chapter"></a>
-### Book Chapters
-<ol> <p style='text-align: justify;'>
-<li> <b> Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press.</li>
-</p>
-</ol>
-
 ### Conference
 <ol> <p style='text-align: justify;'>
 <li> Amartya Dutta, <b> Kamaljyoti Nath</b> (2020). <a target="_blank" rel="noopener noreferrer" href ="https://doi.org/10.1007/978-981-16-3690-5_31"> Learning via Long Short-Term Memory (LSTM) Network for Predicting Strains in Railway Bridge Members Under Train Induced Vibration.</a> 2nd International Conference on Data Science, Machine Learning and Applications (ICDSMLA) 2020 (held virtually), Pune, India. In: Kumar A., Senatore S., Gunjan V.K. (eds) Lecture Notes in Electrical Engineering, vol 783 (pp. 351-361). Springer, Singapore. https://doi.org/10.1007/978-981-16-3690-5_31 </li>
 </p>
 </ol> 
 
-<button><a href="#top">Back to top</a></button>    <button><a href="#Journal">Back to Journals</a></button>   <button> <a href="#Book chapter">Back to Book chapter</a> </button>
+<button><a href="#top">Back to top</a></button>     <button> <a href="#Book chapter">Back to Book chapter</a> </button> <button><a href="#Journal">Back to Journals</a></button>  
 
