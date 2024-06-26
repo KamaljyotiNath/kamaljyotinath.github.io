@@ -34,7 +34,6 @@ function myFunction() {
 <ol><p style='text-align: justify;'>
   <li> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2023) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2401.00061"> Learning thermoacoustic interactions in combustors using a physics-informed neural network. </a> <i> arXiv:2401.00061 </i> </li>
   <li> Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2023) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2310.03001"> Learning characteristic parameters and dynamics of centrifugal pumps under multi-phase flow using physics-informed neural networks. </a> <i> arXiv:2310.03001 </i> </li>
-  <li> Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2022) <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2209.08397" > A Causality-DeepONet for Causal Responses of Linear Dynamical Systems.</a> <i>arXiv:2209.08397</i></li>
 </p> 
 </ol>
 
@@ -48,6 +47,8 @@ function myFunction() {
 <a id="Journal"></a>
 ### Journals
 <ol> <p style='text-align: justify;'> 
+<li> Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2022) <a target="_blank" rel="noopener noreferrer" href="10.4208/cicp.OA-2023-0078" > A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. </a> <i>Communications in Computational Physics</i>  <a target="_blank" rel="noopener noreferrer" href="
+https://doi.org/10.48550/arXiv.2209.08397"> Preliminary arXiv copy </a> </li>
 <li> <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1038/s41598-023-39989-4"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines </a>. <i>Scientific Reports</i>, 13, 13683.
 </li>
 <li> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.probengmech.2021.103159" > Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness.</a> <i>Probabilistic Engineering Mechanics</i>, 66, 103159.</li>
