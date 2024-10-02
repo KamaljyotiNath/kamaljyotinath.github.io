@@ -33,7 +33,6 @@ function myFunction() {
 ### Preprints
 <ol><p style='text-align: justify;'>
   <li> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2023) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2401.00061"> Learning thermoacoustic interactions in combustors using a physics-informed neural network. </a> <i> arXiv:2401.00061 </i> </li>
-  <li> Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2023) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2310.03001"> Learning characteristic parameters and dynamics of centrifugal pumps under multi-phase flow using physics-informed neural networks. </a> <i> arXiv:2310.03001 </i> </li>
 </p> 
 </ol>
 
@@ -47,7 +46,9 @@ function myFunction() {
 <a id="Journal"></a>
 ### Journals
 <ol> 
-<li>  <p style='text-align: justify;' > Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024) <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078"> A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. </a> <i>Communications in Computational Physics</i>, 35 (5), 1194-1228, [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > Preliminary arXiv version </a> ] </p> </li>
+<li><p style='text-align: justify;'> Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024) <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. </a> <i> Engineering Applications of Artificial Intelligence </i> 138, 109378 [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" > arXiv version </a> ] </p> </li>
+
+<li>  <p style='text-align: justify;' > Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024) <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078"> A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. </a> <i>Communications in Computational Physics</i>, 35 (5), 1194-1228, [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > arXiv version </a> ] </p> </li>
   
 <li> <p style='text-align: justify;'> <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1038/s41598-023-39989-4"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines </a>. <i>Scientific Reports</i>, 13, 13683. </p> </li>
 
