@@ -32,7 +32,7 @@ function myFunction() {
 
 ### Preprints
 <ol><p style='text-align: justify;'>
-  <li> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2023) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2401.00061"> Learning thermoacoustic interactions in combustors using a physics-informed neural network. </a> <i> arXiv:2401.00061 </i> </li>
+  
 </p> 
 </ol>
 
@@ -45,7 +45,7 @@ function myFunction() {
 
 <a id="Journal"></a>
 ### Journals
-<ol reversed> 
+<ol reversed="reversed"> 
 
 <li> <p style='text-align: justify;'> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024) <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388">  Learning thermoacoustic interactions in combustors using a physics-informed neural network. </a> <i> Engineering Applications of Artificial Intelligence </i> 138, 109388 [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" > arXiv</a> ] </p> </li> 
   
