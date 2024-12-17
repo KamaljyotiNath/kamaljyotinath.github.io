@@ -30,14 +30,13 @@ function myFunction() {
 
 * *Contributed equally
 
-<!--- ### Preprints --->
-<ol><p style='text-align: justify;'>
-<!---
+### Preprints
+<ol  reversed="reversed"><p style='text-align: justify;'>
+
 <li> 
-  <p style='text-align: justify;'>  <b>  Kamaljyoti Nath</b>
+  <p style='text-align: justify;'>  <b>  Kamaljyoti Nath</b> Varun Kumar, Daniel J. Smith, George Em Karniadakis (2024) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2412.11967">  A Digital twin for Diesel Engines: Operator-infused PINNs with Transfer Learning for Engine Health Monitoring </a> 
 
 </li>
---->  
 </p> 
 </ol>
 
