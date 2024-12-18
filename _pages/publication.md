@@ -57,7 +57,7 @@ function myFunction() {
 <li>
   <p style='text-align: justify;'>
     Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388
-    <be>
+    <br>
     [ <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" >arXiv</a> ]
   </p>
 </li> 
@@ -70,8 +70,8 @@ function myFunction() {
 
 <li>  <p style='text-align: justify;' > 
   Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. </a> <i>Communications in Computational Physics</i>, 35 (5), 1194-1228, 
-<br>
-[<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078">Journal</a>][<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > arXiv </a> ] 
+<be>
+[ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > arXiv </a> ] 
 </p> </li>
   
 <li> <p style='text-align: justify;'> <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1038/s41598-023-39989-4"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines </a>. <i>Scientific Reports</i>, 13, 13683. </p> </li>
