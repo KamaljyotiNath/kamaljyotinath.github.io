@@ -124,7 +124,7 @@ function myFunction() {
   </p>
 </li>
 
-</ol>
+</p></ol>
 
 ### Conference
 <ol reversed="reversed"> <p style='text-align: justify;'>
