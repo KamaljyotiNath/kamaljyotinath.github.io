@@ -44,7 +44,9 @@ function myFunction() {
 <a id="Book chapter"></a>
 ### Book Chapters
 <ol reversed="reversed"> <p style='text-align: justify;'>
-<li> <p style='text-align: justify;'>  <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. [<a target="_blank" rel="noopener noreferrer" href= "https://books.google.co.in/books?hl=en&lr=&id=WV9CEAAAQBAJ&oi=fnd&pg=PA101&ots=ZV74-odli1&sig=sVMdlkKYhhjAPrOLcX4J8R7U1VQ#v=onepage&q&f=false"> Google Book </a>] </p> </li>
+<li> 
+  <p style='text-align: justify;'>
+    <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. [<a target="_blank" rel="noopener noreferrer" href= "https://books.google.co.in/books?hl=en&lr=&id=WV9CEAAAQBAJ&oi=fnd&pg=PA101&ots=ZV74-odli1&sig=sVMdlkKYhhjAPrOLcX4J8R7U1VQ#v=onepage&q&f=false"> Google Book </a>] </p> </li>
 </p>
 </ol>
 
@@ -52,12 +54,18 @@ function myFunction() {
 ### Journals
 <ol reversed="reversed"> <p style='text-align: justify;'>
 
-<li> <p style='text-align: justify;'> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388 
-<br>
-[<a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388">Journal</a>] [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" >arXiv</a>] </p> </li> 
+<li>
+  <p style='text-align: justify;'>
+    Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388
+    <be>
+    [ <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" >arXiv</a> ]
+  </p>
+</li> 
   
-<li><p style='text-align: justify;'> Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024) <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> 
-  Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. </a> <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378 [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" > arXiv</a>]
+<li>
+  <p style='text-align: justify;'>
+    Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. </a> <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378 
+    [ <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" >arXiv</a> ]
 </p> </li>
 
 <li>  <p style='text-align: justify;' > 
