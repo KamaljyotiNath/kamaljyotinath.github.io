@@ -53,7 +53,7 @@ function myFunction() {
 <ol reversed="reversed"> <p style='text-align: justify;'>
 
 <li> <p style='text-align: justify;'> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388 
-</br>
+<br>
 [<a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388"> Journal </a>] [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" > arXiv</a> ] </p> </li> 
   
 <li><p style='text-align: justify;'> Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024) <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. </a> <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378 [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" > arXiv</a> ] </p> </li>
