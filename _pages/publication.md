@@ -62,6 +62,7 @@ function myFunction() {
 
 <li>  <p style='text-align: justify;' > 
   Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. </a> <i>Communications in Computational Physics</i>, 35 (5), 1194-1228, 
+<br>
 [<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078">Journal</a>][<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > arXiv </a> ] 
 </p> </li>
   
