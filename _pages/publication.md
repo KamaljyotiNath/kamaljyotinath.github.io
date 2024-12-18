@@ -35,7 +35,7 @@ function myFunction() {
 <ol  reversed="reversed">
   <p style='text-align: justify;'>
     <li> 
-      <p style='text-align: justify;'>  <b>  Kamaljyoti Nath</b> Varun Kumar, Daniel J. Smith, George Em Karniadakis (2024) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2412.11967">  A Digital twin for Diesel Engines: Operator-infused PINNs with Transfer Learning for Engine Health Monitoring </a>
+      <p style='text-align: justify;'>  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2024) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2412.11967">  A Digital twin for Diesel Engines: Operator-infused PINNs with Transfer Learning for Engine Health Monitoring </a>
       </p>
     </li> 
   </p> 
@@ -78,7 +78,7 @@ function myFunction() {
   
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1038/s41598-023-39989-4"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines </a>. <i>Scientific Reports</i>, 13, 13683. 
+    <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis, (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683. 
     <br>
     [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1038/s41598-023-39989-4">Journal-Open Access</a> ]
   </p>
@@ -86,15 +86,44 @@ function myFunction() {
 
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.probengmech.2021.103159" > Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness.</a> <i>Probabilistic Engineering Mechanics</i>, 66, 103159.
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159.
+    <br> 
+    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.probengmech.2021.103159" >Journal</a> ] 
   </p>
 </li>
 
-<li> <p style='text-align: justify;'> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/s00366-021-01326-6"> An adaptive scheme for random field discretization using KL expansion.</a> <i>Engineering with Computers</i>, 38, 2937–2954. </p> </li>
-<li> <p style='text-align: justify;'> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020). <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2020.109596"> Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. </a> <i>Journal of Computational Physics</i>, 418, 109596. </p> </li>
-<li> <p style='text-align: justify;'> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019). <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1002/nme.6086"> An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness. </a> <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160. </p> </li>
-<li> <p style='text-align: justify;'> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019).<a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2019.04.014"> An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property.</a> <i> Journal of Computational Physics </i>, 390, 425-451. </p> </li>
-</p>
+<li>
+  <p style='text-align: justify;'>
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954.
+    <br>
+    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/s00366-021-01326-6">Journal</a> ] 
+  </p>
+</li>
+
+<li>
+  <p style='text-align: justify;'>
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596.
+  <br>
+    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2020.109596"> Journal</a> ] 
+  </p>
+</li>
+
+<li>
+  <p style='text-align: justify;'>
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness.  <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160.
+    <br>
+    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1002/nme.6086"> Journal</a> ] 
+  </p>
+</li>
+
+<li> 
+  <p style='text-align: justify;'>
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property. <i> Journal of Computational Physics </i>, 390, 425-451.
+    <br>
+    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2019.04.014"> Journal</a> ] 
+  </p>
+</li>
+
 </ol>
 
 ### Conference
