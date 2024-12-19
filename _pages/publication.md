@@ -90,9 +90,7 @@ function myFunction() {
 
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596.
-  <br>
-    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2020.109596"> Journal</a> ] 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2020.109596"> Journal</a> ] 
   </p>
 </li>
 
