@@ -56,47 +56,35 @@ function myFunction() {
 
 <li>
   <p style='text-align: justify;'>
-    Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388.
-    <br>
-    [ <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" >arXiv</a> ]
+    Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. [ <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" >arXiv</a> ]
   </p>
 </li> 
   
 <li>
   <p style='text-align: justify;'>
-    Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378.
-    <br>
-    [ <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" >arXiv</a> ]
+    Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. [ <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" >arXiv</a> ]
 </p> </li>
 
 <li>
   <p style='text-align: justify;' > 
-  Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228.
-<br>
-[ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > arXiv </a> ] 
+  Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > arXiv </a> ] 
 </p> </li>
   
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683. 
-    <br>
-    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1038/s41598-023-39989-4">Journal-Open Access</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://scholar.googleusercontent.com/scholar.bib?q=info:WYKeAJnRY5YJ:scholar.google.com/&output=citation&scisdr=ClEw_SQKEOet_9lLcb8:AFWwaeYAAAAAZ2NNab__sRVTLeGbS_sCR2U1gUo&scisig=AFWwaeYAAAAAZ2NNaUSA_PHuIiVJbdBaN4WOR08&scisf=4&ct=citation&cd=-1&hl=en">BibTex</a> ]
+    <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1038/s41598-023-39989-4">Journal-Open Access</a> ]
   </p>
 </li>
 
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159.
-    <br> 
-    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.probengmech.2021.103159" >Journal</a> ] 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.probengmech.2021.103159" >Journal</a> ] 
   </p>
 </li>
 
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954.
-    <br>
-    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/s00366-021-01326-6">Journal</a> ] 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/s00366-021-01326-6">Journal</a> ] 
   </p>
 </li>
 
@@ -110,17 +98,13 @@ function myFunction() {
 
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness.  <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160.
-    <br>
-    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1002/nme.6086"> Journal</a> ] 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness.  <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1002/nme.6086"> Journal</a> ] 
   </p>
 </li>
 
 <li> 
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property. <i> Journal of Computational Physics </i>, 390, 425-451.
-    <br>
-    [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2019.04.014"> Journal</a> ] 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property. <i> Journal of Computational Physics </i>, 390, 425-451. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2019.04.014"> Journal</a> ] 
   </p>
 </li>
 
