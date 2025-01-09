@@ -77,7 +77,7 @@ function myFunction() {
   <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > <botton>ResearchGate</botton>  </a> 
   <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'"> Cite </button>
 
-<div id="CITE_Liu_2022_Causality" style="display: none; position: fixed; top: 20%; right: 0; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+<div id="CITE_Liu_2022_Causality" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
   <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <span onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
     <h3 style="font-size: 18px;">Cite Article</h3>
