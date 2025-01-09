@@ -18,6 +18,17 @@ body {
 <button onclick="myFunction()">
 <i class="fa fa-adjust"></i>
 </button>
+
+<!-- Popup for the BibTeX -->
+    <div id="popup" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7);">
+        <div id="popupContent" style="position: absolute; background-color: white; margin: 15% auto; padding: 20px; width: 60%; max-width: 600px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+            <span id="closeBtn" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+            <h2>Citation</h2>
+            <pre id="bibContent">
+            </pre>
+        </div>
+    </div>
+    
 <script>
 function myFunction() {
    var element = document.body;
