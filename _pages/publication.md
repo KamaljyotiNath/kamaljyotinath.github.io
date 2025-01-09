@@ -70,7 +70,12 @@ function myFunction() {
 
 <li>
   <p style='text-align: justify;' > 
-  Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > arXiv </a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > ResearchGate </a> ] <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'"> Cite </button>
+  Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228.
+  </br>
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078"><botton>Journal</botton></a> 
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > <botton>arXiv</botton> </a> 
+  <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > <botton>ResearchGate</botton>  </a> 
+  <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'"> Cite </button>
 
 <div id="CITE_Liu_2022_Causality" style="display: none; position: fixed; top: 20%; right: 0; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
   <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
