@@ -110,8 +110,8 @@ function myFunction() {
 <div id="CITE_Liu_2022_Causality" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
   <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
     <span onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-    <h3 style="font-size: 18px;" style="font-color:blue;">Cite Article</h3>
-    <pre style="font-size: 12px;" style="font-color:blue;">
+    <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+    <pre style="font-size: 12px;" style="color:blue;">
 @article{Liu_2022_Causality,
   author = {Liu , Lizuo and Nath , Kamaljyoti and Cai , Wei},
   title = {A Causality-DeepONet for Causal Responses of Linear Dynamical Systems},
