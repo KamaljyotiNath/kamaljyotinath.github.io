@@ -65,7 +65,33 @@ function myFunction() {
   
 <li>
   <p style='text-align: justify;'>
-    Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. [ <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> Journal</a> ] <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button>arXiv</button></a>
+    Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. 
+    <be>
+    <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button>Journal</button></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button>arXiv</button></a>
+    <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'"> Cite </button>
+
+<div id="CITE_Felipe_2024_PINN" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+  <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+    <h3 style="font-size: 18px;">Cite Article</h3>
+    <pre style="font-size: 12px;">
+@article{Felipe_2024_PINN,
+  author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
+  title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume = {138},
+  pages = {109378},
+  year = {2024},
+  issn = {0952-1976},
+  doi = {https://doi.org/10.1016/j.engappai.2024.109378},
+  url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
+  keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
+}  
+    </pre>
+  </div>
+</div> 
+    
 </p> </li>
 
 <li>
@@ -82,7 +108,7 @@ function myFunction() {
     <span onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
     <h3 style="font-size: 18px;">Cite Article</h3>
     <pre style="font-size: 12px;">
-@Article{Liu_2022_Causality,
+@article{Liu_2022_Causality,
   author = {Liu , Lizuo and Nath , Kamaljyoti and Cai , Wei},
   title = {A Causality-DeepONet for Causal Responses of Linear Dynamical Systems},
   journal = {Communications in Computational Physics},
