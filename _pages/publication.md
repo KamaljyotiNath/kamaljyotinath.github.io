@@ -23,6 +23,66 @@ function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
+
+// Elements for opening and closing the popup
+        const popup = document.getElementById("popup");
+        const citeBtn1 = document.getElementById("citeBtn1");
+        const citeBtn2 = document.getElementById("citeBtn2");
+        const closeBtn = document.getElementById("closeBtn");
+        const bibContent = document.getElementById("bibContent");
+
+        // Article citation
+        const articleCitation = `@Article{Liu_2022_Causality,
+  author = {Liu , Lizuo and Nath , Kamaljyoti and Cai , Wei},
+  title = {A Causality-DeepONet for Causal Responses of Linear Dynamical Systems},
+  journal = {Communications in Computational Physics},
+  year = {2024},
+  volume = {35},
+  number = {5},
+  pages = {1194--1228},
+  issn = {1991-7120},
+  doi = {https://doi.org/10.4208/cicp.OA-2023-0078},
+  url = {http://global-sci.org/intro/article_detail/cicp/23189.html}
+}  `;
+
+        // Book citation
+        const bookCitation = `@Article{Liu_2022_Causality,
+  author = {Liu , Lizuo and Nath , Kamaljyoti and Cai , Wei},
+  title = {A Causality-DeepONet for Causal Responses of Linear Dynamical Systems},
+  journal = {Communications in Computational Physics},
+  year = {2024},
+  volume = {35},
+  number = {5},
+  pages = {1194--1228},
+  issn = {1991-7120},
+  doi = {https://doi.org/10.4208/cicp.OA-2023-0078},
+  url = {http://global-sci.org/intro/article_detail/cicp/23189.html}
+}  `;
+
+        // Open the popup and set the content when the Cite Article button is clicked
+        citeBtn1.onclick = function() {
+            bibContent.textContent = articleCitation;  // Set the content to article citation
+            popup.style.display = "block";
+        }
+
+        // Open the popup and set the content when the Cite Book button is clicked
+        citeBtn2.onclick = function() {
+            bibContent.textContent = bookCitation;  // Set the content to book citation
+            popup.style.display = "block";
+        }
+
+        // Close the popup when the close button is clicked
+        closeBtn.onclick = function() {
+            popup.style.display = "none";
+        }
+
+        // Close the popup if the user clicks outside the content
+        window.onclick = function(event) {
+            if (event.target === popup) {
+                popup.style.display = "none";
+            }
+        }
+  
 </script>
 
 <a id="top"></a>
@@ -67,7 +127,7 @@ function myFunction() {
 
 <li>
   <p style='text-align: justify;' > 
-  Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > arXiv </a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > ResearchGate </a> ] [<a href="../files/PINN_engine.bib"  target="popup" onclick="window.open('../files/PINN_engine.bib','popup','width=600,height=600'); return false;" class="btn btn-primary btn-sm"> Cite</a>]
+  Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > arXiv </a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > ResearchGate </a> ] <button id="citeBtn1">Cite</button>
 </p> </li> 
   
 <li>
