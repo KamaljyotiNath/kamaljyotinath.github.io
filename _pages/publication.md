@@ -74,7 +74,7 @@ function myFunction() {
 
 <div id="CITE_Liu_2022_Causality" style="display: none; position: fixed; top: 20%; right: 0; width: 100%; height: 40%; background-color: rgba(0, 0, 0, 0.7);">
   <div style="position: absolute; background-color: white; margin: 15% auto; padding: 20px; width: 60%; max-width: 600px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    <span onclick="document.getElementById('popup1').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+    <span onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
     <h2>Cite Article</h2>
     <pre>
           @Article{Liu_2022_Causality,
