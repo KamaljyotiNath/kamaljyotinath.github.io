@@ -74,21 +74,21 @@ function myFunction() {
 
 <div id="CITE_Liu_2022_Causality" style="display: none; position: fixed; top: 20%; right: 0; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
   <div style="position: absolute; background-color: white; margin: 10px; padding: 20px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    <span onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+    <span onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'" style="color: #aaa; font-size: 14px; font-weight: bold; float: right;">&times;</span>
     <h2>Cite Article</h2>
     <pre>
-          @Article{Liu_2022_Causality,
-              author = {Liu , Lizuo and Nath , Kamaljyoti and Cai , Wei},
-              title = {A Causality-DeepONet for Causal Responses of Linear Dynamical Systems},
-              journal = {Communications in Computational Physics},
-              year = {2024},
-              volume = {35},
-              number = {5},
-              pages = {1194--1228},
-              issn = {1991-7120},
-              doi = {https://doi.org/10.4208/cicp.OA-2023-0078},
-              url = {http://global-sci.org/intro/article_detail/cicp/23189.html}
-          }  
+       @Article{Liu_2022_Causality,
+          author = {Liu , Lizuo and Nath , Kamaljyoti and Cai , Wei},
+          title = {A Causality-DeepONet for Causal Responses of Linear Dynamical Systems},
+          journal = {Communications in Computational Physics},
+          year = {2024},
+          volume = {35},
+          number = {5},
+          pages = {1194--1228},
+          issn = {1991-7120},
+          doi = {https://doi.org/10.4208/cicp.OA-2023-0078},
+          url = {http://global-sci.org/intro/article_detail/cicp/23189.html}
+        }  
     </pre>
   </div>
 </div> 
