@@ -28,7 +28,7 @@ body {
   cursor: pointer;
 }
 
-.class_1 {background-color: #008CBA;} /* Blue */
+.class_1 {background-color: #008CBA;border-radius: 8px; } /* Blue */
 .red {background-color: #f44336;} /* Red */ 
 .gray {background-color: #e7e7e7; color: black;} /* Gray */ 
 </style>
