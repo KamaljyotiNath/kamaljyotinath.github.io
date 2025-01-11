@@ -33,8 +33,9 @@ body {
 .gray {background-color: #e7e7e7; color: black;} /* Gray */ 
 </style>
 
-
-    
+<button onclick="myFunction()">
+<i class="fa fa-adjust"></i>
+</button>
 <script>
 function myFunction() {
    var element = document.body;
