@@ -19,17 +19,17 @@ body {
 .button {
   background-color: #04AA6D; /* Green */
   border: none;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 10px 4px;
   cursor: pointer;
 }
 
-.blue {background-color: #008CBA;} /* Blue */
+.class_1 {background-color: #008CBA;} /* Blue */
 .red {background-color: #f44336;} /* Red */ 
 .gray {background-color: #e7e7e7; color: black;} /* Gray */ 
 </style>
@@ -87,9 +87,9 @@ function myFunction() {
   <p style='text-align: justify;'>
     Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. 
     <br>
-    <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="blue">Journal</button></a>
-    <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="blue">arXiv</button></a>
-    <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block' class="blue" "> Cite </button>
+    <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
+    <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
+    <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
 
 <div id="CITE_Felipe_2024_PINN" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
   <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
@@ -117,10 +117,10 @@ function myFunction() {
   <p style='text-align: justify;' > 
   Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228.
   <br>
-  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078"><button>Journal</button></a> 
-  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > <button>arXiv</button> </a> 
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078"><button  class="class_1">Journal</button></a> 
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > <button  class="class_1">arXiv</button> </a> 
   <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > <button>ResearchGate</button>  </a> 
-  <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'"> Cite </button>
+  <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'" class="class_1"> Cite </button>
 
 <div id="CITE_Liu_2022_Causality" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
   <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
@@ -191,6 +191,6 @@ function myFunction() {
 </p>
 </ol> 
 
-<button class="blue"><a href="#top">Back to top</a></button>     <button class="blue"> <a href="#Book chapter">Back to Book chapter</a> </button> <button class="blue"><a href="#Journal">Back to Journals</a></button>  
+<button class="class_1"><a href="#top">Back to top</a></button>     <button class="class_1"> <a href="#Book chapter">Back to Book chapter</a> </button> <button class="class_1""><a href="#Journal">Back to Journals</a></button>  
 
 
