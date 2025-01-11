@@ -14,8 +14,7 @@ body {
   background-color: black;
   color: white;
 }
-</style>
-<style>
+
 .button {
   background-color: #04AA6D; /* Green */
   border: none;
@@ -119,7 +118,7 @@ function myFunction() {
   <br>
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078"><button  class="class_1">Journal</button></a> 
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > <button  class="class_1">arXiv</button> </a> 
-  <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > <button>ResearchGate</button>  </a> 
+  <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > <button class="class_1"> ResearchGate </button>  </a> 
   <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'" class="class_1"> Cite </button>
 
 <div id="CITE_Liu_2022_Causality" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
@@ -191,6 +190,8 @@ function myFunction() {
 </p>
 </ol> 
 
-<button class="class_1"><a href="#top">Back to top</a></button>     <button class="class_1"> <a href="#Book chapter">Back to Book chapter</a> </button> <button class="class_1""><a href="#Journal">Back to Journals</a></button>  
+<a href="#top"> <button class="class_1"> Back to top </button> </a> 
+<a href="#Book chapter"> <button class="class_1"> Back to Book chapter </button> </a> 
+<a href="#Journal"> <button class="class_1"> Back to Journals </button>  </a>
 
 
