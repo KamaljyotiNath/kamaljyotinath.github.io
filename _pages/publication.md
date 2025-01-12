@@ -193,7 +193,37 @@ function myFunction() {
     volume  = {13},
     pages   = {13683},
     doi     = {10.1038/s41598-023-39989-4}	
-	}
+   }
+      </pre>
+    </div>
+  </div>
+</p>
+</li>
+<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
+<li>
+<p style='text-align: justify;'>
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159.
+  <br>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.probengmech.2021.103159"> <button class="class_1">Journal</button></a>
+  <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
+
+  <div id="CITE_Nath_2021_IPDD" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <span onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+      <pre style="font-size: 12px;" style="color:blue;">
+  @article{Nath_2021_IPDD,
+	author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+	title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
+	journal = {Probabilistic Engineering Mechanics},
+	volume = {66},
+	pages = {103159},
+	year = {2021},
+	issn = {0266-8920},
+	doi = {https://doi.org/10.1016/j.probengmech.2021.103159},
+	url = {https://www.sciencedirect.com/science/article/pii/S0266892021000436},
+	keywords = {Stochastic Finite Element Method, Karhunen–Loève expansion, Polynomial Chaos expansion, Polynomial Dimensional Decomposition, Iterative Polynomial Chaos}
+   }
       </pre>
     </div>
   </div>
@@ -202,13 +232,32 @@ function myFunction() {
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.probengmech.2021.103159" >Journal</a> ] 
-  </p>
-</li>
-<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
-<li>
-  <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1007/s00366-021-01326-6">Journal</a> ] 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954.
+  <br>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1007/s00366-021-01326-6"> <button class="class_1">Journal</button></a>
+  <!<button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
+
+  <div id="CITE_Nath_2021_IPDD" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <span onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+      <pre style="font-size: 12px;" style="color:blue;">
+  @article{Nath_2021_IPDD,
+	author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+	title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
+	journal = {Probabilistic Engineering Mechanics},
+	volume = {66},
+	pages = {103159},
+	year = {2021},
+	issn = {0266-8920},
+	doi = {https://doi.org/10.1016/j.probengmech.2021.103159},
+	url = {https://www.sciencedirect.com/science/article/pii/S0266892021000436},
+	keywords = {Stochastic Finite Element Method, Karhunen–Loève expansion, Polynomial Chaos expansion, Polynomial Dimensional Decomposition, Iterative Polynomial Chaos}
+   }
+      </pre>
+    </div>
+  </div> > 
+	
   </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
