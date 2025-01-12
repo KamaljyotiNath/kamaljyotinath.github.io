@@ -174,7 +174,29 @@ function myFunction() {
   
 <li>
 <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1038/s41598-023-39989-4">Journal-Open Access</a> ]
+    <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683.
+
+    <br>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1038/s41598-023-39989-4"> <button class="class_1">Journal-Open Access</button></a>
+  <button onclick="document.getElementById('CITE_Nath_2023').style.display='block'" class="class_1"> Cite </button>
+
+  <div id="CITE_Nath_2023" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <span onclick="document.getElementById('CITE_Nath_2023').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+      <pre style="font-size: 12px;" style="color:blue;">
+  @article{Nath_2023,
+    title   = {Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines},
+    author  = {Nath, Kamaljyoti and Meng, Xuhui and Smith, Daniel J. and Karniadakis, George Em},
+    journal = {Scientific Reports},
+    year    = {2023},
+    volume  = {13},
+    pages   = {13683},
+    doi     = {10.1038/s41598-023-39989-4}	
+	}
+      </pre>
+    </div>
+  </div>
 </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
