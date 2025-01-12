@@ -175,8 +175,7 @@ function myFunction() {
 <li>
 <p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683.
-
-    <br>
+   <br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1038/s41598-023-39989-4"> <button class="class_1">Journal-Open Access</button></a>
   <button onclick="document.getElementById('CITE_Nath_2023').style.display='block'" class="class_1"> Cite </button>
 
