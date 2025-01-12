@@ -234,7 +234,7 @@ function myFunction() {
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954.
   <br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1007/s00366-021-01326-6"> <button class="class_1">Journal</button></a>
-  <!<button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
+  <!-- <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
 
   <div id="CITE_Nath_2021_IPDD" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
     <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
@@ -255,7 +255,7 @@ function myFunction() {
    }
       </pre>
     </div>
-  </div> > 
+  </div> --> 
 	
   </p>
 </li>
