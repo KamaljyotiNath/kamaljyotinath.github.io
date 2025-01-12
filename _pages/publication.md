@@ -77,44 +77,69 @@ function myFunction() {
 <ol reversed="reversed"> <p style='text-align: justify;'>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-  <p style='text-align: justify;'>
-    Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. [ <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388">Journal</a> ] [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" >arXiv</a> ]
-  </p>
+<p style='text-align: justify;'>
+  Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388.
+  <br>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" ><button class="class_1">arXiv</button></a>
+  <button onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='block'" class="class_1"> Cite </button>
+
+  <div id="CITE_Mariappan_2024_PINN" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <span onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+      <pre style="font-size: 12px;" style="color:blue;">
+  @article{Mariappan_2024_PINN,
+	author = {Sathesh Mariappan and Kamaljyoti Nath and George Em Karniadakis}
+	title = {Learning thermoacoustic interactions in combustors using a physics-informed neural network},
+	journal = {Engineering Applications of Artificial Intelligence},
+	volume = {138},
+	pages = {109388},
+	year = {2024},
+	issn = {0952-1976},
+	doi = {https://doi.org/10.1016/j.engappai.2024.109388},
+	url = {https://www.sciencedirect.com/science/article/pii/S095219762401546X}
+    }
+      </pre>
+    </div>
+  </div>   
+</p>
 </li> 
   
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->  
 <li>
-  <p style='text-align: justify;'>
-    Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. 
-    <br>
-    <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
-    <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
-    <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
+<p style='text-align: justify;'>
+  Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. 
+  <br>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
+  <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
 
-<div id="CITE_Felipe_2024_PINN" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-  <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    <span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-    <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-    <pre style="font-size: 12px;" style="color:blue;">
-@article{Felipe_2024_PINN,
-  author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
-  title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
-  journal = {Engineering Applications of Artificial Intelligence},
-  volume = {138},
-  pages = {109378},
-  year = {2024},
-  issn = {0952-1976},
-  doi = {https://doi.org/10.1016/j.engappai.2024.109378},
-  url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
-  keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
-}  
-    </pre>
-  </div>
-</div> 
-</p> </li>
+  <div id="CITE_Felipe_2024_PINN" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+      <pre style="font-size: 12px;" style="color:blue;">
+  @article{Felipe_2024_PINN,
+    author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
+    title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
+    journal = {Engineering Applications of Artificial Intelligence},
+    volume = {138},
+    pages = {109378},
+    year = {2024},
+    issn = {0952-1976},
+    doi = {https://doi.org/10.1016/j.engappai.2024.109378},
+    url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
+    keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
+  }  
+      </pre>
+    </div>
+  </div> 
+</p>
+</li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-  <p style='text-align: justify;' > 
+<p style='text-align: justify;' > 
   Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228.
   <br>
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078"><button  class="class_1">Journal</button></a> 
@@ -143,13 +168,14 @@ function myFunction() {
   </div>
 </div> 
  
-</p> </li> 
+</p>
+</li> 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
   
 <li>
-  <p style='text-align: justify;'>
+<p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1038/s41598-023-39989-4">Journal-Open Access</a> ]
-  </p>
+</p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
