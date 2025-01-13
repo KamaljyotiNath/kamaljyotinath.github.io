@@ -158,10 +158,11 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <p style='text-align: justify;'>
   Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. 
   <br>
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
-  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
+  
 
-  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+    <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
   <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
   <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'" class="class_1"> Abstract </button>
 </div>
