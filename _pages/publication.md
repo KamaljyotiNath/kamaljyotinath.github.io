@@ -45,6 +45,7 @@ summary {
 
   details[open] summary {
       color: #FF5733;
+    padding-bottom:-10;
     }
 p{
   margin:0;
