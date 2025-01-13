@@ -77,14 +77,14 @@ function myFunction() {
       <span onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre style="font-size: 12px;" style="color:blue;">
-  @incollection{Nath_2021_SFEM_Chapter,
-     author={Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
-     title={Stochastic Finite Element Method},
-     booktitle={Reliability-Based Analysis and Design of Structures and Infrastructure},
-     pages={101--116},
-     year={2021},
-     publisher={CRC Press}
-  }
+@incollection{Nath_2021_SFEM_Chapter,
+  author={Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
+  title={Stochastic Finite Element Method},
+  booktitle={Reliability-Based Analysis and Design of Structures and Infrastructure},
+  pages={101--116},
+  year={2021},
+  publisher={CRC Press}
+}
       </pre>
     </div>
   </div>  -->
@@ -111,17 +111,17 @@ function myFunction() {
       <span onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre style="font-size: 12px;" style="color:blue;">
-  @article{Mariappan_2024_PINN,
-	author = {Sathesh Mariappan and Kamaljyoti Nath and George Em Karniadakis}
-	title = {Learning thermoacoustic interactions in combustors using a physics-informed neural network},
-	journal = {Engineering Applications of Artificial Intelligence},
-	volume = {138},
-	pages = {109388},
-	year = {2024},
-	issn = {0952-1976},
-	doi = {https://doi.org/10.1016/j.engappai.2024.109388},
-	url = {https://www.sciencedirect.com/science/article/pii/S095219762401546X}
-    }
+@article{Mariappan_2024_PINN,
+  author = {Sathesh Mariappan and Kamaljyoti Nath and George Em Karniadakis}
+  title = {Learning thermoacoustic interactions in combustors using a physics-informed neural network},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume = {138},
+  pages = {109388},
+  year = {2024},
+  issn = {0952-1976},
+  doi = {https://doi.org/10.1016/j.engappai.2024.109388},
+  url = {https://www.sciencedirect.com/science/article/pii/S095219762401546X}
+}
       </pre>
     </div>
   </div>   
@@ -142,18 +142,19 @@ function myFunction() {
       <span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre style="font-size: 12px;" style="color:blue;">
-  @article{Felipe_2024_PINN,
-    author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
-    title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
-    journal = {Engineering Applications of Artificial Intelligence},
-    volume = {138},
-    pages = {109378},
-    year = {2024},
-    issn = {0952-1976},
-    doi = {https://doi.org/10.1016/j.engappai.2024.109378},
-    url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
-    keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
-  }  
+
+@article{Felipe_2024_PINN,
+  author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
+  title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume = {138},
+  pages = {109378},
+  year = {2024},
+  issn = {0952-1976},
+  doi = {https://doi.org/10.1016/j.engappai.2024.109378},
+  url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
+  keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
+}   
       </pre>
     </div>
   </div> 
@@ -206,15 +207,15 @@ function myFunction() {
       <span onclick="document.getElementById('CITE_Nath_2023').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre style="font-size: 12px;" style="color:blue;">
-  @article{Nath_2023,
-    title   = {Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines},
-    author  = {Nath, Kamaljyoti and Meng, Xuhui and Smith, Daniel J. and Karniadakis, George Em},
-    journal = {Scientific Reports},
-    year    = {2023},
-    volume  = {13},
-    pages   = {13683},
-    doi     = {10.1038/s41598-023-39989-4}	
-   }
+@article{Nath_2023,
+  title   = {Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines},
+  author  = {Nath, Kamaljyoti and Meng, Xuhui and Smith, Daniel J. and Karniadakis, George Em},
+  journal = {Scientific Reports},
+  year    = {2023},
+  volume  = {13},
+  pages   = {13683},
+  doi     = {10.1038/s41598-023-39989-4}	
+}
       </pre>
     </div>
   </div>
@@ -266,19 +267,18 @@ function myFunction() {
 @article{Nath_2021_IPDD,
   author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
   title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
-	journal = {Probabilistic Engineering Mechanics},
-	volume = {66},
-	pages = {103159},
-	year = {2021},
-	issn = {0266-8920},
-	doi = {https://doi.org/10.1016/j.probengmech.2021.103159},
-	url = {https://www.sciencedirect.com/science/article/pii/S0266892021000436},
-	keywords = {Stochastic Finite Element Method, Karhunen–Loève expansion, Polynomial Chaos expansion, Polynomial Dimensional Decomposition, Iterative Polynomial Chaos}
-   }
+  journal = {Probabilistic Engineering Mechanics},
+  volume = {66},
+  pages = {103159},
+  year = {2021},
+  issn = {0266-8920},
+  doi = {https://doi.org/10.1016/j.probengmech.2021.103159},
+  url = {https://www.sciencedirect.com/science/article/pii/S0266892021000436},
+  keywords = {Stochastic Finite Element Method, Karhunen–Loève expansion, Polynomial Chaos expansion, Polynomial Dimensional Decomposition, Iterative Polynomial Chaos}
+}
       </pre>
     </div>
-  </div> --> 
-	
+  </div> --> 	
   </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -337,8 +337,6 @@ function myFunction() {
   url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.6086},
   eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/nme.6086}
 }
-
-
       </pre>
     </div>
   </div>
@@ -359,19 +357,17 @@ function myFunction() {
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre style="font-size: 12px;" style="color:blue;">
 @article{Nath_2019_IPC_Gauss,
-	title = {An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property},
-journal = {Journal of Computational Physics},
-volume = {390},
-pages = {425-451},
-year = {2019},
-issn = {0021-9991},
-doi = {https://doi.org/10.1016/j.jcp.2019.04.014},
-url = {https://www.sciencedirect.com/science/article/pii/S0021999119302475},
-author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
-keywords = {Stochastic Finite Element Method, Karhunen-Loève expansion, Polynomial Chaos expansion}
+  title = {An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property},
+  journal = {Journal of Computational Physics},
+  volume = {390},
+  pages = {425-451},
+  year = {2019},
+  issn = {0021-9991},
+  doi = {https://doi.org/10.1016/j.jcp.2019.04.014},
+  url = {https://www.sciencedirect.com/science/article/pii/S0021999119302475},
+  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+  keywords = {Stochastic Finite Element Method, Karhunen-Loève expansion, Polynomial Chaos expansion}
 }
-
-
       </pre>
     </div>
   </div>
