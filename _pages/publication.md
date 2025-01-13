@@ -145,12 +145,12 @@ function myFunction() {
       </pre>
     </div>
   </div>
-  <details>
-  <summary>Abstract</summary>
+<details>
+<summary>Abstract</summary>
 <p style='text-align: justify;'>
 Many gas turbine and rocket engines exhibit unwanted combustion instability at the experimental testing phase. Instability leads to large amplitude pressure oscillations and increased heat transfer damaging the engine. Data obtained during such tests can be used to prescribe appropriate engine modifications. In many tests, acoustic pressure is measured at few locations, and acoustic velocity is seldom measured. Physics-informed neural network (PINN) method is a potential remedy, by combining the experimental data and governing equations to reconstruct the acoustic field. We employ a PINN to investigate thermoacoustic interactions in a bluff body anchored flame combustor, representative of ramjet and gas turbine combustors. Acoustic pressure fluctuations at three locations and the total flame heat release rate serve as the measured data. The coupled parameterized model (governing equations) comprises the acoustic equations and the van der Pol oscillator for vortex shedding. We have the challenges of unknown initial/boundary conditions, absence of acoustic velocity measurements, and variation of the acoustic pressure amplitude in a long time scale due to the turbulent flame. Therefore, PINN requires novel enhancements to its training procedure. The enhancements (i) systematically adjusting the relative contribution of the various loss terms, (ii) inclusion of a loss term associated with acoustic velocity, and (iii) time series segmentation, are respectively implemented. PINN performs well in generating the acoustic field and estimating the model parameters. Therefore, this PINN method can serve as an effective tool to improve existing or design new thermoacoustically stable and structurally efficient combustors.
 </p>
- </details>
+</details>
 </p>
 </li> 
   
@@ -182,7 +182,13 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 }   
       </pre>
     </div>
-  </div> 
+  </div>
+<details>
+<summary>Abstract</summary>
+<p style='text-align: justify;'>
+Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift systems in the oil and gas industry. These pumps frequently encounter multiphase flows comprising a complex mixture of hydrocarbons, water, and sediments. Such mixtures lead to the formation of emulsions, characterized by an effective viscosity distinct from that of the individual phases. Traditional multiphase flow meters, employed to assess these conditions, are burdened by high operational costs and susceptibility to degradation. To this end, this study introduces a physics-informed neural network (PINN) model designed to indirectly estimate the fluid properties, dynamic states, and crucial parameters of an ESP system. A comprehensive structural and practical identifiability analysis was performed to delineate the subset of parameters that can be reliably estimated through the use of intake and discharge pressure measurements from the pump. The efficacy of the PINN model was validated by estimating the unknown states and parameters using these pressure measurements as input data. Furthermore, the performance of the PINN model was benchmarked against the particle filter method utilizing both simulated and experimental data across varying water content scenarios. The comparative analysis suggests that the PINN model holds significant potential as a viable alternative to conventional multiphase flow meters, offering a promising avenue for enhancing operational efficiency and reducing costs in ESP applications.
+</p>
+</details>
 </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -215,7 +221,13 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
     </pre>
   </div>
 </div> 
- 
+<details>
+<summary>Abstract</summary>
+<p style='text-align: justify;'>
+In this paper, we propose a DeepONet structure with causality to represent causal linear operators between Banach spaces of time-dependent signals. The theorem of universal approximations to nonlinear operators proposed in [5] is extended
+to operators with causalities, and the proposed Causality-DeepONet implements the physical causality in its framework. The proposed Causality-DeepONet considers causality (the state of the system at the current time is not affected by that of the future, but only by its current state and past history) and uses a convolution-type weight in its design. To demonstrate its effectiveness in handling the causal response of a physical system, the Causality-DeepONet is applied to learn the operator representing the response of a building due to earthquake ground accelerations. Extensive numerical tests and comparisons with some existing variants of DeepONet are carried out, and the Causality-DeepONet clearly shows its unique capability to learn the retarded dynamic responses of the seismic response operator with good accuracy.
+</p>
+</details> 
 </p>
 </li> 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -244,6 +256,12 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
       </pre>
     </div>
   </div>
+<details>
+<summary>Abstract</summary>
+<p style='text-align: justify;'>
+This paper presents a physics-informed neural network (PINN) approach for monitoring the health of diesel engines. The aim is to evaluate the engine dynamics, identify unknown parameters in a “mean value” model, and anticipate maintenance requirements. The PINN model is applied to diesel engines with a variable-geometry turbocharger and exhaust gas recirculation, using measurement data of selected state variables. The results demonstrate the ability of the PINN model to predict simultaneously both unknown parameters and dynamics accurately with both clean and noisy data, and the importance of the self-adaptive weight in the loss function for faster convergence. The input data for these simulations are derived from actual engine running conditions, while the outputs are simulated data, making this a practical case study of PINN’s ability to predict real-world dynamical systems. The mean value model of the diesel engine incorporates empirical formulae to represent certain states, but these formulae may not be generalizable to other engines. To address this, the study considers the use of deep neural networks (DNNs) in addition to the PINN model. The DNNs are trained using laboratory test data and are used to model the engine-specific empirical formulae in the mean value model, allowing for a more flexible and adaptive representation of the engine’s states. In other words, the mean value model uses both the PINN model and the DNNs to represent the engine’s states, with the PINN providing a physics-based understanding of the engine’s overall dynamics and the DNNs offering a more engine-specific and adaptive representation of the empirical formulae. By combining these two approaches, the study aims to offer a comprehensive and versatile approach to monitoring the health and performance of diesel engines.
+</p>
+</details> 
 </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -274,6 +292,12 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
       </pre>
     </div>
   </div>
+<details>
+<summary>Abstract</summary>
+<p style='text-align: justify;'>
+One of the major difficulties in solving stochastic mechanics problems is the curse of dimensionality, where an exponential increase in the dimension of the problem is encountered with the increase in the number of random variables and/or order of expansion considered in any approximation. A prominent method in addressing the curse of dimensionality is ANOVA dimension Decomposition (ADD), which represents a mathematical function with multiple lower variate functions. These lower variate functions are represented using orthogonal polynomials, which yields Polynomial Dimensional Decomposition (PDD). In recent articles, the authors proposed an Iterative Polynomial Chaos (ImPC) based method for the solution of structural mechanics problems, where computational efficacy of ImPC was demonstrated against Polynomial Chaos (PC). In ImPC, the problems are solved iteratively using smaller sizes of PC expansions. Thus, it reduces the curse of dimensionality of PC expansion. The PDD reduces the size of the system matrix by considering a fewer number of random variables at a time, while ImPC can be considered to solve each components of PDD iteratively so that a converged solution can be achieved without increasing the order of expansion, which is termed as iterative PDD in the present study. Thus, the overall convergence can be achieved with a lesser size of the system matrix, which enables to perform analyses with a lesser computational facility. Further, the stiffness matrix size can be reduced by considering the random field at Gauss points instead of the mid point. Numerical studies with both Gaussian and non-Gaussian random field of Young’s modulus are conducted, and computational efficiency of the iterative PDD is compared with that of PDD, ImPC, and first order perturbation method. The iterative PDD is observed to be computationally less demanding and exhibits reduced dimensional curse.
+</p>
+</details> 
 </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -303,7 +327,13 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 }
       </pre>
     </div>
-  </div> --> 	
+  </div> --> 
+<details>
+<summary>Abstract</summary>
+<p style='text-align: justify;'>
+With the increase in computational facilities, interest in probabilistic analysis of engineering structures are observed to grow for a realistic assessment of physical systems. While the probabilistic analyses are generally carried out considering random variable models of physical parameters, a spatially varying random field model is more realistic. A discretization method converts the continuous parameter random field to a set of random variables. Truncated Karhunen–Loève (KL) expansion is one of the popular methods for the discretization of a random field. An accurate discretization can be achieved by considering a fine mesh along with a large number of terms. However, an increase in the number of elements and/or inclusion of more terms leads to an increase in computational cost. It is also found that only an increase in the number of terms in the expansion or number of elements alone does not provide an accurate representation of the random field. An adaptive discretization strategy is presented, which will suitably discretize the concerned domain while ensuring that both global and local level errors are kept within the prescribed limit.
+</p>
+</details> 
   </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -334,6 +364,12 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
       </pre>
     </div>
   </div>
+<details>
+<summary>Abstract</summary>
+<p style='text-align: justify;'>
+
+</p>
+</details> 
   </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -365,6 +401,12 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
       </pre>
     </div>
   </div>
+<details>
+<summary>Abstract</summary>
+<p style='text-align: justify;'>
+
+</p>
+</details> 
   </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -396,6 +438,12 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
       </pre>
     </div>
   </div>
+<details>
+<summary>Abstract</summary>
+<p style='text-align: justify;'>
+
+</p>
+</details> 
   </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
