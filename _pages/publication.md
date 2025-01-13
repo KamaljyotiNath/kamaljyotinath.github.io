@@ -69,7 +69,9 @@ function myFunction() {
   <p style='text-align: justify;'>
     <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. 
 <br>
-<a target="_blank" rel="noopener noreferrer" href= "https://books.google.co.in/books?hl=en&lr=&id=WV9CEAAAQBAJ&oi=fnd&pg=PA101&ots=ZV74-odli1&sig=sVMdlkKYhhjAPrOLcX4J8R7U1VQ#v=onepage&q&f=false"> <button class="class_1"> Read on Google Book</button> </a> <button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> Cite </button>
+<a target="_blank" rel="noopener noreferrer" href= "https://books.google.co.in/books?hl=en&lr=&id=WV9CEAAAQBAJ&oi=fnd&pg=PA101&ots=ZV74-odli1&sig=sVMdlkKYhhjAPrOLcX4J8R7U1VQ#v=onepage&q&f=false"> <button class="class_1"> Read on Google Book</button> </a> 
+<!--
+<button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> Cite </button>
 <div id="CITE_Nath_2021_SFEM_Chapter" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
     <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
       <span onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
@@ -85,7 +87,7 @@ function myFunction() {
   }
       </pre>
     </div>
-  </div>  
+  </div>  -->
   
 </p> </li>
 </p>
@@ -231,18 +233,18 @@ function myFunction() {
       <span onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre style="font-size: 12px;" style="color:blue;">
-  @article{Nath_2021_IPDD,
-	author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
-	title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
-	journal = {Probabilistic Engineering Mechanics},
-	volume = {66},
-	pages = {103159},
-	year = {2021},
-	issn = {0266-8920},
-	doi = {https://doi.org/10.1016/j.probengmech.2021.103159},
-	url = {https://www.sciencedirect.com/science/article/pii/S0266892021000436},
-	keywords = {Stochastic Finite Element Method, Karhunen–Loève expansion, Polynomial Chaos expansion, Polynomial Dimensional Decomposition, Iterative Polynomial Chaos}
-   }
+@article{Nath_2021_IPDD,
+  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+  title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
+  journal = {Probabilistic Engineering Mechanics},
+  volume = {66},
+  pages = {103159},
+  year = {2021},
+  issn = {0266-8920},
+  doi = {https://doi.org/10.1016/j.probengmech.2021.103159},
+  url = {https://www.sciencedirect.com/science/article/pii/S0266892021000436},
+  keywords = {Stochastic Finite Element Method, Karhunen–Loève expansion, Polynomial Chaos expansion, Polynomial Dimensional Decomposition, Iterative Polynomial Chaos}
+}
       </pre>
     </div>
   </div>
@@ -261,9 +263,9 @@ function myFunction() {
       <span onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre style="font-size: 12px;" style="color:blue;">
-  @article{Nath_2021_IPDD,
-	author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
-	title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
+@article{Nath_2021_IPDD,
+  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+  title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
 	journal = {Probabilistic Engineering Mechanics},
 	volume = {66},
 	pages = {103159},
@@ -282,19 +284,97 @@ function myFunction() {
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2020.109596"> Journal</a> ] 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596.
+<br>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2020.109596"> <button class="class_1">Journal</button></a>
+  <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
+
+  <div id="CITE_Nath_2020_Long" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <span onclick="document.getElementById('CITE_Nath_2020_Long').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+      <pre style="font-size: 12px;" style="color:blue;">
+@article{Nath_2020_Long,
+  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+  title = {Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos},
+  journal = {Journal of Computational Physics},
+  volume = {418},
+  pages = {109596},
+  year = {2020},
+  issn = {0021-9991},
+  doi = {https://doi.org/10.1016/j.jcp.2020.109596},
+  url = {https://www.sciencedirect.com/science/article/pii/S0021999120303703},
+  keywords = {Stochastic finite element method, Karhunen-Loève expansion, Polynomial chaos expansion, Stochastic dynamics, Time dependent generalized polynomial chaos}
+ }
+      </pre>
+    </div>
+  </div>
   </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness.  <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1002/nme.6086"> Journal</a> ] 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness.  <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160. 
+<br>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1002/nme.6086"> <button class="class_1">Journal</button></a>
+  <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1"> Cite </button>
+
+  <div id="CITE_Nath_2019_IPC_Non_Gauss" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <span onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+      <pre style="font-size: 12px;" style="color:blue;">
+@article{Nath_2019_IPC_Non_Gauss,
+  author = {Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
+  title = {An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non-Gaussian randomness},
+  journal = {International Journal for Numerical Methods in Engineering},
+  year = {2019},
+  volume = {119},
+  number = {11},
+  pages = {1126-1160},
+  keywords = {independent component analysis, Karhunen-Loève expansion, non-Gaussian material property, orthogonal expansion, polynomial chaos expansion},
+  doi = {https://doi.org/10.1002/nme.6086},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.6086},
+  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/nme.6086}
+}
+
+
+      </pre>
+    </div>
+  </div>
   </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li> 
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property. <i> Journal of Computational Physics </i>, 390, 425-451. [ <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.1016/j.jcp.2019.04.014"> Journal</a> ] 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property. <i> Journal of Computational Physics </i>, 390, 425-451. 
+
+<br>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2019.04.014"> <button class="class_1">Journal</button></a>
+  <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1"> Cite </button>
+
+  <div id="CITE_Nath_Nath_2019_IPC_Gauss" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
+    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+      <span onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+      <pre style="font-size: 12px;" style="color:blue;">
+@article{Nath_2019_IPC_Gauss,
+	title = {An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property},
+journal = {Journal of Computational Physics},
+volume = {390},
+pages = {425-451},
+year = {2019},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2019.04.014},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999119302475},
+author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+keywords = {Stochastic Finite Element Method, Karhunen-Loève expansion, Polynomial Chaos expansion}
+}
+
+
+      </pre>
+    </div>
+  </div>
   </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
