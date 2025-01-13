@@ -102,6 +102,12 @@ function myFunction() {
 <p style='text-align: justify;'>
   Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388.
   <br>
+  <details>
+  <summary>Abstract</summary>
+Many gas turbine and rocket engines exhibit unwanted combustion instability at the experimental testing phase. Instability leads to large amplitude pressure oscillations and increased heat transfer damaging the engine. Data obtained during such tests can be used to prescribe appropriate engine modifications. In many tests, acoustic pressure is measured at few locations, and acoustic velocity is seldom measured. Physics-informed neural network (PINN) method is a potential remedy, by combining the experimental data and governing equations to reconstruct the acoustic field. We employ a PINN to investigate thermoacoustic interactions in a bluff body anchored flame combustor, representative of ramjet and gas turbine combustors. Acoustic pressure fluctuations at three locations and the total flame heat release rate serve as the measured data. The coupled parameterized model (governing equations) comprises the acoustic equations and the van der Pol oscillator for vortex shedding. We have the challenges of unknown initial/boundary conditions, absence of acoustic velocity measurements, and variation of the acoustic pressure amplitude in a long time scale due to the turbulent flame. Therefore, PINN requires novel enhancements to its training procedure. The enhancements (i) systematically adjusting the relative contribution of the various loss terms, (ii) inclusion of a loss term associated with acoustic velocity, and (iii) time series segmentation, are respectively implemented. PINN performs well in generating the acoustic field and estimating the model parameters. Therefore, this PINN method can serve as an effective tool to improve existing or design new thermoacoustically stable and structurally efficient combustors.
+ </details>
+    
+  <br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388"> <button class="class_1">Journal</button></a>
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" ><button class="class_1">arXiv</button></a>
   <button onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='block'" class="class_1"> Cite </button>
@@ -228,7 +234,7 @@ function myFunction() {
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.probengmech.2021.103159"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
 
-  <div id="CITE_Nath_2021_IPDD" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);" style="text-align: justify;">
+  <div id="CITE_Nath_2021_IPDD" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
     <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
       <span onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
