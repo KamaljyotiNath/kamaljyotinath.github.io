@@ -31,6 +31,22 @@ body {
 .class_1 {background-color: #94e5ff; border-radius: 8px; } /* Blue  #008CBA*/
 .red {background-color: #f44336;} /* Red */ 
 .gray {background-color: #e7e7e7; color: black;} /* Gray */ 
+
+summary {
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      color: #007BFF;
+    }
+
+  summary:hover {
+      color: #0056b3;
+  }
+
+  details[open] summary {
+      color: #FF5733;
+    }
+  
 </style>
 
 <button onclick="myFunction()">
