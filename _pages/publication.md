@@ -160,7 +160,13 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
   <br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
+
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
+  <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'" class="class_1"> Abstract </button>
+</div>
+
+  <!--<button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button> -->
   <div id="CITE_Felipe_2024_PINN" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
     <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
       <span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
@@ -181,7 +187,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
       </pre>
     </div>
   </div>
-<button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'" class="class_1"> Abstract </button>
+<!--<button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'" class="class_1"> Abstract </button> -->
   <div id="Abstract_Felipe_2024_PINN" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
     <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
       <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
