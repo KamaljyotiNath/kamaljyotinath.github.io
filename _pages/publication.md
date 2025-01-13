@@ -34,7 +34,7 @@ body {
 
 summary {
       font-weight: bold;
-      font-size: 16px;
+      font-size: 22px;
       cursor: pointer;
       color: #007BFF;
     }
