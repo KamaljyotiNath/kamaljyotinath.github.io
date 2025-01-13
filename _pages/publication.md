@@ -117,7 +117,7 @@ function myFunction() {
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <a id="Journal"></a>
 ### Journals
-<ol start="9" reversed='reversed> <p style='text-align: justify;'>
+<ol reversed="reversed" start="9"> <p style='text-align: justify;'>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
 <p style='text-align: justify;'>
