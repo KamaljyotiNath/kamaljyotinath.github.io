@@ -142,7 +142,6 @@ function myFunction() {
       <span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre style="font-size: 12px;" style="color:blue;">
-
 @article{Felipe_2024_PINN,
   author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
   title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
