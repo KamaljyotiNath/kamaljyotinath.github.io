@@ -229,10 +229,10 @@ function myFunction() {
   <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
 
   <div id="CITE_Nath_2021_IPDD" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" style="text-align: justify;">
       <span onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-      <pre style="font-size: 12px;" style="color:blue;" style="text-align: justify;">
+      <pre style="font-size: 12px;" style="color:blue;">
 @article{Nath_2021_IPDD,
   author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
   title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
