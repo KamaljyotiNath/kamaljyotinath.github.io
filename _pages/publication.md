@@ -233,7 +233,6 @@ to operators with causalities, and the proposed Causality-DeepONet implements th
 <li>
 <p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683.
-   <br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1038/s41598-023-39989-4"> <button class="class_1">Journal-Open Access</button></a>
   <button onclick="document.getElementById('CITE_Nath_2023').style.display='block'" class="class_1"> Cite </button>
 
@@ -266,7 +265,6 @@ This paper presents a physics-informed neural network (PINN) approach for monito
 <li>
 <p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159.
-  <br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.probengmech.2021.103159"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
 
@@ -302,7 +300,6 @@ One of the major difficulties in solving stochastic mechanics problems is the cu
 <li>
   <p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954.
-  <br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1007/s00366-021-01326-6"> <button class="class_1">Journal</button></a>
   <!-- <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
 
@@ -338,7 +335,6 @@ With the increase in computational facilities, interest in probabilistic analysi
 <li>
   <p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596.
-<br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2020.109596"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
 
@@ -365,7 +361,7 @@ With the increase in computational facilities, interest in probabilistic analysi
 <details>
 <summary>Abstract</summary>
 <p style='text-align: justify;'>
-
+Polynomial Chaos (PC) is one of the popular methods for approximate evaluation of responses of stochastic structural mechanics problems. In the case of a structural system under dynamic loading, the PC method is combined with a time integration scheme. The PC method with Galerkin projection converts the stochastic PDE to a set of simultaneous deterministic PDE, which can be solved using any standard time integration scheme. However, the convergence of responses is known to fail for long duration time integration problem due to the development of unacceptable error in calculated response. The probability density functions of the responses are not of constant type as the time progresses. However, in the case of generalized PC (gPC), these are approximated using initially considered gPC, thus loses its efficiency. Time-dependent general polynomial chaos (TDgPC) can be considered to overcome these difficulties, where polynomials are generated on the fly to match with the pdf of the responses. The present study considered an investigation of structural mechanics responses with both Gaussian and non-Gaussian random system properties under dynamic loading using TDgPC. An adaptive updation scheme based on the RMS value of the coefficients of PC expansion is investigated for a proper updation of PC expansion. The curse of dimensionality of PC expansion is addressed by considering only the dominant components of the responses evaluated using KL expansion. Further, starting with lower-order PC, the order of PC expansion is increased only after the first updation, thus reducing computational complexities.
 </p>
 </details> 
   </p>
@@ -374,10 +370,8 @@ With the increase in computational facilities, interest in probabilistic analysi
 <li>
   <p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness.  <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160. 
-<br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1002/nme.6086"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1"> Cite </button>
-
   <div id="CITE_Nath_2019_IPC_Non_Gauss" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
     <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
       <span onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
@@ -402,7 +396,7 @@ With the increase in computational facilities, interest in probabilistic analysi
 <details>
 <summary>Abstract</summary>
 <p style='text-align: justify;'>
-
+Stochastic analysis of structure with non-Gaussian material property and loading in the framework of polynomial chaos (PC) is considered. A new approach for the solution of stochastic mechanics problem with random coefficient is presented. The major focus of the method is to consider reduced size of expansion in an iterative manner to overcome the problem of large system matrix in conventional PC expansion. The iterative method is based on orthogonal expansion of stochastic responses and generation of an iterative PC based on the responses of the previous iteration. The polynomials are evaluated using Gram-Schmidt orthogonalization process. The numbers of random variables in PC expansion are reduced by considering only the dominant components of the response characteristics, which is evaluated using Karhunen-Loève (KL) expansion. In case of random material field problem, the KL expansion is used to discretize and simulate the non-Gaussian random field. Independent component analysis (ICA) is carried out on the non-Gaussian KL random variables to minimize statistical dependence. The usefulness of the proposed method in terms of accuracy and computational efficiency is examined. From the numerical analysis of three different types of structural mechanics problems, the proposed iterative method is observed to be computationally more efficient and accurate than conventional PC method for solution of linear elastostatic structural mechanics problems.
 </p>
 </details> 
   </p>
@@ -411,8 +405,6 @@ With the increase in computational facilities, interest in probabilistic analysi
 <li> 
   <p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property. <i> Journal of Computational Physics </i>, 390, 425-451. 
-
-<br>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2019.04.014"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1"> Cite </button>
 
@@ -439,7 +431,7 @@ With the increase in computational facilities, interest in probabilistic analysi
 <details>
 <summary>Abstract</summary>
 <p style='text-align: justify;'>
-
+A new approach for solution of Stochastic structural Mechanics problem with random coefficient in the framework of Polynomial Chaos (PC) expansion is proposed. The basic strategy of the proposed method is to iteratively construct a PC expansion with reduced numbers of unknown coefficients. The method is based on orthogonal expansion of stochastic responses and generation of an iterative PC based on the responses of the previous iteration. The polynomials are evaluated using Gram-Schmidt orthogonalization process. The number of random variables in PC expansion is reduced by considering only the dominant components of the response characteristics, which is evaluated using Karhunen-Loève (KL) expansion. In case of random material field problem, KL expansion is used to discretize the random field. The usefulness of the proposed method in terms of accuracy and computational efficiency is examined. The results of linear static structural mechanics problems are compared with MCS and PC method. The proposed method is observed to be computationally more efficient and accurate than PC method.
 </p>
 </details> 
   </p>
