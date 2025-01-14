@@ -424,6 +424,7 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 }
 </pre>
 </div>
+</div>
 <!-- -------- -------- -------- -------- -------- -------- -------- -->
 <div id="Abstract_Mariappan_2024_PINN" style="display: none; position: fixed; top: 10%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
 <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
