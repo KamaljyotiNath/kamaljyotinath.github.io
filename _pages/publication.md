@@ -57,15 +57,13 @@ p{
       display: none;
       position: fixed;
       top: 20%;
-      left: 50%;
-      transform: translate(-50%, -20%);
-      width: 300px;
-      background-color: white;
+      right: 2%; 
+      width: 40%;
+      height: auto;
+      background-color: rgba(0, 0, 0, 0.7);
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       padding: 20px;
-      z-index: 1000;
     }
-
     .overlay {
       display: none;
       position: fixed;
@@ -489,7 +487,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 </div>
     
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
-<div id="CITE_Felipe_2024_PINN" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);" class="popup">
+<div id="CITE_Felipe_2024_PINN" class="popup">
 <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
@@ -511,7 +509,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 </div>
 </div>
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -->
-<div id="Abstract_Felipe_2024_PINN" style="display: none; position: fixed; top: 10%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);" class="popup">
+<div id="Abstract_Felipe_2024_PINN" class="popup">
 <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
 <h2 style="font-size: 18px; color:blue;">Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks</h2>
