@@ -51,6 +51,30 @@ p{
   margin:0;
   padding:0;
 }
+
+#popup {
+      display: none;
+      position: fixed;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -20%);
+      width: 300px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      z-index: 1000;
+    }
+
+  #overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
   
 </style>
 
@@ -61,8 +85,34 @@ p{
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
-}  
+}
 </script>
+
+<script>
+    const popup = document.getElementById('popup');
+    const overlay = document.getElementById('overlay');
+
+    // Show the pop-up
+    function showPopup() {
+      popup.style.display = 'block';
+      overlay.style.display = 'block';
+    }
+
+    // Close the pop-up
+    function closePopup() {
+      popup.style.display = 'none';
+      overlay.style.display = 'none';
+    }
+
+    // Close pop-up when clicking outside
+    document.addEventListener('click', (event) => {
+      if (popup.style.display === 'block' && !popup.contains(event.target) && !event.target.matches('button')) {
+        closePopup();
+      }
+    });
+  </script>
+
+  <!-- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- -->
 
 <a id="top"></a>
 <a target="_blank" rel="noopener noreferrer" href = "https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en"> Google Scholar profile </a>
