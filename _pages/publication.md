@@ -163,8 +163,8 @@ function myFunction() {
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
     <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
     <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
-    <button onclick="showPopup('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
-    <button onclick="showPopup('Abstract_Felipe_2024_PINN').style.display='block'" class="class_1"> Abstract </button>
+    <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
+    <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'" class="class_1"> Abstract </button>
  </div>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
