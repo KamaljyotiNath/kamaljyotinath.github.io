@@ -88,26 +88,36 @@ function myFunction() {
 </script>
 
 <script>
-    const popup = document.getElementById('popup');
-    const overlay = document.getElementById('overlay');
-
-    // Show the pop-up
-    function showPopup() {
+    // Show a specific pop-up
+    function showPopup(popupId) {
+      const popup = document.getElementById(popupId);
+      const overlay = document.getElementById(`overlay${popupId.slice(-1)}`);
       popup.style.display = 'block';
       overlay.style.display = 'block';
     }
 
-    // Close the pop-up
-    function closePopup() {
+    // Close a specific pop-up
+    function closePopup(popupId) {
+      const popup = document.getElementById(popupId);
+      const overlay = document.getElementById(`overlay${popupId.slice(-1)}`);
       popup.style.display = 'none';
       overlay.style.display = 'none';
     }
 
-    // Close pop-up when clicking outside
+    // Close pop-ups when clicking outside
     document.addEventListener('click', (event) => {
-      if (popup.style.display === 'block' && !popup.contains(event.target) && !event.target.matches('button')) {
-        closePopup();
-      }
+      const popups = document.querySelectorAll('.popup');
+      popups.forEach((popup) => {
+        const overlayId = `overlay${popup.id.slice(-1)}`;
+        const overlay = document.getElementById(overlayId);
+        if (
+          popup.style.display === 'block' &&
+          !popup.contains(event.target) &&
+          !event.target.matches('button')
+        ) {
+          closePopup(popup.id);
+        }
+      });
     });
   </script>
 
