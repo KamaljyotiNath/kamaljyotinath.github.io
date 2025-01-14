@@ -85,7 +85,8 @@ function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
 }
-  
+</script>
+<script>
 // Show a specific pop-up
     function showPopup(popupId) {
       const popup = document.getElementById(popupId);
