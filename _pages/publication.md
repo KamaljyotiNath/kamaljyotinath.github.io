@@ -164,7 +164,7 @@ function myFunction() {
     <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
     <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
     <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
-    <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'" class="class_1"> Abstract </button>
+    <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1"> Abstract </button>
  </div>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -497,10 +497,9 @@ Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift 
 <button onclick="closePopup(Abstract_Felipe_2024_PINN)">Close</button>
 </div>
 </div>
+<!-- Overlay 1 -->
+  <div id="overlay1" class="overlay" onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'"></div>
 
-<!-- Overlays -->
-  <div id="CITE_Felipe_2024_PINN" class="overlay"></div>
-  <div id="Abstract_Felipe_2024_PINN" class="overlay"></div>
   
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
 
