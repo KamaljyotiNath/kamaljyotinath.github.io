@@ -87,7 +87,7 @@ function myFunction() {
 }
 </script>
 <script>
-// Show a specific pop-up
+    // Show a specific pop-up
     function showPopup(popupId) {
       const popup = document.getElementById(popupId);
       const overlay = document.getElementById(`overlay${popupId.slice(-1)}`);
@@ -118,8 +118,7 @@ function myFunction() {
         }
       });
     });
-
-</script>
+  </script>
 
   <!-- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- -->
 
