@@ -86,39 +86,7 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
-<script>
-    // Show a specific pop-up
-    function showPopup(popupId) {
-      const popup = document.getElementById(popupId);
-      const overlay = document.getElementById(`overlay${popupId.slice(-1)}`);
-      popup.style.display = 'block';
-      overlay.style.display = 'block';
-    }
 
-    // Close a specific pop-up
-    function closePopup(popupId) {
-      const popup = document.getElementById(popupId);
-      const overlay = document.getElementById(`overlay${popupId.slice(-1)}`);
-      popup.style.display = 'none';
-      overlay.style.display = 'none';
-    }
-
-    // Close pop-ups when clicking outside
-    document.addEventListener('click', (event) => {
-      const popups = document.querySelectorAll('.popup');
-      popups.forEach((popup) => {
-        const overlayId = `overlay${popup.id.slice(-1)}`;
-        const overlay = document.getElementById(overlayId);
-        if (
-          popup.style.display === 'block' &&
-          !popup.contains(event.target) &&
-          !event.target.matches('button')
-        ) {
-          closePopup(popup.id);
-        }
-      });
-    });
-  </script>
 
   <!-- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- -->
 
@@ -531,3 +499,41 @@ Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift 
 </div>
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
 
+
+
+
+
+
+<script>
+    // Show a specific pop-up
+    function showPopup(popupId) {
+      const popup = document.getElementById(popupId);
+      const overlay = document.getElementById(`overlay${popupId.slice(-1)}`);
+      popup.style.display = 'block';
+      overlay.style.display = 'block';
+    }
+
+    // Close a specific pop-up
+    function closePopup(popupId) {
+      const popup = document.getElementById(popupId);
+      const overlay = document.getElementById(`overlay${popupId.slice(-1)}`);
+      popup.style.display = 'none';
+      overlay.style.display = 'none';
+    }
+
+    // Close pop-ups when clicking outside
+    document.addEventListener('click', (event) => {
+      const popups = document.querySelectorAll('.popup');
+      popups.forEach((popup) => {
+        const overlayId = `overlay${popup.id.slice(-1)}`;
+        const overlay = document.getElementById(overlayId);
+        if (
+          popup.style.display === 'block' &&
+          !popup.contains(event.target) &&
+          !event.target.matches('button')
+        ) {
+          closePopup(popup.id);
+        }
+      });
+    });
+  </script>
