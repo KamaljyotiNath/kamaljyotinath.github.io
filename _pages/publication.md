@@ -456,6 +456,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
   keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
 }   
 </pre>
+<button onclick="closePopup()">Close</button>
 </div>
 </div>
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -->
@@ -467,6 +468,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <p style="font-size: 16px; color: blue; text-align: justify;">
 Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift systems in the oil and gas industry. These pumps frequently encounter multiphase flows comprising a complex mixture of hydrocarbons, water, and sediments. Such mixtures lead to the formation of emulsions, characterized by an effective viscosity distinct from that of the individual phases. Traditional multiphase flow meters, employed to assess these conditions, are burdened by high operational costs and susceptibility to degradation. To this end, this study introduces a physics-informed neural network (PINN) model designed to indirectly estimate the fluid properties, dynamic states, and crucial parameters of an ESP system. A comprehensive structural and practical identifiability analysis was performed to delineate the subset of parameters that can be reliably estimated through the use of intake and discharge pressure measurements from the pump. The efficacy of the PINN model was validated by estimating the unknown states and parameters using these pressure measurements as input data. Furthermore, the performance of the PINN model was benchmarked against the particle filter method utilizing both simulated and experimental data across varying water content scenarios. The comparative analysis suggests that the PINN model holds significant potential as a viable alternative to conventional multiphase flow meters, offering a promising avenue for enhancing operational efficiency and reducing costs in ESP applications.
 </p>
+<button onclick="closePopup()">Close</button>
 </div>
 </div>
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
