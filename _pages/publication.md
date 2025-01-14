@@ -498,7 +498,7 @@ Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift 
 </div>
 </div>
 <!-- Overlay 1 -->
-  <div id="overlay1" class="overlay" onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'"></div>
+  <div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'"></div>
 
   
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
