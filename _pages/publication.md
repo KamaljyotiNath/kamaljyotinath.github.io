@@ -429,7 +429,7 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 <!-- -------- -------- -------- -------- -------- -------- -------- -->
 <div id="Abstract_Mariappan_2024_PINN" style="display: none; position: fixed; top: 10%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
 <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-<span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+<span onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
 <h2 style="font-size: 18px; color:blue;">Learning thermoacoustic interactions in combustors using a physics-informed neural network</h2>
 <h3 style="font-size: 18px; color:blue;">Abstract</h3>
 <p style="font-size: 12px; color: blue; text-align: justify;">
