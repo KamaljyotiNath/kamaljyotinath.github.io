@@ -53,7 +53,7 @@ p{
 }
 
 /* Styles for pop-ups */
-    .popup {
+.popup {
       display: none;
       position: fixed;
       top: 20%;
@@ -74,6 +74,8 @@ p{
       background-color: rgba(0, 0, 0, 0.5);
       z-index: 999;
     }
+
+  
   
 </style>
 
@@ -164,12 +166,8 @@ function myFunction() {
     <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1">
       Abstract
     </button>
-    <button class="class_1">
-      <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> Journal</a>
-    </button>
-    <button class="class_1">
-      <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" >arXiv</a>
-    </button>
+    <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1"> Journal </button> </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1"> arXiv </button> </a>
     <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='block'" class="class_1">
     Cite
   </button>
