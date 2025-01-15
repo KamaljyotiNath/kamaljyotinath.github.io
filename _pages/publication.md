@@ -151,12 +151,24 @@ function myFunction() {
 <p style='text-align: justify;'>
   Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. </p>
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+    <button onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='block'" class="class_1">
+      Abstract
+    </button>
     <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388"> <button class="class_1">Journal</button></a>
-  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" ><button class="class_1">arXiv</button></a>
-    <button onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='block'" class="class_1"> Cite </button>
-    <button onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='block'" class="class_1"> Abstract </button>
+    <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" ><button class="class_1">arXiv</button></a>
+    <button onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='block'" class="class_1">
+    Cite
+  </button>
  </div>
 </li> 
+<!-- Overlay -->
+<div id="OVERLAY_Abstract_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'">
+</div>
+<!-- Overlay -->
+<div id="OVERLAY_CITE_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'">
+</div>
   
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->  
 <li>
@@ -173,43 +185,6 @@ function myFunction() {
   </button>
  </div>
 </li> 
-<div id="CITE_Felipe_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-<div style="position: relative; margin: 10px; padding: 10px;">
-<span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
-<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-<pre id="CITE_text_Felipe_2024_PINN"  style="font-size: 12px;" style="color:blue;">
-@article{Felipe_2024_PINN,
-  author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
-  title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
-  journal = {Engineering Applications of Artificial Intelligence},
-  volume = {138},
-  pages = {109378},
-  year = {2024},
-  issn = {0952-1976},
-  doi = {https://doi.org/10.1016/j.engappai.2024.109378},
-  url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
-  keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
-}   
-</pre>
-<button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
-  <button onclick="copyCITE('CITE_text_Felipe_2024_PINN')" style="margin-top: 10px;">Copy Cite</button>
-</div>
-</div>
-<!-- Pop-up -->
-<div id="Abstract_Felipe_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-  <div style="position: relative; margin: 10px; padding: 10px;">
-    <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
-    <h2 style="font-size: 18px; color: blue;">Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks</h2>
-    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
-    <p style="font-size: 16px; color: blue; text-align: justify;">
-      Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift systems in the oil and gas industry. These pumps frequently encounter multiphase flows comprising a complex mixture of hydrocarbons, water, and sediments. Such mixtures lead to the formation of emulsions, characterized by an effective viscosity distinct from that of the individual phases. Traditional multiphase flow meters, employed to assess these conditions, are burdened by high operational costs and susceptibility to degradation. To this end, this study introduces a physics-informed neural network (PINN) model designed to indirectly estimate the fluid properties, dynamic states, and crucial parameters of an ESP system. A comprehensive structural and practical identifiability analysis was performed to delineate the subset of parameters that can be reliably estimated through the use of intake and discharge pressure measurements from the pump. The efficacy of the PINN model was validated by estimating the unknown states and parameters using these pressure measurements as input data. Furthermore, the performance of the PINN model was benchmarked against the particle filter method utilizing both simulated and experimental data across varying water content scenarios. The comparative analysis suggests that the PINN model holds significant potential as a viable alternative to conventional multiphase flow meters, offering a promising avenue for enhancing operational efficiency and reducing costs in ESP applications.
-    </p>
-    <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
-  </div>
-</div>
-
 <!-- Overlay -->
 <div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
@@ -479,15 +454,16 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 <a href="#Journal"> <button class="class_1"> Back to Journals </button>  </a>
 
 
+    
+<!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
+<!-- ----------------CITATION------------------ -->
 
-
-<!-- Cite and references --->
-<!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
-<div id="CITE_Mariappan_2024_PINN" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-<div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-<span onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+<div id="CITE_Mariappan_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-<pre style="font-size: 12px;" style="color:blue;">
+<pre id="CITE_text_Mariappan_2024_PINN" style="font-size: 12px;" style="color:blue;">
 @article{Mariappan_2024_PINN,
   author = {Sathesh Mariappan and Kamaljyoti Nath and George Em Karniadakis}
   title = {Learning thermoacoustic interactions in combustors using a physics-informed neural network},
@@ -500,22 +476,71 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
   url = {https://www.sciencedirect.com/science/article/pii/S095219762401546X}
 }
 </pre>
+  <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Felipe_2024_PINN')" style="margin-top: 10px;">Copy Cite</button>
 </div>
 </div>
-<!-- -------- -------- -------- -------- -------- -------- -------- -->
-<div id="Abstract_Mariappan_2024_PINN" style="display: none; position: fixed; top: 10%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-<div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-<span onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+<!-- --------------------------------------------- -->
+<div id="CITE_Felipe_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+<pre id="CITE_text_Felipe_2024_PINN"  style="font-size: 12px;" style="color:blue;">
+@article{Felipe_2024_PINN,
+  author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
+  title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume = {138},
+  pages = {109378},
+  year = {2024},
+  issn = {0952-1976},
+  doi = {https://doi.org/10.1016/j.engappai.2024.109378},
+  url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
+  keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
+}   
+</pre>
+<button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Felipe_2024_PINN')" style="margin-top: 10px;">Copy Cite</button>
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
+<!-- ----------------Abstract------------------ -->
+<div id="Abstract_Mariappan_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
 <h2 style="font-size: 18px; color:blue;">Learning thermoacoustic interactions in combustors using a physics-informed neural network</h2>
 <h3 style="font-size: 18px; color:blue;">Abstract</h3>
 <p style="font-size: 16px; color: blue; text-align: justify;">
 Many gas turbine and rocket engines exhibit unwanted combustion instability at the experimental testing phase. Instability leads to large amplitude pressure oscillations and increased heat transfer damaging the engine. Data obtained during such tests can be used to prescribe appropriate engine modifications. In many tests, acoustic pressure is measured at few locations, and acoustic velocity is seldom measured. Physics-informed neural network (PINN) method is a potential remedy, by combining the experimental data and governing equations to reconstruct the acoustic field. We employ a PINN to investigate thermoacoustic interactions in a bluff body anchored flame combustor, representative of ramjet and gas turbine combustors. Acoustic pressure fluctuations at three locations and the total flame heat release rate serve as the measured data. The coupled parameterized model (governing equations) comprises the acoustic equations and the van der Pol oscillator for vortex shedding. We have the challenges of unknown initial/boundary conditions, absence of acoustic velocity measurements, and variation of the acoustic pressure amplitude in a long time scale due to the turbulent flame. Therefore, PINN requires novel enhancements to its training procedure. The enhancements (i) systematically adjusting the relative contribution of the various loss terms, (ii) inclusion of a loss term associated with acoustic velocity, and (iii) time series segmentation, are respectively implemented. PINN performs well in generating the acoustic field and estimating the model parameters. Therefore, this PINN method can serve as an effective tool to improve existing or design new thermoacoustically stable and structurally efficient combustors.
 </p>
+<button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" style="margin-top: 
+ 10px;">Close</button>  
 </div>
 </div>
-    
-<!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
-
+<!-- --------------------------------------------- -->
+<div id="Abstract_Felipe_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h2 style="font-size: 18px; color: blue;">Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks</h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p style="font-size: 16px; color: blue; text-align: justify;">
+      Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift systems in the oil and gas industry. These pumps frequently encounter multiphase flows comprising a complex mixture of hydrocarbons, water, and sediments. Such mixtures lead to the formation of emulsions, characterized by an effective viscosity distinct from that of the individual phases. Traditional multiphase flow meters, employed to assess these conditions, are burdened by high operational costs and susceptibility to degradation. To this end, this study introduces a physics-informed neural network (PINN) model designed to indirectly estimate the fluid properties, dynamic states, and crucial parameters of an ESP system. A comprehensive structural and practical identifiability analysis was performed to delineate the subset of parameters that can be reliably estimated through the use of intake and discharge pressure measurements from the pump. The efficacy of the PINN model was validated by estimating the unknown states and parameters using these pressure measurements as input data. Furthermore, the performance of the PINN model was benchmarked against the particle filter method utilizing both simulated and experimental data across varying water content scenarios. The comparative analysis suggests that the PINN model holds significant potential as a viable alternative to conventional multiphase flow meters, offering a promising avenue for enhancing operational efficiency and reducing costs in ESP applications.
+    </p>
+    <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
+<!-- --------------------------------------------- -->
 
   
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
