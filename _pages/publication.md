@@ -160,9 +160,7 @@ function myFunction() {
     Cite
   </button>
  </div>
-</li> 
-
-  
+</li>  
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->  
 <li>
 <p style='text-align: justify;'>
@@ -178,44 +176,21 @@ function myFunction() {
   </button>
  </div>
 </li> 
-
-
-<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
+<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->  
 <li>
 <p style='text-align: justify;' > 
-  Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228.
+  Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228.</p>
+  <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='block'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='block'" class="class_1">
+      Abstract
+    </button>  
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078"><button  class="class_1">Journal</button></a> 
+  <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > <button class="class_1"> ResearchGate </button>  </a>   
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > <button  class="class_1">arXiv</button> </a> 
-  <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > <button class="class_1"> ResearchGate </button>  </a> 
-  <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'" class="class_1"> Cite </button>
-
-<div id="CITE_Liu_2022_Causality" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-  <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    <span onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-    <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-    <pre style="font-size: 12px;" style="color:blue;">
-@article{Liu_2022_Causality,
-  author = {Liu , Lizuo and Nath , Kamaljyoti and Cai , Wei},
-  title = {A Causality-DeepONet for Causal Responses of Linear Dynamical Systems},
-  journal = {Communications in Computational Physics},
-  year = {2024},
-  volume = {35},
-  number = {5},
-  pages = {1194--1228},
-  issn = {1991-7120},
-  doi = {https://doi.org/10.4208/cicp.OA-2023-0078},
-  url = {http://global-sci.org/intro/article_detail/cicp/23189.html}
-}  
-    </pre>
+  <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='block'" class="class_1">
+    Cite
+  </button>
   </div>
-</div> 
-<details>
-<summary>Abstract</summary>
-<p style='text-align: justify;'>
-In this paper, we propose a DeepONet structure with causality to represent causal linear operators between Banach spaces of time-dependent signals. The theorem of universal approximations to nonlinear operators proposed in [5] is extended to operators with causalities, and the proposed Causality-DeepONet implements the physical causality in its framework. The proposed Causality-DeepONet considers causality (the state of the system at the current time is not affected by that of the future, but only by its current state and past history) and uses a convolution-type weight in its design. To demonstrate its effectiveness in handling the causal response of a physical system, the Causality-DeepONet is applied to learn the operator representing the response of a building due to earthquake ground accelerations. Extensive numerical tests and comparisons with some existing variants of DeepONet are carried out, and the Causality-DeepONet clearly shows its unique capability to learn the retarded dynamic responses of the seismic response operator with good accuracy.
-</p>
-</details> 
-</p>
 </li> 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
   
@@ -490,6 +465,30 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 <button onclick="copyCITE('CITE_text_Felipe_2024_PINN')" style="margin-top: 10px;">Copy Cite</button>
 </div>
 </div>
+<!-- --------------------------------------------- -->
+<div id="CITE_Liu_2022_Causality" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+    <pre id="CITE_text_Liu_2022_Causality" style="font-size: 12px;" style="color:blue;">
+@article{Liu_2022_Causality,
+  author = {Liu , Lizuo and Nath , Kamaljyoti and Cai , Wei},
+  title = {A Causality-DeepONet for Causal Responses of Linear Dynamical Systems},
+  journal = {Communications in Computational Physics},
+  year = {2024},
+  volume = {35},
+  number = {5},
+  pages = {1194--1228},
+  issn = {1991-7120},
+  doi = {https://doi.org/10.4208/cicp.OA-2023-0078},
+  url = {http://global-sci.org/intro/article_detail/cicp/23189.html}
+}  
+    </pre>
+    <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Liu_2022_Causality')" style="margin-top: 10px;">Copy Cite</button>
+  </div>
+</div> 
 
 
 
@@ -528,6 +527,23 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 </div>
 <!-- --------------------------------------------- -->
 
+<div id="Abstract_Liu_2022_Causality" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h2 style="font-size: 18px; color: blue;"> A Causality-DeepONet for Causal Responses of Linear Dynamical Systems</h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p style="font-size: 16px; color: blue; text-align: justify;">
+      In this paper, we propose a DeepONet structure with causality to represent causal linear operators between Banach spaces of time-dependent signals. The theorem of universal approximations to nonlinear operators proposed in [5] is extended to operators with causalities, and the proposed Causality-DeepONet implements the physical causality in its framework. The proposed Causality-DeepONet considers causality (the state of the system at the current time is not affected by that of the future, but only by its current state and past history) and uses a convolution-type weight in its design. To demonstrate its effectiveness in handling the causal response of a physical system, the Causality-DeepONet is applied to learn the operator representing the response of a building due to earthquake ground accelerations. Extensive numerical tests and comparisons with some existing variants of DeepONet are carried out, and the Causality-DeepONet clearly shows its unique capability to learn the retarded dynamic responses of the seismic response operator with good accuracy.
+    </p>
+    <button onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
+<!-- --------------------------------------------- -->
+
+
+
   
 <!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
 <!-- ------------ Overlay ---------- -->
@@ -535,7 +551,6 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <div id="OVERLAY_Abstract_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'">
 </div>
-<!-- Overlay -->
 <div id="OVERLAY_CITE_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'">
 </div>
@@ -544,9 +559,16 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
 </div>
-<!-- Overlay -->
 <div id="OVERLAY_CITE_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'">
+</div>
+
+<!-- Overlay -->
+<div id="OVERLAY_Abstract_Liu_2022_Causality" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'">
+</div>
+<div id="OVERLAY_CITE_Liu_2022_Causality" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='none'">
 </div>
 
 
