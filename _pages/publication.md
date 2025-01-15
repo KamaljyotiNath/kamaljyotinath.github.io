@@ -189,7 +189,7 @@ function myFunction() {
   url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
   keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
 }   
-</>
+</p>
 <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
   <button onclick="copyCITE('CITE_text_Felipe_2024_PINN')" style="margin-top: 10px;">Copy Cite</button>
 </div>
