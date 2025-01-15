@@ -164,24 +164,32 @@ function myFunction() {
     <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
     <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
     <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
-    <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1"> Abstract </button>
+    
+
+<button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1">
+  Abstract
+</button>
  </div>
 </li>
 
-<!-- -------- -------- -------- -------- -------- -------- -------- -------- -->
-<div id="Abstract_Felipe_2024_PINN" class="popup">
-<div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-<span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-<h2 style="font-size: 18px; color:blue;">Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks</h2>
-<h3 style="font-size: 18px; color:blue;">Abstract</h3>
-<p style="font-size: 16px; color: blue; text-align: justify;">
-Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift systems in the oil and gas industry. These pumps frequently encounter multiphase flows comprising a complex mixture of hydrocarbons, water, and sediments. Such mixtures lead to the formation of emulsions, characterized by an effective viscosity distinct from that of the individual phases. Traditional multiphase flow meters, employed to assess these conditions, are burdened by high operational costs and susceptibility to degradation. To this end, this study introduces a physics-informed neural network (PINN) model designed to indirectly estimate the fluid properties, dynamic states, and crucial parameters of an ESP system. A comprehensive structural and practical identifiability analysis was performed to delineate the subset of parameters that can be reliably estimated through the use of intake and discharge pressure measurements from the pump. The efficacy of the PINN model was validated by estimating the unknown states and parameters using these pressure measurements as input data. Furthermore, the performance of the PINN model was benchmarked against the particle filter method utilizing both simulated and experimental data across varying water content scenarios. The comparative analysis suggests that the PINN model holds significant potential as a viable alternative to conventional multiphase flow meters, offering a promising avenue for enhancing operational efficiency and reducing costs in ESP applications.
-</p>
-<button onclick="closePopup(Abstract_Felipe_2024_PINN)">Close</button>
+<!-- Pop-up -->
+<div id="Abstract_Felipe_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 60%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h2 style="font-size: 18px; color: blue;">Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks</h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p style="font-size: 16px; color: blue; text-align: justify;">
+      Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift systems in the oil and gas industry. These pumps frequently encounter multiphase flows comprising a complex mixture of hydrocarbons, water, and sediments. Such mixtures lead to the formation of emulsions, characterized by an effective viscosity distinct from that of the individual phases. Traditional multiphase flow meters, employed to assess these conditions, are burdened by high operational costs and susceptibility to degradation. To this end, this study introduces a physics-informed neural network (PINN) model designed to indirectly estimate the fluid properties, dynamic states, and crucial parameters of an ESP system. A comprehensive structural and practical identifiability analysis was performed to delineate the subset of parameters that can be reliably estimated through the use of intake and discharge pressure measurements from the pump. The efficacy of the PINN model was validated by estimating the unknown states and parameters using these pressure measurements as input data. Furthermore, the performance of the PINN model was benchmarked against the particle filter method utilizing both simulated and experimental data across varying water content scenarios. The comparative analysis suggests that the PINN model holds significant potential as a viable alternative to conventional multiphase flow meters, offering a promising avenue for enhancing operational efficiency and reducing costs in ESP applications.
+    </p>
+    <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
+  </div>
 </div>
+
+<!-- Overlay -->
+<div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
 </div>
-<!-- Overlay 1 -->
-  <div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'"></div>
 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
