@@ -561,11 +561,9 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 
 <script>
 function copyCITE(abstractId) {
-  // Log the function call
-  console.log(`copyAbstract called with id: ${abstractId}`);
-  
-  // Get the abstract text element by ID
+  // Get the abstract text element by its ID
   const abstractElement = document.getElementById(abstractId);
+
   if (!abstractElement) {
     console.error('Abstract element not found!');
     alert('Abstract element not found!');
@@ -574,9 +572,7 @@ function copyCITE(abstractId) {
 
   // Get the text content
   const abstractText = abstractElement.innerText || abstractElement.textContent;
-  console.log(`Abstract text to copy: ${abstractText}`);
 
-  // Check if clipboard API is supported
   if (!navigator.clipboard) {
     console.error('Clipboard API not supported in this browser.');
     alert('Clipboard API not supported in this browser.');
@@ -587,11 +583,12 @@ function copyCITE(abstractId) {
   navigator.clipboard.writeText(abstractText)
     .then(() => {
       console.log('Abstract copied to clipboard successfully!');
-      alert('Abstract copied to clipboard!');
+      alert('Copied to clipboard!');
     })
     .catch(err => {
       console.error('Error copying text to clipboard:', err);
       alert('Failed to copy abstract. Please try again.');
     });
 }
+
 </script>
