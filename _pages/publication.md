@@ -560,7 +560,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
   </script>
 
 <script>
-function copyCITE(abstractId) {
+function copyCITE_1(abstractId) {
   // Get the abstract text element by its ID
   const abstractElement = document.getElementById(abstractId);
 
