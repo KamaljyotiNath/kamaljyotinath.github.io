@@ -173,7 +173,7 @@ function myFunction() {
   </button>
  </div>
 </li> 
-<div id="CITE_Felipe_2024_PINN" class="popup" >
+<div id="CITE_Felipe_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 60%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" 
           style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
@@ -251,8 +251,7 @@ function myFunction() {
 <details>
 <summary>Abstract</summary>
 <p style='text-align: justify;'>
-In this paper, we propose a DeepONet structure with causality to represent causal linear operators between Banach spaces of time-dependent signals. The theorem of universal approximations to nonlinear operators proposed in [5] is extended
-to operators with causalities, and the proposed Causality-DeepONet implements the physical causality in its framework. The proposed Causality-DeepONet considers causality (the state of the system at the current time is not affected by that of the future, but only by its current state and past history) and uses a convolution-type weight in its design. To demonstrate its effectiveness in handling the causal response of a physical system, the Causality-DeepONet is applied to learn the operator representing the response of a building due to earthquake ground accelerations. Extensive numerical tests and comparisons with some existing variants of DeepONet are carried out, and the Causality-DeepONet clearly shows its unique capability to learn the retarded dynamic responses of the seismic response operator with good accuracy.
+In this paper, we propose a DeepONet structure with causality to represent causal linear operators between Banach spaces of time-dependent signals. The theorem of universal approximations to nonlinear operators proposed in [5] is extended to operators with causalities, and the proposed Causality-DeepONet implements the physical causality in its framework. The proposed Causality-DeepONet considers causality (the state of the system at the current time is not affected by that of the future, but only by its current state and past history) and uses a convolution-type weight in its design. To demonstrate its effectiveness in handling the causal response of a physical system, the Causality-DeepONet is applied to learn the operator representing the response of a building due to earthquake ground accelerations. Extensive numerical tests and comparisons with some existing variants of DeepONet are carried out, and the Causality-DeepONet clearly shows its unique capability to learn the retarded dynamic responses of the seismic response operator with good accuracy.
 </p>
 </details> 
 </p>
