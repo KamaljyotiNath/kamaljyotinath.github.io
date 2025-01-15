@@ -163,15 +163,36 @@ function myFunction() {
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
     <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1">Journal</button></a>
     <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1">arXiv</button></a>
-    <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'" class="class_1"> Cite </button>
-    
+<button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='block'" class="class_1">
+  Cite
+</button>    
 
 <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1">
   Abstract
 </button>
  </div>
 </li>
-
+<div id="CITE_Felipe_2024_PINN" class="popup">
+<div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+<pre style="font-size: 12px;" style="color:blue;">
+@article{Felipe_2024_PINN,
+  author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
+  title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
+  journal = {Engineering Applications of Artificial Intelligence},
+  volume = {138},
+  pages = {109378},
+  year = {2024},
+  issn = {0952-1976},
+  doi = {https://doi.org/10.1016/j.engappai.2024.109378},
+  url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
+  keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
+}   
+</pre>
+<button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
+</div>
+</div>
 <!-- Pop-up -->
 <div id="Abstract_Felipe_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 60%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
@@ -189,6 +210,10 @@ function myFunction() {
 <!-- Overlay -->
 <div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
+</div>
+<!-- Overlay -->
+<div id="OVERLAY_CITE_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'">
 </div>
 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -488,27 +513,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 </div>
     
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
-<div id="CITE_Felipe_2024_PINN" class="popup">
-<div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-<span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-<pre style="font-size: 12px;" style="color:blue;">
-@article{Felipe_2024_PINN,
-  author = {Felipe de Castro Teixeira Carvalho and Kamaljyoti Nath and Alberto Luiz Serpa and George Em Karniadakis},
-  title = {Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks},
-  journal = {Engineering Applications of Artificial Intelligence},
-  volume = {138},
-  pages = {109378},
-  year = {2024},
-  issn = {0952-1976},
-  doi = {https://doi.org/10.1016/j.engappai.2024.109378},
-  url = {https://www.sciencedirect.com/science/article/pii/S0952197624015367},
-  keywords = {Electrical submersible pump, Physics-informed neural networks, Parameters estimation, Identifiability analysis, Multiphase flow, Digital twin}
-}   
-</pre>
-<button onclick="closePopup(CITE_Felipe_2024_PINN)">Close</button>
-</div>
-</div>
+
 
   
 <!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
