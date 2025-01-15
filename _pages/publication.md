@@ -560,11 +560,11 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
   </script>
 
 <script>
-  function copyCITE(CITEId) {
-    // Get the abstract text by ID
-    const Cite_Text = document.getElementById(CITEId);
-    if (Cite_Text) {
-      const abstractText = Cite_Text.innerText;
+  function copyCITE(abstractId) {
+    // Get the abstract text element by ID
+    const abstractElement = document.getElementById(abstractId);
+    if (abstractElement) {
+      const abstractText = abstractElement.innerText;
       // Copy text to clipboard
       navigator.clipboard.writeText(abstractText).then(() => {
         alert('Abstract copied to clipboard!');
