@@ -564,7 +564,6 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
   navigator.clipboard.writeText(text)
     .then(() => {
       console.log(`Copied text to clipboard: ${text}`);
-      alert(`Copied text to clipboard: ${text}`);
     })
     .catch((error) => {
       console.error(`Could not copy text: ${error}`);
