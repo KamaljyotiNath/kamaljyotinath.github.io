@@ -559,22 +559,39 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
     });
   </script>
 
-
 <script>
-  function copyCITE(abstractId) {
-    // Get the abstract text element by ID
-    const abstractElement = document.getElementById(abstractId);
-    if (abstractElement) {
-      const abstractText = abstractElement.innerText || abstractElement.textContent;
-      // Copy text to clipboard
-      navigator.clipboard.writeText(abstractText).then(() => {
-        alert('Abstract copied to clipboard!');
-      }).catch(err => {
-        console.error('Error copying text:', err);
-        alert('Failed to copy abstract. Ensure you are running this on HTTPS or localhost.');
-      });
-    } else {
-      alert('Abstract element not found!');
-    }
+function copyCITE(abstractId) {
+  // Log the function call
+  console.log(`copyAbstract called with id: ${abstractId}`);
+  
+  // Get the abstract text element by ID
+  const abstractElement = document.getElementById(abstractId);
+  if (!abstractElement) {
+    console.error('Abstract element not found!');
+    alert('Abstract element not found!');
+    return;
   }
+
+  // Get the text content
+  const abstractText = abstractElement.innerText || abstractElement.textContent;
+  console.log(`Abstract text to copy: ${abstractText}`);
+
+  // Check if clipboard API is supported
+  if (!navigator.clipboard) {
+    console.error('Clipboard API not supported in this browser.');
+    alert('Clipboard API not supported in this browser.');
+    return;
+  }
+
+  // Copy text to clipboard
+  navigator.clipboard.writeText(abstractText)
+    .then(() => {
+      console.log('Abstract copied to clipboard successfully!');
+      alert('Abstract copied to clipboard!');
+    })
+    .catch(err => {
+      console.error('Error copying text to clipboard:', err);
+      alert('Failed to copy abstract. Please try again.');
+    });
+}
 </script>
