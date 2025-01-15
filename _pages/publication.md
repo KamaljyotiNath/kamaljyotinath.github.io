@@ -161,14 +161,7 @@ function myFunction() {
   </button>
  </div>
 </li> 
-<!-- Overlay -->
-<div id="OVERLAY_Abstract_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'">
-</div>
-<!-- Overlay -->
-<div id="OVERLAY_CITE_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'">
-</div>
+
   
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->  
 <li>
@@ -185,14 +178,7 @@ function myFunction() {
   </button>
  </div>
 </li> 
-<!-- Overlay -->
-<div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
-</div>
-<!-- Overlay -->
-<div id="OVERLAY_CITE_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'">
-</div>
+
 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
@@ -476,8 +462,8 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
   url = {https://www.sciencedirect.com/science/article/pii/S095219762401546X}
 }
 </pre>
-  <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
-<button onclick="copyCITE('CITE_text_Felipe_2024_PINN')" style="margin-top: 10px;">Copy Cite</button>
+  <button onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Mariappan_2024_PINN')" style="margin-top: 10px;">Copy Cite</button>
 </div>
 </div>
 <!-- --------------------------------------------- -->
@@ -522,7 +508,7 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 <p style="font-size: 16px; color: blue; text-align: justify;">
 Many gas turbine and rocket engines exhibit unwanted combustion instability at the experimental testing phase. Instability leads to large amplitude pressure oscillations and increased heat transfer damaging the engine. Data obtained during such tests can be used to prescribe appropriate engine modifications. In many tests, acoustic pressure is measured at few locations, and acoustic velocity is seldom measured. Physics-informed neural network (PINN) method is a potential remedy, by combining the experimental data and governing equations to reconstruct the acoustic field. We employ a PINN to investigate thermoacoustic interactions in a bluff body anchored flame combustor, representative of ramjet and gas turbine combustors. Acoustic pressure fluctuations at three locations and the total flame heat release rate serve as the measured data. The coupled parameterized model (governing equations) comprises the acoustic equations and the van der Pol oscillator for vortex shedding. We have the challenges of unknown initial/boundary conditions, absence of acoustic velocity measurements, and variation of the acoustic pressure amplitude in a long time scale due to the turbulent flame. Therefore, PINN requires novel enhancements to its training procedure. The enhancements (i) systematically adjusting the relative contribution of the various loss terms, (ii) inclusion of a loss term associated with acoustic velocity, and (iii) time series segmentation, are respectively implemented. PINN performs well in generating the acoustic field and estimating the model parameters. Therefore, this PINN method can serve as an effective tool to improve existing or design new thermoacoustically stable and structurally efficient combustors.
 </p>
-<button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" style="margin-top: 
+<button onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'" style="margin-top: 
  10px;">Close</button>  
 </div>
 </div>
@@ -543,9 +529,25 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <!-- --------------------------------------------- -->
 
   
-<!-- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
+<!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
+<!-- ------------ Overlay ---------- -->
+<!-- Overlay -->
+<div id="OVERLAY_Abstract_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'">
+</div>
+<!-- Overlay -->
+<div id="OVERLAY_CITE_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'">
+</div>
 
-
+<!-- Overlay -->
+<div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
+</div>
+<!-- Overlay -->
+<div id="OVERLAY_CITE_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'">
+</div>
 
 
 
