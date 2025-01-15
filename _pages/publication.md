@@ -16,9 +16,9 @@ body {
 }
 
 .button {
-  background-color: #04AA6D; /* Green */
+  background-color: #4682B4;
+  color: white;
   border: none;
-  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
