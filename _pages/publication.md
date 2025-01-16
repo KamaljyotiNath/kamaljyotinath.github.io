@@ -170,7 +170,7 @@ function myFunction() {
 <p style='text-align: justify;'>
   Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. </p>
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
-    <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1">
+    <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1">  
       Abstract
     </button>
     <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1"> Journal </button> </a>
@@ -535,7 +535,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 
 <div id="Abstract_Liu_2022_Causality" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
-    <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'" 
+    <span onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'" 
           style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
     <h2 style="font-size: 18px; color: blue;"> A Causality-DeepONet for Causal Responses of Linear Dynamical Systems</h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
@@ -549,7 +549,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <!-- --------------------------------------------- -->
 <div id="Abstract_Nath_2023" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
-    <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'" 
+    <span onclick="document.getElementById('Abstract_Nath_2023').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'" 
           style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
     <h2 style="font-size: 18px; color: blue;"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines</h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
@@ -572,29 +572,27 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <div id="OVERLAY_Abstract_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'">
 </div>
-<div id="OVERLAY_CITE_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'">
-</div>
-
-<!-- Overlay -->
 <div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
+</div>
+<div id="OVERLAY_Abstract_Liu_2022_Causality" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'">
+</div>
+<div id="OVERLAY_Abstract_Nath_2023" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Nath_2023').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'">
+</div>
+
+
+
+<!-- Overlay CITE -->
+<div id="OVERLAY_CITE_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'">
 </div>
 <div id="OVERLAY_CITE_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'">
 </div>
-
-<!-- Overlay -->
-<div id="OVERLAY_Abstract_Liu_2022_Causality" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'">
-</div>
 <div id="OVERLAY_CITE_Liu_2022_Causality" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='none'">
-</div>
-
-<!-- Overlay -->
-<div id="OVERLAY_Abstract_Nath_2023" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Nath_2023').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'">
 </div>
 <div id="OVERLAY_CITE_Nath_2023" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Nath_2023').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='none'">
