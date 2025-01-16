@@ -23,16 +23,16 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
   margin: 10px 4px;
   /* ursor: pointer; */
 }
 button:hover {
-  background-color: #008CBA;
+  background-color: #4682B4;
   color: white;
 }  
 
-.class_1 {background-color: #4682B4; border-radius: 8px; color: black;} /* #94e5ff,  Blue  #008CBA*/
+.class_1 {background-color: #008CBA; border-radius: 8px; color: black; font-size: 12px;} /* #94e5ff,  Blue  #008CBA*/
 .red {background-color: #f44336;} /* Red */ 
 .gray {background-color: #e7e7e7; color: black;} /* Gray */ 
 
@@ -205,29 +205,15 @@ function myFunction() {
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
 <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159.
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159. </p>
+  <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='block'" class="class_1">
+      Abstract
+    </button>  
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.probengmech.2021.103159"> <button class="class_1">Journal</button></a>
-  <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
-
-  <div id="CITE_Nath_2021_IPDD" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-      <span onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-      <pre style="font-size: 12px;" style="color:blue;">
-@article{Nath_2021_IPDD,
-  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
-  title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
-  journal = {Probabilistic Engineering Mechanics},
-  volume = {66},
-  pages = {103159},
-  year = {2021},
-  issn = {0266-8920},
-  doi = {https://doi.org/10.1016/j.probengmech.2021.103159},
-  url = {https://www.sciencedirect.com/science/article/pii/S0266892021000436},
-  keywords = {Stochastic Finite Element Method, Karhunen–Loève expansion, Polynomial Chaos expansion, Polynomial Dimensional Decomposition, Iterative Polynomial Chaos}
-}
-      </pre>
-    </div>
+  <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2021_IPDD').style.display='block'" class="class_1">
+    Cite
+  </button>
   </div>
 <details>
 <summary>Abstract</summary>
@@ -488,8 +474,30 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
     </div>
   </div>
 <!-- --------------------------------------------- -->
-
-
+<div id="CITE_Nath_2021_IPDD" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_IPDD').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+<pre id="CITE_text_Nath_2021_IPDD" style="font-size: 12px;" style="color:blue;">
+@article{Nath_2021_IPDD,
+  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+  title = {Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness},
+  journal = {Probabilistic Engineering Mechanics},
+  volume = {66},
+  pages = {103159},
+  year = {2021},
+  issn = {0266-8920},
+  doi = {https://doi.org/10.1016/j.probengmech.2021.103159},
+  url = {https://www.sciencedirect.com/science/article/pii/S0266892021000436},
+  keywords = {Stochastic Finite Element Method, Karhunen–Loève expansion, Polynomial Chaos expansion, Polynomial Dimensional Decomposition, Iterative Polynomial Chaos}
+}
+</pre>
+<button onclick="document.getElementById('CITE_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_CITE_2021_IPDD').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_2021_IPDD')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+</div>
+</div>
+<!-- --------------------------------------------- -->
 
 
 <!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
@@ -551,9 +559,20 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
   </div>
 </div>
 
-
-
-
+<!-- --------------------------------------------- -->
+<div id="Abstract_Nath_2021_IPDD" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h2 style="font-size: 18px; color: blue;"> Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness </h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p style="font-size: 16px; color: blue; text-align: justify;">
+   One of the major difficulties in solving stochastic mechanics problems is the curse of dimensionality, where an exponential increase in the dimension of the problem is encountered with the increase in the number of random variables and/or order of expansion considered in any approximation. A prominent method in addressing the curse of dimensionality is ANOVA dimension Decomposition (ADD), which represents a mathematical function with multiple lower variate functions. These lower variate functions are represented using orthogonal polynomials, which yields Polynomial Dimensional Decomposition (PDD). In recent articles, the authors proposed an Iterative Polynomial Chaos (ImPC) based method for the solution of structural mechanics problems, where computational efficacy of ImPC was demonstrated against Polynomial Chaos (PC). In ImPC, the problems are solved iteratively using smaller sizes of PC expansions. Thus, it reduces the curse of dimensionality of PC expansion. The PDD reduces the size of the system matrix by considering a fewer number of random variables at a time, while ImPC can be considered to solve each components of PDD iteratively so that a converged solution can be achieved without increasing the order of expansion, which is termed as iterative PDD in the present study. Thus, the overall convergence can be achieved with a lesser size of the system matrix, which enables to perform analyses with a lesser computational facility. Further, the stiffness matrix size can be reduced by considering the random field at Gauss points instead of the mid point. Numerical studies with both Gaussian and non-Gaussian random field of Young’s modulus are conducted, and computational efficiency of the iterative PDD is compared with that of PDD, ImPC, and first order perturbation method. The iterative PDD is observed to be computationally less demanding and exhibits reduced dimensional curse.
+    </p>
+    <button onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
 
   
 <!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
