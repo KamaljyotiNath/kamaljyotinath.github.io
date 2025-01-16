@@ -36,16 +36,7 @@ button:hover {
 .red {background-color: #f44336;} /* Red */ 
 .gray {background-color: #e7e7e7; color: black;} /* Gray */ 
 
-summary {
-      font-weight: bold;
-      font-size: 22px;
-      cursor: pointer;
-      color: #007BFF;
-    }
 
-  summary:hover {
-      color: #0056b3;
-  }
 
   details[open] summary {
       color: #FF5733;
