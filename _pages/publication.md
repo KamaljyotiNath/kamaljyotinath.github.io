@@ -389,7 +389,7 @@ function myFunction() {
   title={An adaptive scheme for random field discretization using KL expansion},
   author={Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
   journal={Engineering with Computers},
-  pages={1--18},
+  pages={2937–2954},
   year={2022},
   publisher={Springer},
   doi = {https://doi.org/10.1007/s00366-021-01326-6}
