@@ -143,18 +143,13 @@ function myFunction() {
 <ol reversed="reversed" start="9"> <p style='text-align: justify;'>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-<p style='text-align: justify;'>
-  Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. </p>
+<p style='text-align: justify;'> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. </p>
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
-    <button class="class_1" onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='block'" >
-      Abstract
-    </button>
-    <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388"> <button class="class_1">Journal</button></a>
-    <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" ><button class="class_1"> arXiv </button></a>
-    <button onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='block'" class="class_1">
-    Cite
-  </button>
- </div>
+  <button class="class_1" onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='block'" > Abstract</button>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" ><button class="class_1"> arXiv </button></a>
+  <button onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='block'" class="class_1"> Cite  </button>
+  </div>
 </li>  
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->  
 <li>
@@ -246,73 +241,30 @@ function myFunction() {
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-  <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness.  <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160. 
+<p style='text-align: justify;'> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness.  <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160. </p>
+<div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Nath_2019_IPC_Non_Gauss').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1">
+      Abstract
+    </button>  
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1002/nme.6086"> <button class="class_1">Journal</button></a>
-  <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1"> Cite </button>
-  <div id="CITE_Nath_2019_IPC_Non_Gauss" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-      <span onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-      <pre style="font-size: 12px;" style="color:blue;">
-@article{Nath_2019_IPC_Non_Gauss,
-  author = {Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
-  title = {An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non-Gaussian randomness},
-  journal = {International Journal for Numerical Methods in Engineering},
-  year = {2019},
-  volume = {119},
-  number = {11},
-  pages = {1126-1160},
-  keywords = {independent component analysis, Karhunen-Loève expansion, non-Gaussian material property, orthogonal expansion, polynomial chaos expansion},
-  doi = {https://doi.org/10.1002/nme.6086},
-  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.6086},
-  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/nme.6086}
-}
-      </pre>
-    </div>
+  <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1">
+    Cite
+  </button>
   </div>
-<details>
-<summary>Abstract</summary>
-<p style='text-align: justify;'>
-Stochastic analysis of structure with non-Gaussian material property and loading in the framework of polynomial chaos (PC) is considered. A new approach for the solution of stochastic mechanics problem with random coefficient is presented. The major focus of the method is to consider reduced size of expansion in an iterative manner to overcome the problem of large system matrix in conventional PC expansion. The iterative method is based on orthogonal expansion of stochastic responses and generation of an iterative PC based on the responses of the previous iteration. The polynomials are evaluated using Gram-Schmidt orthogonalization process. The numbers of random variables in PC expansion are reduced by considering only the dominant components of the response characteristics, which is evaluated using Karhunen-Loève (KL) expansion. In case of random material field problem, the KL expansion is used to discretize and simulate the non-Gaussian random field. Independent component analysis (ICA) is carried out on the non-Gaussian KL random variables to minimize statistical dependence. The usefulness of the proposed method in terms of accuracy and computational efficiency is examined. From the numerical analysis of three different types of structural mechanics problems, the proposed iterative method is observed to be computationally more efficient and accurate than conventional PC method for solution of linear elastostatic structural mechanics problems.
-</p>
-</details> 
-  </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li> 
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property. <i> Journal of Computational Physics </i>, 390, 425-451. 
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property. <i> Journal of Computational Physics </i>, 390, 425-451. </p>
+<div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Gauss').style.display='block'" class="class_1">
+      Abstract
+    </button>  
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2019.04.014"> <button class="class_1">Journal</button></a>
-  <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1"> Cite </button>
-
-  <div id="CITE_Nath_Nath_2019_IPC_Gauss" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-      <span onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-      <pre style="font-size: 12px;" style="color:blue;">
-@article{Nath_2019_IPC_Gauss,
-  title = {An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property},
-  journal = {Journal of Computational Physics},
-  volume = {390},
-  pages = {425-451},
-  year = {2019},
-  issn = {0021-9991},
-  doi = {https://doi.org/10.1016/j.jcp.2019.04.014},
-  url = {https://www.sciencedirect.com/science/article/pii/S0021999119302475},
-  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
-  keywords = {Stochastic Finite Element Method, Karhunen-Loève expansion, Polynomial Chaos expansion}
-}
-      </pre>
-    </div>
+  <button onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Gauss').style.display='block'" class="class_1">
+    Cite
+  </button>
   </div>
-<details>
-<summary>Abstract</summary>
-<p style='text-align: justify;'>
-A new approach for solution of Stochastic structural Mechanics problem with random coefficient in the framework of Polynomial Chaos (PC) expansion is proposed. The basic strategy of the proposed method is to iteratively construct a PC expansion with reduced numbers of unknown coefficients. The method is based on orthogonal expansion of stochastic responses and generation of an iterative PC based on the responses of the previous iteration. The polynomials are evaluated using Gram-Schmidt orthogonalization process. The number of random variables in PC expansion is reduced by considering only the dominant components of the response characteristics, which is evaluated using Karhunen-Loève (KL) expansion. In case of random material field problem, KL expansion is used to discretize the random field. The usefulness of the proposed method in terms of accuracy and computational efficiency is examined. The results of linear static structural mechanics problems are compared with MCS and PC method. The proposed method is observed to be computationally more efficient and accurate than PC method.
-</p>
-</details> 
-  </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 </p></ol>
@@ -472,7 +424,56 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 <button onclick="copyCITE('CITE_text_Nath_2020_TDgPC')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
     </div>
   </div>
+<!-- --------------------------------------------- -->
+<div id="CITE_Nath_2019_IPC_Non_Gauss" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Non_Gauss').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+<pre id="CITE_text_Nath_2019_IPC_Non_Gauss" style="font-size: 12px;" style="color:blue;">
+@article{Nath_2019_IPC_Non_Gauss,
+  author = {Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
+  title = {An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non-Gaussian randomness},
+  journal = {International Journal for Numerical Methods in Engineering},
+  year = {2019},
+  volume = {119},
+  number = {11},
+  pages = {1126-1160},
+  keywords = {independent component analysis, Karhunen-Loève expansion, non-Gaussian material property, orthogonal expansion, polynomial chaos expansion},
+  doi = {https://doi.org/10.1002/nme.6086},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.6086},
+  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/nme.6086}
+}
+      </pre>
+  <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Non_Gauss').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Nath_2019_IPC_Non_Gauss)" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+    </div>
+  </div>
 
+<!-- --------------------------------------------- -->
+<div id="CITE_Nath_2019_IPC_Gauss" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Gauss').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+<pre id="CITE_text_Nath_2019_IPC_Gauss" style="font-size: 12px;" style="color:blue;">
+@article{Nath_2019_IPC_Gauss,
+  title = {An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property},
+  journal = {Journal of Computational Physics},
+  volume = {390},
+  pages = {425-451},
+  year = {2019},
+  issn = {0021-9991},
+  doi = {https://doi.org/10.1016/j.jcp.2019.04.014},
+  url = {https://www.sciencedirect.com/science/article/pii/S0021999119302475},
+  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+  keywords = {Stochastic Finite Element Method, Karhunen-Loève expansion, Polynomial Chaos expansion}
+}
+      </pre>
+  <button onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Gauss').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Nath_2019_IPC_Gauss)" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+    </div>
+  </div>
 
   
 
@@ -580,22 +581,48 @@ Polynomial Chaos (PC) is one of the popular methods for approximate evaluation o
  10px;">Close</button>
   </div>
 </div>
+<!-- --------------------------------------------- -->
+<div id="Abstract_Nath_2019_IPC_Non_Gauss" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h2 style="font-size: 18px; color: blue;"> An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness </h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p style="font-size: 16px; color: blue; text-align: justify;">
+Stochastic analysis of structure with non-Gaussian material property and loading in the framework of polynomial chaos (PC) is considered. A new approach for the solution of stochastic mechanics problem with random coefficient is presented. The major focus of the method is to consider reduced size of expansion in an iterative manner to overcome the problem of large system matrix in conventional PC expansion. The iterative method is based on orthogonal expansion of stochastic responses and generation of an iterative PC based on the responses of the previous iteration. The polynomials are evaluated using Gram-Schmidt orthogonalization process. The numbers of random variables in PC expansion are reduced by considering only the dominant components of the response characteristics, which is evaluated using Karhunen-Loève (KL) expansion. In case of random material field problem, the KL expansion is used to discretize and simulate the non-Gaussian random field. Independent component analysis (ICA) is carried out on the non-Gaussian KL random variables to minimize statistical dependence. The usefulness of the proposed method in terms of accuracy and computational efficiency is examined. From the numerical analysis of three different types of structural mechanics problems, the proposed iterative method is observed to be computationally more efficient and accurate than conventional PC method for solution of linear elastostatic structural mechanics problems.
+    </p>
+    <button onclick="document.getElementById('Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
+
+<!-- --------------------------------------------- -->
+<div id="Abstract_Nath_2019_IPC_Gauss" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Gauss').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h2 style="font-size: 18px; color: blue;"> An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property </h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p style="font-size: 16px; color: blue; text-align: justify;">
+A new approach for solution of Stochastic structural Mechanics problem with random coefficient in the framework of Polynomial Chaos (PC) expansion is proposed. The basic strategy of the proposed method is to iteratively construct a PC expansion with reduced numbers of unknown coefficients. The method is based on orthogonal expansion of stochastic responses and generation of an iterative PC based on the responses of the previous iteration. The polynomials are evaluated using Gram-Schmidt orthogonalization process. The number of random variables in PC expansion is reduced by considering only the dominant components of the response characteristics, which is evaluated using Karhunen-Loève (KL) expansion. In case of random material field problem, KL expansion is used to discretize the random field. The usefulness of the proposed method in terms of accuracy and computational efficiency is examined. The results of linear static structural mechanics problems are compared with MCS and PC method. The proposed method is observed to be computationally more efficient and accurate than PC method.
+    </p>
+    <button onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Gauss').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
 
 
-<!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
+
+<!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- --------------------------------- -------- -------- -------- -------- -------- -------- -->
 <!-- ------------ Overlay ---------- -->
 <!-- Overlay -->
-<div id="OVERLAY_Abstract_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'">
+<div id="OVERLAY_Abstract_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'">
 </div>
-<div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
+<div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
 </div>
-<div id="OVERLAY_Abstract_Liu_2022_Causality" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'">
+<div id="OVERLAY_Abstract_Liu_2022_Causality" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'">
 </div>
-<div id="OVERLAY_Abstract_Nath_2023" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Nath_2023').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'">
+<div id="OVERLAY_Abstract_Nath_2023" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Nath_2023').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'">
 </div>
 <div id="OVERLAY_Abstract_Nath_2021_IPDD" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='none'">
@@ -603,7 +630,15 @@ Polynomial Chaos (PC) is one of the popular methods for approximate evaluation o
 <div id="OVERLAY_Abstract_Nath_2021_Ad_KL" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Nath_2021_Ad_KL').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_Ad_KL').style.display='none'">
 </div>
-
+<div id="OVERLAY_Abstract_Nath_2020_TDgPC" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_Abstract_2020_TDgPC').style.display='none'">
+</div>
+<div id="OVERLAY_Abstract_Nath_2019_IPC_Non_Gauss" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_2019_IPC_Non_Gauss').style.display='none'">
+</div>
+<div id="OVERLAY_Abstract_Nath_2019_IPC_Gauss" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_2019_IPC_Gauss').style.display='none'">
+</div>
 
 
 <!-- Overlay CITE -->
@@ -624,6 +659,15 @@ Polynomial Chaos (PC) is one of the popular methods for approximate evaluation o
 </div>
 <div id="OVERLAY_CITE_Nath_2021_Ad_KL" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Nath_2021_Ad_KL').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_Ad_KL').style.display='none'">
+</div>
+<div id="OVERLAY_CITE_Nath_2020_TDgPC" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2020_TDgPC').style.display='none'">
+</div>
+<div id="OVERLAY_CITE_Nath_2019_IPC_Non_Gauss" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Non_Gauss').style.display='none'">
+</div>
+<div id="OVERLAY_CITE_Nath_2019_IPC_Gauss" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Gauss').style.display='none'">
 </div>
 
 
