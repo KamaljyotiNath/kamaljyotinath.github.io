@@ -480,7 +480,6 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('CITE_Nath_2023').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='none'" 
           style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
-  
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre id="CITE_text_Nath_2023" style="font-size: 12px;" style="color:blue;">
 @article{Nath_2023,
