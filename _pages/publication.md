@@ -32,7 +32,7 @@ button:hover {
   color: white;
 }  
 
-.class_1 {background-color: #94e5ff; border-radius: 8px; color: black; font-size: 12px;} /* #94e5ff,  Blue  #008CBA*/
+.class_1 {background-color: #94e5ff; border-radius: 8px; color: black; font-size: 18px;} /* #94e5ff,  Blue  #008CBA*/
 .red {background-color: #f44336;} /* Red */ 
 .gray {background-color: #e7e7e7; color: black;} /* Gray */ 
 
