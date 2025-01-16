@@ -29,9 +29,10 @@ body {
 }
 button:hover {
   background-color: #008CBA;
+  color: white;
 }  
 
-.class_1 {background-color: #4682B4; border-radius: 8px; color: white;} /* #94e5ff,  Blue  #008CBA*/
+.class_1 {background-color: #4682B4; border-radius: 8px; color: black;} /* #94e5ff,  Blue  #008CBA*/
 .red {background-color: #f44336;} /* Red */ 
 .gray {background-color: #e7e7e7; color: black;} /* Gray */ 
 
@@ -98,7 +99,7 @@ function myFunction() {
 <a id="top"></a>
 <a target="_blank" rel="noopener noreferrer" href = "https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en"> Google Scholar profile </a>
 
-* *Contributed equally
+<!-- * *Contributed equally -->
 
 <!-- PRIPRINTS -->
 <a id="Preprints"></a>
@@ -199,34 +200,16 @@ function myFunction() {
   
 <li>
 <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683.
+    <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683. </p>
+  <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Nath_2023').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='block'" class="class_1">
+      Abstract
+    </button>  
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1038/s41598-023-39989-4"> <button class="class_1">Journal-Open Access</button></a>
-  <button onclick="document.getElementById('CITE_Nath_2023').style.display='block'" class="class_1"> Cite </button>
-
-  <div id="CITE_Nath_2023" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-      <span onclick="document.getElementById('CITE_Nath_2023').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-      <pre style="font-size: 12px;" style="color:blue;">
-@article{Nath_2023,
-  title   = {Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines},
-  author  = {Nath, Kamaljyoti and Meng, Xuhui and Smith, Daniel J. and Karniadakis, George Em},
-  journal = {Scientific Reports},
-  year    = {2023},
-  volume  = {13},
-  pages   = {13683},
-  doi     = {10.1038/s41598-023-39989-4}	
-}
-      </pre>
-    </div>
+ <button onclick="document.getElementById('CITE_Nath_2023').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='block'" class="class_1">
+    Cite
+  </button> *Contributed equally
   </div>
-<details>
-<summary>Abstract</summary>
-<p style='text-align: justify;'>
-This paper presents a physics-informed neural network (PINN) approach for monitoring the health of diesel engines. The aim is to evaluate the engine dynamics, identify unknown parameters in a “mean value” model, and anticipate maintenance requirements. The PINN model is applied to diesel engines with a variable-geometry turbocharger and exhaust gas recirculation, using measurement data of selected state variables. The results demonstrate the ability of the PINN model to predict simultaneously both unknown parameters and dynamics accurately with both clean and noisy data, and the importance of the self-adaptive weight in the loss function for faster convergence. The input data for these simulations are derived from actual engine running conditions, while the outputs are simulated data, making this a practical case study of PINN’s ability to predict real-world dynamical systems. The mean value model of the diesel engine incorporates empirical formulae to represent certain states, but these formulae may not be generalizable to other engines. To address this, the study considers the use of deep neural networks (DNNs) in addition to the PINN model. The DNNs are trained using laboratory test data and are used to model the engine-specific empirical formulae in the mean value model, allowing for a more flexible and adaptive representation of the engine’s states. In other words, the mean value model uses both the PINN model and the DNNs to represent the engine’s states, with the PINN providing a physics-based understanding of the engine’s overall dynamics and the DNNs offering a more engine-specific and adaptive representation of the empirical formulae. By combining these two approaches, the study aims to offer a comprehensive and versatile approach to monitoring the health and performance of diesel engines.
-</p>
-</details> 
-</p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
@@ -492,9 +475,29 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 <button onclick="copyCITE('CITE_text_Liu_2022_Causality')" style="margin-top: 10px;">Copy Cite</button>
   </div>
 </div> 
-
-
-
+<!-- --------------------------------------------- -->
+<div id="CITE_Nath_2023" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('CITE_Nath_2023').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+  
+      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+      <pre id="CITE_text_Nath_2023" style="font-size: 12px;" style="color:blue;">
+@article{Nath_2023,
+  title   = {Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines},
+  author  = {Nath, Kamaljyoti and Meng, Xuhui and Smith, Daniel J. and Karniadakis, George Em},
+  journal = {Scientific Reports},
+  year    = {2023},
+  volume  = {13},
+  pages   = {13683},
+  doi     = {10.1038/s41598-023-39989-4}	
+}
+      </pre>
+      <button onclick="document.getElementById('CITE_Nath_2023').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Nath_2023')" style="margin-top: 10px;">Copy Cite</button>
+    </div>
+  </div>
+<!-- --------------------------------------------- -->
 
 
 
@@ -544,6 +547,21 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
   </div>
 </div>
 <!-- --------------------------------------------- -->
+<div id="Abstract_Nath_2023" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h2 style="font-size: 18px; color: blue;"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines</h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p style="font-size: 16px; color: blue; text-align: justify;">
+      This paper presents a physics-informed neural network (PINN) approach for monitoring the health of diesel engines. The aim is to evaluate the engine dynamics, identify unknown parameters in a “mean value” model, and anticipate maintenance requirements. The PINN model is applied to diesel engines with a variable-geometry turbocharger and exhaust gas recirculation, using measurement data of selected state variables. The results demonstrate the ability of the PINN model to predict simultaneously both unknown parameters and dynamics accurately with both clean and noisy data, and the importance of the self-adaptive weight in the loss function for faster convergence. The input data for these simulations are derived from actual engine running conditions, while the outputs are simulated data, making this a practical case study of PINN’s ability to predict real-world dynamical systems. The mean value model of the diesel engine incorporates empirical formulae to represent certain states, but these formulae may not be generalizable to other engines. To address this, the study considers the use of deep neural networks (DNNs) in addition to the PINN model. The DNNs are trained using laboratory test data and are used to model the engine-specific empirical formulae in the mean value model, allowing for a more flexible and adaptive representation of the engine’s states. In other words, the mean value model uses both the PINN model and the DNNs to represent the engine’s states, with the PINN providing a physics-based understanding of the engine’s overall dynamics and the DNNs offering a more engine-specific and adaptive representation of the empirical formulae. By combining these two approaches, the study aims to offer a comprehensive and versatile approach to monitoring the health and performance of diesel engines.
+    </p>
+    <button onclick="document.getElementById('Abstract_Nath_2023').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
+
+
 
 
 
@@ -572,6 +590,14 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 </div>
 <div id="OVERLAY_CITE_Liu_2022_Causality" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='none'">
+</div>
+
+<!-- Overlay -->
+<div id="OVERLAY_Abstract_Nath_2023" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Nath_2023').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'">
+</div>
+<div id="OVERLAY_CITE_Nath_2023" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Nath_2023').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='none'">
 </div>
 
 
