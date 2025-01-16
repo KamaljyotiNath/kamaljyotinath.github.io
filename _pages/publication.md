@@ -16,7 +16,7 @@ body {
 }
 
 .button {
-  background-color: #4682B4;
+  background-color: #008CBA;
   color: white;
   border: none;
   padding: 15px 32px;
@@ -32,7 +32,7 @@ button:hover {
   color: white;
 }  
 
-.class_1 {background-color: #008CBA; border-radius: 8px; color: black; font-size: 12px;} /* #94e5ff,  Blue  #008CBA*/
+.class_1 {background-color: #94e5ff; border-radius: 8px; color: black; font-size: 12px;} /* #94e5ff,  Blue  #008CBA*/
 .red {background-color: #f44336;} /* Red */ 
 .gray {background-color: #e7e7e7; color: black;} /* Gray */ 
 
@@ -492,8 +492,8 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
   keywords = {Stochastic Finite Element Method, Karhunen–Loève expansion, Polynomial Chaos expansion, Polynomial Dimensional Decomposition, Iterative Polynomial Chaos}
 }
 </pre>
-<button onclick="document.getElementById('CITE_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_CITE_2021_IPDD').style.display='none'" style="margin-top: 10px;">Close</button>
-<button onclick="copyCITE('CITE_text_2021_IPDD')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+<button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_IPDD').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Nath_2021_IPDD')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
 </div>
 </div>
 <!-- --------------------------------------------- -->
