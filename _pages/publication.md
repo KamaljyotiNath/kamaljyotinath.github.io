@@ -415,7 +415,7 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 }
 </pre>
   <button onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
-<button onclick="copyCITE('CITE_text_Mariappan_2024_PINN')" style="margin-top: 10px;">Copy Cite</button>
+<button onclick="copyCITE('CITE_text_Mariappan_2024_PINN')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
 </div>
 </div>
 <!-- --------------------------------------------- -->
@@ -439,7 +439,7 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 }   
 </pre>
 <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" style="margin-top: 10px;">Close</button>
-<button onclick="copyCITE('CITE_text_Felipe_2024_PINN')" style="margin-top: 10px;">Copy Cite</button>
+<button onclick="copyCITE('CITE_text_Felipe_2024_PINN')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
 </div>
 </div>
 <!-- --------------------------------------------- -->
@@ -463,7 +463,7 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 }  
     </pre>
     <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='none'" style="margin-top: 10px;">Close</button>
-<button onclick="copyCITE('CITE_text_Liu_2022_Causality')" style="margin-top: 10px;">Copy Cite</button>
+<button onclick="copyCITE('CITE_text_Liu_2022_Causality')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
   </div>
 </div> 
 <!-- --------------------------------------------- -->
@@ -484,7 +484,7 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 }
       </pre>
       <button onclick="document.getElementById('CITE_Nath_2023').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='none'" style="margin-top: 10px;">Close</button>
-<button onclick="copyCITE('CITE_text_Nath_2023')" style="margin-top: 10px;">Copy Cite</button>
+<button onclick="copyCITE('CITE_text_Nath_2023')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
     </div>
   </div>
 <!-- --------------------------------------------- -->
