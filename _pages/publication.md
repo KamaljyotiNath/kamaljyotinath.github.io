@@ -665,8 +665,8 @@ function copyCITE(abstractId) {
   const abstractElement = document.getElementById(abstractId);
 
   if (!abstractElement) {
-    console.error('Abstract element not found!');
-    alert('Abstract element not found!');
+    console.error('Cite not copied!');
+    alert('Copy error, Select and copy manually!');
     return;
   }
 
