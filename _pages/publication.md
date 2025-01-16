@@ -200,6 +200,21 @@ function myFunction() {
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
 <p style='text-align: justify;'>
+<b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2022) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954.</p>
+<div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Nath_2022_Ad_KL').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2022_Ad_KL').style.display='block'" class="class_1">
+      Abstract
+    </button>  
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1007/s00366-021-01326-6"> <button class="class_1">Journal</button></a>
+  <button onclick="document.getElementById('CITE_Nath_2022_Ad_KL').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2022_Ad_KL').style.display='block'" class="class_1">
+    Cite
+  </button>
+  </div>
+</li>
+
+<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
+<li>
+<p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159. </p>
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='block'" class="class_1">
@@ -212,20 +227,7 @@ function myFunction() {
   </div>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
-<li>
-<p style='text-align: justify;'>
-<b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954.</p>
-<div style="display: flex; gap: 5px; margin-bottom: 20px;">
-  <button onclick="document.getElementById('Abstract_Nath_2021_Ad_KL').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2021_Ad_KL').style.display='block'" class="class_1">
-      Abstract
-    </button>  
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1007/s00366-021-01326-6"> <button class="class_1">Journal</button></a>
-  <button onclick="document.getElementById('CITE_Nath_2021_Ad_KL').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2021_Ad_KL').style.display='block'" class="class_1">
-    Cite
-  </button>
-  </div>
-</li>
-<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
+
 <li>
   <p style='text-align: justify;'>
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596. </p>
@@ -376,6 +378,27 @@ function myFunction() {
 <button onclick="copyCITE('CITE_text_Nath_2023')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
     </div>
   </div>
+<!-- --------------------------------------------- -->
+<div id="CITE_Nath_2022_Ad_KL" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Nath_2022_Ad_KL').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2022_Ad_KL').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+<pre id="CITE_text_Nath_2021_Ad_KL" style="font-size: 12px;" style="color:blue;">
+@article{Nath_2022_Ad_KL,
+  title={An adaptive scheme for random field discretization using KL expansion},
+  author={Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
+  journal={Engineering with Computers},
+  pages={1--18},
+  year={2022},
+  publisher={Springer},
+  doi = {https://doi.org/10.1007/s00366-021-01326-6}
+}
+</pre>
+<button onclick="document.getElementById('CITE_Nath_2022_Ad_KL').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2022_Ad_KL').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Nath_2022_Ad_KL')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+</div>
+</div>
 <!-- --------------------------------------------- -->
 <div id="CITE_Nath_2021_IPDD" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
@@ -537,6 +560,20 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 </div>
 
 <!-- --------------------------------------------- -->
+<div id="Abstract_Nath_2022_Ad_KL" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Nath_2022_Ad_KL').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2022_Ad_KL').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h2 style="font-size: 18px; color: blue;"> An adaptive scheme for random field discretization using KL expansion </h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p style="font-size: 16px; color: blue; text-align: justify;">
+With the increase in computational facilities, interest in probabilistic analysis of engineering structures are observed to grow for a realistic assessment of physical systems. While the probabilistic analyses are generally carried out considering random variable models of physical parameters, a spatially varying random field model is more realistic. A discretization method converts the continuous parameter random field to a set of random variables. Truncated Karhunen–Loève (KL) expansion is one of the popular methods for the discretization of a random field. An accurate discretization can be achieved by considering a fine mesh along with a large number of terms. However, an increase in the number of elements and/or inclusion of more terms leads to an increase in computational cost. It is also found that only an increase in the number of terms in the expansion or number of elements alone does not provide an accurate representation of the random field. An adaptive discretization strategy is presented, which will suitably discretize the concerned domain while ensuring that both global and local level errors are kept within the prescribed limit.
+    </p>
+    <button onclick="document.getElementById('Abstract_Nath_2022_Ad_KL').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2022_Ad_KL').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
+<!-- --------------------------------------------- -->
 <div id="Abstract_Nath_2021_IPDD" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='none'" 
@@ -551,20 +588,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
   </div>
 </div>
 
-<!-- --------------------------------------------- -->
-<div id="Abstract_Nath_2021_Ad_KL" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-  <div style="position: relative; margin: 10px; padding: 10px;">
-    <span onclick="document.getElementById('Abstract_Nath_2021_Ad_KL').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_Ad_KL').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
-    <h2 style="font-size: 18px; color: blue;"> An adaptive scheme for random field discretization using KL expansion </h2>
-    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
-    <p style="font-size: 16px; color: blue; text-align: justify;">
-With the increase in computational facilities, interest in probabilistic analysis of engineering structures are observed to grow for a realistic assessment of physical systems. While the probabilistic analyses are generally carried out considering random variable models of physical parameters, a spatially varying random field model is more realistic. A discretization method converts the continuous parameter random field to a set of random variables. Truncated Karhunen–Loève (KL) expansion is one of the popular methods for the discretization of a random field. An accurate discretization can be achieved by considering a fine mesh along with a large number of terms. However, an increase in the number of elements and/or inclusion of more terms leads to an increase in computational cost. It is also found that only an increase in the number of terms in the expansion or number of elements alone does not provide an accurate representation of the random field. An adaptive discretization strategy is presented, which will suitably discretize the concerned domain while ensuring that both global and local level errors are kept within the prescribed limit.
-    </p>
-    <button onclick="document.getElementById('Abstract_Nath_2021_Ad_KL').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_Ad_KL').style.display='none'" style="margin-top: 
- 10px;">Close</button>
-  </div>
-</div>
+
 
 
 <!-- --------------------------------------------- -->
@@ -624,11 +648,11 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 </div>
 <div id="OVERLAY_Abstract_Nath_2023" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Nath_2023').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'">
 </div>
+<div id="OVERLAY_Abstract_Nath_2022_Ad_KL" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Nath_2022_Ad_KL').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2022_Ad_KL').style.display='none'">
+</div>
 <div id="OVERLAY_Abstract_Nath_2021_IPDD" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='none'">
-</div>
-<div id="OVERLAY_Abstract_Nath_2021_Ad_KL" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Nath_2021_Ad_KL').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_Ad_KL').style.display='none'">
 </div>
 <div id="OVERLAY_Abstract_Nath_2020_TDgPC" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2020_TDgPC').style.display='none'">
@@ -654,11 +678,11 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 <div id="OVERLAY_CITE_Nath_2023" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Nath_2023').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='none'">
 </div>
+<div id="OVERLAY_CITE_Nath_2022_Ad_KL" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Nath_2022_Ad_KL').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2022_Ad_KL').style.display='none'">
+</div>
 <div id="OVERLAY_CITE_Nath_2021_IPDD" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_IPDD').style.display='none'">
-</div>
-<div id="OVERLAY_CITE_Nath_2021_Ad_KL" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('CITE_Nath_2021_Ad_KL').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_Ad_KL').style.display='none'">
 </div>
 <div id="OVERLAY_CITE_Nath_2020_TDgPC" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2020_TDgPC').style.display='none'">
