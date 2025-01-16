@@ -215,12 +215,6 @@ function myFunction() {
     Cite
   </button>
   </div>
-<details>
-<summary>Abstract</summary>
-<p style='text-align: justify;'>
-One of the major difficulties in solving stochastic mechanics problems is the curse of dimensionality, where an exponential increase in the dimension of the problem is encountered with the increase in the number of random variables and/or order of expansion considered in any approximation. A prominent method in addressing the curse of dimensionality is ANOVA dimension Decomposition (ADD), which represents a mathematical function with multiple lower variate functions. These lower variate functions are represented using orthogonal polynomials, which yields Polynomial Dimensional Decomposition (PDD). In recent articles, the authors proposed an Iterative Polynomial Chaos (ImPC) based method for the solution of structural mechanics problems, where computational efficacy of ImPC was demonstrated against Polynomial Chaos (PC). In ImPC, the problems are solved iteratively using smaller sizes of PC expansions. Thus, it reduces the curse of dimensionality of PC expansion. The PDD reduces the size of the system matrix by considering a fewer number of random variables at a time, while ImPC can be considered to solve each components of PDD iteratively so that a converged solution can be achieved without increasing the order of expansion, which is termed as iterative PDD in the present study. Thus, the overall convergence can be achieved with a lesser size of the system matrix, which enables to perform analyses with a lesser computational facility. Further, the stiffness matrix size can be reduced by considering the random field at Gauss points instead of the mid point. Numerical studies with both Gaussian and non-Gaussian random field of Young’s modulus are conducted, and computational efficiency of the iterative PDD is compared with that of PDD, ImPC, and first order perturbation method. The iterative PDD is observed to be computationally less demanding and exhibits reduced dimensional curse.
-</p>
-</details> 
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
