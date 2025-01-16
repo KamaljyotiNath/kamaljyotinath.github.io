@@ -233,37 +233,16 @@ function myFunction() {
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
   <p style='text-align: justify;'>
-    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596.
+    <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596. </p>
+<div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2020_TDgPC').style.display='block'" class="class_1">
+      Abstract
+    </button>  
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2020.109596"> <button class="class_1">Journal</button></a>
-  <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'" class="class_1"> Cite </button>
-
-  <div id="CITE_Nath_2020_Long" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-      <span onclick="document.getElementById('CITE_Nath_2020_Long').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
-      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-      <pre style="font-size: 12px;" style="color:blue;">
-@article{Nath_2020_Long,
-  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
-  title = {Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos},
-  journal = {Journal of Computational Physics},
-  volume = {418},
-  pages = {109596},
-  year = {2020},
-  issn = {0021-9991},
-  doi = {https://doi.org/10.1016/j.jcp.2020.109596},
-  url = {https://www.sciencedirect.com/science/article/pii/S0021999120303703},
-  keywords = {Stochastic finite element method, Karhunen-Loève expansion, Polynomial chaos expansion, Stochastic dynamics, Time dependent generalized polynomial chaos}
- }
-      </pre>
-    </div>
+  <button onclick="document.getElementById('CITE_Nath_2021_TDgPC').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2020_TDgPC').style.display='block'" class="class_1">
+    Cite
+  </button>
   </div>
-<details>
-<summary>Abstract</summary>
-<p style='text-align: justify;'>
-Polynomial Chaos (PC) is one of the popular methods for approximate evaluation of responses of stochastic structural mechanics problems. In the case of a structural system under dynamic loading, the PC method is combined with a time integration scheme. The PC method with Galerkin projection converts the stochastic PDE to a set of simultaneous deterministic PDE, which can be solved using any standard time integration scheme. However, the convergence of responses is known to fail for long duration time integration problem due to the development of unacceptable error in calculated response. The probability density functions of the responses are not of constant type as the time progresses. However, in the case of generalized PC (gPC), these are approximated using initially considered gPC, thus loses its efficiency. Time-dependent general polynomial chaos (TDgPC) can be considered to overcome these difficulties, where polynomials are generated on the fly to match with the pdf of the responses. The present study considered an investigation of structural mechanics responses with both Gaussian and non-Gaussian random system properties under dynamic loading using TDgPC. An adaptive updation scheme based on the RMS value of the coefficients of PC expansion is investigated for a proper updation of PC expansion. The curse of dimensionality of PC expansion is addressed by considering only the dominant components of the responses evaluated using KL expansion. Further, starting with lower-order PC, the order of PC expansion is increased only after the first updation, thus reducing computational complexities.
-</p>
-</details> 
-  </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
@@ -470,7 +449,32 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 </div>
 </div>
 <!-- --------------------------------------------- -->
+<div id="CITE_Nath_2020_TDgPC" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2020_TDgPC').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+<pre id="CITE_text_Nath_2020_TDgPC" style="font-size: 12px;" style="color:blue;">
+@article{Nath_2020_Long,
+  author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
+  title = {Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos},
+  journal = {Journal of Computational Physics},
+  volume = {418},
+  pages = {109596},
+  year = {2020},
+  issn = {0021-9991},
+  doi = {https://doi.org/10.1016/j.jcp.2020.109596},
+  url = {https://www.sciencedirect.com/science/article/pii/S0021999120303703},
+  keywords = {Stochastic finite element method, Karhunen-Loève expansion, Polynomial chaos expansion, Stochastic dynamics, Time dependent generalized polynomial chaos}
+ }
+      </pre>
+  <button onclick="document.getElementById('CITE_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2020_TDgPC').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Nath_2020_TDgPC')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+    </div>
+  </div>
 
+
+  
 
 <!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
 <!-- ----------------Abstract------------------ -->
@@ -560,6 +564,23 @@ With the increase in computational facilities, interest in probabilistic analysi
  10px;">Close</button>
   </div>
 </div>
+
+
+<!-- --------------------------------------------- -->
+<div id="Abstract_Nath_2020_TDgPC" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2020_TDgPC').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+    <h2 style="font-size: 18px; color: blue;"> Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos </h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p style="font-size: 16px; color: blue; text-align: justify;">
+Polynomial Chaos (PC) is one of the popular methods for approximate evaluation of responses of stochastic structural mechanics problems. In the case of a structural system under dynamic loading, the PC method is combined with a time integration scheme. The PC method with Galerkin projection converts the stochastic PDE to a set of simultaneous deterministic PDE, which can be solved using any standard time integration scheme. However, the convergence of responses is known to fail for long duration time integration problem due to the development of unacceptable error in calculated response. The probability density functions of the responses are not of constant type as the time progresses. However, in the case of generalized PC (gPC), these are approximated using initially considered gPC, thus loses its efficiency. Time-dependent general polynomial chaos (TDgPC) can be considered to overcome these difficulties, where polynomials are generated on the fly to match with the pdf of the responses. The present study considered an investigation of structural mechanics responses with both Gaussian and non-Gaussian random system properties under dynamic loading using TDgPC. An adaptive updation scheme based on the RMS value of the coefficients of PC expansion is investigated for a proper updation of PC expansion. The curse of dimensionality of PC expansion is addressed by considering only the dominant components of the responses evaluated using KL expansion. Further, starting with lower-order PC, the order of PC expansion is increased only after the first updation, thus reducing computational complexities.
+    </p>
+    <button onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2020_TDgPC').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
+
 
 <!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
 <!-- ------------ Overlay ---------- -->
