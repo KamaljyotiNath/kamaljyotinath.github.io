@@ -234,7 +234,7 @@ function myFunction() {
       Abstract
     </button>  
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2020.109596"> <button class="class_1">Journal</button></a>
-  <button onclick="document.getElementById('CITE_Nath_2021_TDgPC').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2020_TDgPC').style.display='block'" class="class_1">
+  <button onclick="document.getElementById('CITE_Nath_2020_TDgPC').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2020_TDgPC').style.display='block'" class="class_1">
     Cite
   </button>
   </div>
@@ -407,7 +407,7 @@ function myFunction() {
           style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Nath_2020_TDgPC" style="font-size: 12px;" style="color:blue;">
-@article{Nath_2020_Long,
+@article{Nath_2020_TDgPC,
   author = {Kamaljyoti Nath and Anjan Dutta and Budhaditya Hazra},
   title = {Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos},
   journal = {Journal of Computational Physics},
@@ -631,13 +631,13 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
      onclick="document.getElementById('Abstract_Nath_2021_Ad_KL').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_Ad_KL').style.display='none'">
 </div>
 <div id="OVERLAY_Abstract_Nath_2020_TDgPC" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_Abstract_2020_TDgPC').style.display='none'">
+     onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2020_TDgPC').style.display='none'">
 </div>
 <div id="OVERLAY_Abstract_Nath_2019_IPC_Non_Gauss" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_2019_IPC_Non_Gauss').style.display='none'">
+     onclick="document.getElementById('Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'">
 </div>
 <div id="OVERLAY_Abstract_Nath_2019_IPC_Gauss" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_2019_IPC_Gauss').style.display='none'">
+     onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Gauss').style.display='none'">
 </div>
 
 
