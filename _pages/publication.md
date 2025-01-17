@@ -159,7 +159,7 @@ function myFunction() {
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
 <p class="p_main"> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. </p>
-  <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='block'" class="class_1"> 
     Abstract
   </button>
@@ -172,7 +172,7 @@ function myFunction() {
 <li>
 <p class="p_main">
   Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. </p>
-  <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
     <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1">  
       Abstract
     </button>
@@ -187,7 +187,7 @@ function myFunction() {
 <li>
 <p class="p_main"> 
   Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228.</p>
-  <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='block'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='block'" class="class_1">
       Abstract
     </button>  
@@ -204,7 +204,7 @@ function myFunction() {
 <li>
 <p class="p_main">
     <b>Kamaljyoti Nath</b>*, Xuhui Meng*, Daniel J Smith, George Em Karniadakis (2023) Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines. <i>Scientific Reports</i>, 13, 13683. </p>
-  <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2023').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='block'" class="class_1">
       Abstract
     </button>  
@@ -218,7 +218,7 @@ function myFunction() {
 <li>
 <p class="p_main">
 <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2022) An adaptive scheme for random field discretization using KL expansion. <i>Engineering with Computers</i>, 38, 2937–2954.</p>
-<div style="display: flex; gap: 5px; margin-bottom: 20px;">
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2022_Ad_KL').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2022_Ad_KL').style.display='block'" class="class_1">
       Abstract
     </button>  
@@ -233,7 +233,7 @@ function myFunction() {
 <li>
 <p class="p_main">
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021) Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness. <i>Probabilistic Engineering Mechanics</i>, 66, 103159. </p>
-  <div style="display: flex; gap: 5px; margin-bottom: 20px;">
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='block'" class="class_1">
       Abstract
     </button>  
@@ -248,7 +248,7 @@ function myFunction() {
 <li>
   <p class="p_main">
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2020) Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos. <i>Journal of Computational Physics</i>, 418, 109596. </p>
-<div style="display: flex; gap: 5px; margin-bottom: 20px;">
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2020_TDgPC').style.display='block'" class="class_1">
       Abstract
     </button>  
@@ -261,7 +261,7 @@ function myFunction() {
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
 <p class="p_main"> <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness.  <i>International Journal for Numerical Methods in Engineering</i>, 119(11), 1126-1160. </p>
-<div style="display: flex; gap: 5px; margin-bottom: 20px;">
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2019_IPC_Non_Gauss').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1">
       Abstract
     </button>  
@@ -275,7 +275,7 @@ function myFunction() {
 <li> 
   <p class="p_main">
     <b>Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2019) An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property. <i> Journal of Computational Physics </i>, 390, 425-451. </p>
-<div style="display: flex; gap: 5px; margin-bottom: 20px;">
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Gauss').style.display='block'" class="class_1">
       Abstract
     </button>  
@@ -293,12 +293,14 @@ function myFunction() {
 <ol reversed="reversed"> <p style='text-align: justify;'>
 <li> <p class="p_main">  Amartya Dutta, <b> Kamaljyoti Nath</b> (2020). <a target="_blank" rel="noopener noreferrer" href ="https://doi.org/10.1007/978-981-16-3690-5_31"> Learning via Long Short-Term Memory (LSTM) Network for Predicting Strains in Railway Bridge Members Under Train Induced Vibration.</a> 2nd International Conference on Data Science, Machine Learning and Applications (ICDSMLA) 2020 (held virtually), Pune, India. In: Kumar A., Senatore S., Gunjan V.K. (eds) Lecture Notes in Electrical Engineering, vol 783 (pp. 351-361). Springer, Singapore. https://doi.org/10.1007/978-981-16-3690-5_31  </p> </li>
 </p>
+<br>
+<br>
 </ol> 
-
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
 <a href="#top" class="class_1"> <button class="class_1"> Back to top </button> </a> 
 <a href="#Book chapter" class="class_1"> <button class="class_1"> Back to Book chapter </button> </a> 
 <a href="#Journal" class="class_1"> <button class="class_1"> Back to Journals </button>  </a>
-
+</div>
 
     
 <!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
