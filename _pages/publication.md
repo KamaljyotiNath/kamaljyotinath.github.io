@@ -44,6 +44,14 @@ button:hover {
     }
   
 p.p_class_1 {
+  line-height: 5;
+  font-size: 16px;
+  color: blue;
+  text-align: justify;
+}
+p.p_main {
+  margin: 0pt;
+  padding: 0pt;
   line-height: 2;
 }
 
@@ -143,7 +151,7 @@ function myFunction() {
 <ol reversed="reversed" start="9"> <p style='text-align: justify;'>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-<p style='text-align: justify;'> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. </p>
+<p style='text-align: justify;' class="p_main"> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. </p>
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='block'" class="class_1"> 
     Abstract
@@ -155,7 +163,7 @@ function myFunction() {
 </li>  
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->  
 <li>
-<p style='text-align: justify;'>
+<p style='text-align: justify;' class="p_main">
   Felipe de Castro Teixeira Carvalho, <b>Kamaljyoti Nath</b>, Alberto Luiz Serpa, George Em Karniadakis (2024), Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109378. </p>
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
     <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1">  
@@ -170,7 +178,7 @@ function myFunction() {
 </li> 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->  
 <li>
-<p style='text-align: justify;' > 
+<p style='text-align: justify;' class="p_main"> 
   Lizuo Liu, <b>Kamaljyoti Nath</b>, Wei Cai (2024), A Causality-DeepONet for Causal Responses of Linear Dynamical Systems. <i>Communications in Computational Physics</i>, 35 (5), 1194-1228.</p>
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='block'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='block'" class="class_1">
@@ -510,7 +518,7 @@ function myFunction() {
           style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
 <h2 style="font-size: 18px; color:blue;">Learning thermoacoustic interactions in combustors using a physics-informed neural network</h2>
 <h3 style="font-size: 18px; color:blue;">Abstract</h3>
-<p style="font-size: 16px; color: blue; text-align: justify;" class="p_class_1">
+<p class="p_class_1">
 Many gas turbine and rocket engines exhibit unwanted combustion instability at the experimental testing phase. Instability leads to large amplitude pressure oscillations and increased heat transfer damaging the engine. Data obtained during such tests can be used to prescribe appropriate engine modifications. In many tests, acoustic pressure is measured at few locations, and acoustic velocity is seldom measured. Physics-informed neural network (PINN) method is a potential remedy, by combining the experimental data and governing equations to reconstruct the acoustic field. We employ a PINN to investigate thermoacoustic interactions in a bluff body anchored flame combustor, representative of ramjet and gas turbine combustors. Acoustic pressure fluctuations at three locations and the total flame heat release rate serve as the measured data. The coupled parameterized model (governing equations) comprises the acoustic equations and the van der Pol oscillator for vortex shedding. We have the challenges of unknown initial/boundary conditions, absence of acoustic velocity measurements, and variation of the acoustic pressure amplitude in a long time scale due to the turbulent flame. Therefore, PINN requires novel enhancements to its training procedure. The enhancements (i) systematically adjusting the relative contribution of the various loss terms, (ii) inclusion of a loss term associated with acoustic velocity, and (iii) time series segmentation, are respectively implemented. PINN performs well in generating the acoustic field and estimating the model parameters. Therefore, this PINN method can serve as an effective tool to improve existing or design new thermoacoustically stable and structurally efficient combustors.
 </p>
 <button onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'" style="margin-top: 
@@ -524,7 +532,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
           style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
     <h2 style="font-size: 18px; color: blue;">Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks</h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
-    <p style="font-size: 16px; color: blue; text-align: justify;" class="p_class_1">
+    <p class="p_class_1">
       Electrical submersible pumps (ESPs) are prevalently utilized as artificial lift systems in the oil and gas industry. These pumps frequently encounter multiphase flows comprising a complex mixture of hydrocarbons, water, and sediments. Such mixtures lead to the formation of emulsions, characterized by an effective viscosity distinct from that of the individual phases. Traditional multiphase flow meters, employed to assess these conditions, are burdened by high operational costs and susceptibility to degradation. To this end, this study introduces a physics-informed neural network (PINN) model designed to indirectly estimate the fluid properties, dynamic states, and crucial parameters of an ESP system. A comprehensive structural and practical identifiability analysis was performed to delineate the subset of parameters that can be reliably estimated through the use of intake and discharge pressure measurements from the pump. The efficacy of the PINN model was validated by estimating the unknown states and parameters using these pressure measurements as input data. Furthermore, the performance of the PINN model was benchmarked against the particle filter method utilizing both simulated and experimental data across varying water content scenarios. The comparative analysis suggests that the PINN model holds significant potential as a viable alternative to conventional multiphase flow meters, offering a promising avenue for enhancing operational efficiency and reducing costs in ESP applications.
     </p>
     <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" style="margin-top: 
