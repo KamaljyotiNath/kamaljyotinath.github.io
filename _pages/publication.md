@@ -46,9 +46,7 @@ p{
   margin:0;
   padding:0;
 }
-p.class_1 {
-  margin:5;
-  padding:5;
+.class_1 {
   line-height: 1.25;
 }
 
