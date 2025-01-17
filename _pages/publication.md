@@ -132,7 +132,7 @@ function myFunction() {
 <button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> Cite </button>
 <div id="CITE_Nath_2021_SFEM_Chapter" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
     <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-      <span onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;">&times;</span>
+      <span onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;"> </span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre style="font-size: 12px;" style="color:blue;">
 @incollection{Nath_2021_SFEM_Chapter,
@@ -175,8 +175,8 @@ function myFunction() {
     <button onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='block'" class="class_1">  
       Abstract
     </button>
-    <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378"> <button class="class_1"> Journal </button> </a>
-    <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" ><button class="class_1"> arXiv </button> </a>
+    <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109378" class="class_1"> <button class="class_1"> Journal </button> </a>
+    <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2310.03001" class="class_1"><button class="class_1"> arXiv </button> </a>
     <button onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='block'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='block'" class="class_1">
     Cite
   </button>
@@ -190,8 +190,8 @@ function myFunction() {
   <button onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='block'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='block'" class="class_1">
       Abstract
     </button>  
-  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078"><button  class="class_1">Journal</button></a> 
-  <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" > <button class="class_1"> ResearchGate </button>  </a>   
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078" class="class_1"><button  class="class_1">Journal</button></a> 
+  <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" class="class_1"> <button class="class_1"> ResearchGate </button>  </a>   
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > <button  class="class_1">arXiv</button> </a> 
   <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='block'" class="class_1">
     Cite
@@ -207,7 +207,7 @@ function myFunction() {
   <button onclick="document.getElementById('Abstract_Nath_2023').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='block'" class="class_1">
       Abstract
     </button>  
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1038/s41598-023-39989-4"> <button class="class_1">Journal-Open Access</button></a>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1038/s41598-023-39989-4" class="class_1"> <button class="class_1">Journal-Open Access</button></a>
  <button onclick="document.getElementById('CITE_Nath_2023').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='block'" class="class_1">
     Cite
   </button> *Contributed equally
@@ -221,7 +221,7 @@ function myFunction() {
   <button onclick="document.getElementById('Abstract_Nath_2022_Ad_KL').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2022_Ad_KL').style.display='block'" class="class_1">
       Abstract
     </button>  
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1007/s00366-021-01326-6"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1007/s00366-021-01326-6" class="class_1"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2022_Ad_KL').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2022_Ad_KL').style.display='block'" class="class_1">
     Cite
   </button>
@@ -236,7 +236,7 @@ function myFunction() {
   <button onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='block'" class="class_1">
       Abstract
     </button>  
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.probengmech.2021.103159"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.probengmech.2021.103159" class="class_1"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2021_IPDD').style.display='block'" class="class_1">
     Cite
   </button>
@@ -251,7 +251,7 @@ function myFunction() {
   <button onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2020_TDgPC').style.display='block'" class="class_1">
       Abstract
     </button>  
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2020.109596"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2020.109596" class="class_1"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2020_TDgPC').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2020_TDgPC').style.display='block'" class="class_1">
     Cite
   </button>
@@ -264,7 +264,7 @@ function myFunction() {
   <button onclick="document.getElementById('Abstract_Nath_2019_IPC_Non_Gauss').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1">
       Abstract
     </button>  
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1002/nme.6086"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1002/nme.6086" class="class_1"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1">
     Cite
   </button>
@@ -278,7 +278,7 @@ function myFunction() {
   <button onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Gauss').style.display='block'" class="class_1">
       Abstract
     </button>  
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2019.04.014"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2019.04.014" class="class_1"> <button class="class_1">Journal</button></a>
   <button onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Gauss').style.display='block'" class="class_1">
     Cite
   </button>
@@ -294,9 +294,9 @@ function myFunction() {
 </p>
 </ol> 
 
-<a href="#top"> <button class="class_1"> Back to top </button> </a> 
-<a href="#Book chapter"> <button class="class_1"> Back to Book chapter </button> </a> 
-<a href="#Journal"> <button class="class_1"> Back to Journals </button>  </a>
+<a href="#top" class="class_1"> <button class="class_1"> Back to top </button> </a> 
+<a href="#Book chapter" class="class_1"> <button class="class_1"> Back to Book chapter </button> </a> 
+<a href="#Journal" class="class_1"> <button class="class_1"> Back to Journals </button>  </a>
 
 
     
@@ -353,7 +353,7 @@ function myFunction() {
 <div id="CITE_Liu_2022_Causality" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
     <pre id="CITE_text_Liu_2022_Causality" style="font-size: 12px;" style="color:blue;">
 @article{Liu_2022_Causality,
@@ -377,7 +377,7 @@ function myFunction() {
 <div id="CITE_Nath_2023" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('CITE_Nath_2023').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
       <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
       <pre id="CITE_text_Nath_2023" style="font-size: 12px;" style="color:blue;">
 @article{Nath_2023,
@@ -398,7 +398,7 @@ function myFunction() {
 <div id="CITE_Nath_2022_Ad_KL" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Nath_2022_Ad_KL').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2022_Ad_KL').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Nath_2021_Ad_KL" style="font-size: 12px;" style="color:blue;">
 @article{Nath_2022_Ad_KL,
@@ -419,7 +419,7 @@ function myFunction() {
 <div id="CITE_Nath_2021_IPDD" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_IPDD').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Nath_2021_IPDD" style="font-size: 12px;" style="color:blue;">
 @article{Nath_2021_IPDD,
@@ -443,7 +443,7 @@ function myFunction() {
 <div id="CITE_Nath_2020_TDgPC" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2020_TDgPC').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Nath_2020_TDgPC" style="font-size: 12px;" style="color:blue;">
 @article{Nath_2020_TDgPC,
@@ -467,7 +467,7 @@ function myFunction() {
 <div id="CITE_Nath_2019_IPC_Non_Gauss" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Non_Gauss').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Nath_2019_IPC_Non_Gauss" style="font-size: 12px;" style="color:blue;">
 @article{Nath_2019_IPC_Non_Gauss,
@@ -493,7 +493,7 @@ function myFunction() {
 <div id="CITE_Nath_2019_IPC_Gauss" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Gauss').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Nath_2019_IPC_Gauss" style="font-size: 12px;" style="color:blue;">
 @article{Nath_2019_IPC_Gauss,
@@ -521,7 +521,7 @@ function myFunction() {
 <div id="Abstract_Mariappan_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
 <h2 style="font-size: 18px; color:blue;">Learning thermoacoustic interactions in combustors using a physics-informed neural network</h2>
 <h3 style="font-size: 18px; color:blue;">Abstract</h3>
 <p class="p_class_1">
@@ -535,7 +535,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <div id="Abstract_Felipe_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h2 style="font-size: 18px; color: blue;">Learning characteristic parameters and dynamics of centrifugal pumps under multiphase flow using physics-informed neural networks</h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
     <p class="p_class_1">
@@ -550,7 +550,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <div id="Abstract_Liu_2022_Causality" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('Abstract_Liu_2022_Causality').style.display='none'; document.getElementById('OVERLAY_Abstract_Liu_2022_Causality').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h2 style="font-size: 18px; color: blue;"> A Causality-DeepONet for Causal Responses of Linear Dynamical Systems</h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
     <p class="p_class_1">
@@ -564,7 +564,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <div id="Abstract_Nath_2023" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('Abstract_Nath_2023').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h2 style="font-size: 18px; color: blue;"> Physics-informed neural networks for predicting gas flow dynamics and unknown parameters in diesel engines</h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
     <p class="p_class_1">
@@ -579,7 +579,7 @@ Many gas turbine and rocket engines exhibit unwanted combustion instability at t
 <div id="Abstract_Nath_2022_Ad_KL" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('Abstract_Nath_2022_Ad_KL').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2022_Ad_KL').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h2 style="font-size: 18px; color: blue;"> An adaptive scheme for random field discretization using KL expansion </h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
     <p class="p_class_1">
@@ -593,7 +593,7 @@ With the increase in computational facilities, interest in probabilistic analysi
 <div id="Abstract_Nath_2021_IPDD" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('Abstract_Nath_2021_IPDD').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_IPDD').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h2 style="font-size: 18px; color: blue;"> Iterative Polynomial Dimensional Decomposition approach towards solution of structural mechanics problems with material randomness </h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
     <p class="p_class_1">
@@ -611,7 +611,7 @@ With the increase in computational facilities, interest in probabilistic analysi
 <div id="Abstract_Nath_2020_TDgPC" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('Abstract_Nath_2020_TDgPC').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2020_TDgPC').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h2 style="font-size: 18px; color: blue;"> Long duration response evaluation of linear structural system with random system properties using time dependent polynomial chaos </h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
     <p class="p_class_1">
@@ -625,7 +625,7 @@ Polynomial Chaos (PC) is one of the popular methods for approximate evaluation o
 <div id="Abstract_Nath_2019_IPC_Non_Gauss" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Non_Gauss').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h2 style="font-size: 18px; color: blue;"> An iterative polynomial chaos approach toward stochastic elastostatic structural analysis with non‐Gaussian randomness </h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
     <p class="p_class_1">
@@ -640,7 +640,7 @@ Stochastic analysis of structure with non-Gaussian material property and loading
 <div id="Abstract_Nath_2019_IPC_Gauss" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
   <div style="position: relative; margin: 10px; padding: 10px;">
     <span onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Gauss').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h2 style="font-size: 18px; color: blue;"> An iterative polynomial chaos approach for solution of structural mechanics problem with Gaussian material property </h2>
     <h3 style="font-size: 18px; color: blue;">Abstract</h3>
     <p class="p_class_1">
