@@ -86,7 +86,10 @@ p.p_main {
       z-index: 999;
     }
 
-  
+pre {
+    text-align: justify;
+    white-space: pre-line;
+  }  
   
 </style>
 
