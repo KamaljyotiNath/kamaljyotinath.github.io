@@ -15,11 +15,11 @@ body {
   color: white;
 }
 
-button {
+.button {
   background-color: #008CBA;
   color: white;
   border: none;
-  padding: 12px 20px;
+  /* padding: 12px 20px; */
   text-align: center;
   text-decoration: none;
   display: inline-block;
