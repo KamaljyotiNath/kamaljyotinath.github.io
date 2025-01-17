@@ -192,7 +192,7 @@ function myFunction() {
     </button>  
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078" class="class_1"><button  class="class_1">Journal</button></a> 
   <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" class="class_1"> <button class="class_1"> ResearchGate </button>  </a>   
-  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" > <button  class="class_1">arXiv</button> </a> 
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" class="class_1"> <button  class="class_1">arXiv</button> </a> 
   <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='block'" class="class_1">
     Cite
   </button>
