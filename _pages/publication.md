@@ -29,10 +29,16 @@ body {
 }
 button:hover {
   background-color: #4682B4;
+  border: none;
   color: white;
 }  
 
-.class_1 {background-color: #94e5ff; border-radius: 8px; color: black; font-size: 16px;} /* #94e5ff,  Blue  #008CBA*/
+.class_1 {
+  background-color: #94e5ff;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  font-size: 16px;} /* #94e5ff,  Blue  #008CBA*/
 
   details[open] summary {
       color: #FF5733;
