@@ -59,7 +59,8 @@ p.p_main {
   padding: 0pt;
   font-size: 16px;
   text-align: justify;
-  font-family: 'Courier New', monospace;
+  /*font-family: 'Courier New', monospace;*/
+  font-family: Verdana;
 }
 
 /* Styles for pop-ups */
