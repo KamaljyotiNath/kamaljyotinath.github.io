@@ -39,7 +39,7 @@ button:hover {
   border-radius: 8px;
   color: black;
   font-size: 14px;
-  width: 50px;} /* #94e5ff,  Blue  #008CBA*/
+  min-width: 50px;} /* #94e5ff,  Blue  #008CBA*/
 
   details[open] summary {
       color: #FF5733;
