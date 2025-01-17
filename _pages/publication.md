@@ -22,8 +22,8 @@ body {
   /* padding: 12px 20px; */
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
+  /* display: inline-block; */
+  font-size: 16px;
   margin: 2px 2px;
   /* ursor: pointer; */
 }
@@ -32,11 +32,7 @@ button:hover {
   color: white;
 }  
 
-button.class_1 {background-color: #94e5ff; border-radius: 8px; color: black; font-size: 12px;} /* #94e5ff,  Blue  #008CBA*/
-.red {background-color: #f44336;} /* Red */ 
-.gray {background-color: #e7e7e7; color: black;} /* Gray */ 
-
-
+.class_1 {background-color: #94e5ff; border-radius: 8px; color: black; font-size: 16px;} /* #94e5ff,  Blue  #008CBA*/
 
   details[open] summary {
       color: #FF5733;
