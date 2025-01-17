@@ -38,7 +38,7 @@ button:hover {
   border: none;
   border-radius: 8px;
   color: black;
-  font-size: 16px;} /* #94e5ff,  Blue  #008CBA*/
+  font-size: 14px;} /* #94e5ff,  Blue  #008CBA*/
 
   details[open] summary {
       color: #FF5733;
@@ -49,7 +49,7 @@ p.p_class_1 {
   margin: 5pt;
   padding: 5pt;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 18px;
   color: blue;
   text-align: justify;
   /*font-family: 'Courier New', monospace;*/
@@ -57,7 +57,7 @@ p.p_class_1 {
 p.p_main {
   margin: 0pt;
   padding: 0pt;
-  font-size: 16px;
+  font-size: 18px;
   text-align: justify;
   /*font-family: 'Courier New', monospace;*/
   /*font-family: Verdana;*/
@@ -162,8 +162,8 @@ function myFunction() {
   <button onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='block'" class="class_1"> 
     Abstract
   </button>
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388"> <button class="class_1">Journal</button></a>
-  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" ><button class="class_1"> arXiv </button></a>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2024.109388" class="class_1"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2401.00061" class="class_1"><button class="class_1"> arXiv </button></a>
   <button onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='block'" class="class_1"> Cite  </button>
   </div>
 </li>  
