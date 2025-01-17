@@ -42,14 +42,9 @@ button:hover {
       color: #FF5733;
     padding-bottom:-10;
     }
-p{
-  margin:0;
-  padding:0;
-}
+  
 p.p_class_1 {
-  margin:5;
-  padding:5;
-  line-height: 1.25;
+  line-height: 2;
 }
 
 /* Styles for pop-ups */
