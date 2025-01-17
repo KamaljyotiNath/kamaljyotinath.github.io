@@ -307,7 +307,7 @@ function myFunction() {
 <div id="CITE_Mariappan_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-weight: bold; float: right; cursor: pointer;"></span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Mariappan_2024_PINN" style="font-size: 12px;" style="color:blue;">
 @article{Mariappan_2024_PINN,
@@ -330,7 +330,7 @@ function myFunction() {
 <div id="CITE_Felipe_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Felipe_2024_PINN').style.display='none'" 
-          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;">&times;</span>
+          style="color: #aaa; font-weight: bold; float: right; cursor: pointer;"></span>
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Felipe_2024_PINN"  style="font-size: 12px;" style="color:blue;">
 @article{Felipe_2024_PINN,
