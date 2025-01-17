@@ -19,12 +19,12 @@ body {
   background-color: #008CBA;
   color: white;
   border: none;
-  padding: 15px 32px;
+  padding: 12px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 10px 4px;
+  margin: 10px 2px;
   /* ursor: pointer; */
 }
 button:hover {
@@ -50,6 +50,7 @@ p.p_class_1 {
   font-size: 16px;
   color: blue;
   text-align: justify;
+  font-family: 'Courier New', monospace;
 }
 p.p_main {
   margin: 0pt;
@@ -120,7 +121,7 @@ function myFunction() {
 <!-- BOOK CHAPTET -->
 <a id="Book chapter"></a>
 ### Book Chapters
-<ol reversed="reversed"> <pstyle='text-align: justify;'>
+<ol reversed="reversed"> <p style='text-align: justify;'>
 <li> 
   <p class="p_main">
     <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. 
