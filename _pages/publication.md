@@ -54,7 +54,7 @@ p.p_class_1 {
 p.p_main {
   margin: 0pt;
   padding: 0pt;
-  line-height: 1.15;
+  font-size: 12px;
   text-align: justify;
 }
 
