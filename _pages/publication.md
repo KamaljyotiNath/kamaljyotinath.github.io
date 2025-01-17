@@ -60,7 +60,7 @@ p.p_main {
   font-size: 16px;
   text-align: justify;
   /*font-family: 'Courier New', monospace;*/
-  font-family: Verdana;
+  /*font-family: Verdana;*/
 }
 
 /* Styles for pop-ups */
@@ -85,11 +85,6 @@ p.p_main {
       background-color: rgba(0, 0, 0, 0.5);
       z-index: 999;
     }
-
-pre {
-    text-align: justify;
-    white-space: pre-line;
-  }  
   
 </style>
 
@@ -162,7 +157,7 @@ function myFunction() {
 <ol reversed="reversed" start="9"> <p style='text-align: justify;'>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-<pre class="p_main"> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. </pre>
+<p class="p_main"> Sathesh Mariappan, <b>Kamaljyoti Nath</b>, George Em Karniadakis (2024), Learning thermoacoustic interactions in combustors using a physics-informed neural network. <i> Engineering Applications of Artificial Intelligence </i>, 138, 109388. </p>
   <div style="display: flex; gap: 5px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='block'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='block'" class="class_1"> 
     Abstract
