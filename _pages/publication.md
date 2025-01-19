@@ -36,8 +36,9 @@ button:hover {
 .class_1 {
   background-color: #94e5ff;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   color: black;
+  margin: 3px 3px;
   font-size: 16px;
   min-width: 60px;
   min-height: 20px;} /* #94e5ff,  Blue  #008CBA*/
@@ -212,7 +213,7 @@ function myFunction() {
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1038/s41598-023-39989-4" class="class_1"> <button class="class_1">Journal-Open Access</button></a>
  <button onclick="document.getElementById('CITE_Nath_2023').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='block'" class="class_1">
     Cite
-  </button> <span style="font-size: 14px;" > *Contributed equally  </span>
+  </button> <span style="font-size: 16px;" > *Contributed equally  </span>
   </div>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
