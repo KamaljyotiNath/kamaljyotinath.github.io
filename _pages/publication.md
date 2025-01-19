@@ -294,7 +294,6 @@ function myFunction() {
 <li> <p class="p_main">  Amartya Dutta, <b> Kamaljyoti Nath</b> (2020). <a target="_blank" rel="noopener noreferrer" href ="https://doi.org/10.1007/978-981-16-3690-5_31"> Learning via Long Short-Term Memory (LSTM) Network for Predicting Strains in Railway Bridge Members Under Train Induced Vibration.</a> 2nd International Conference on Data Science, Machine Learning and Applications (ICDSMLA) 2020 (held virtually), Pune, India. In: Kumar A., Senatore S., Gunjan V.K. (eds) Lecture Notes in Electrical Engineering, vol 783 (pp. 351-361). Springer, Singapore. https://doi.org/10.1007/978-981-16-3690-5_31  </p> </li>
 </p>
   
-<br>
 </ol> 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
 <a href="#top" class="class_1"> <button class="class_1"> Back to top </button> </a> 
