@@ -211,7 +211,7 @@ function myFunction() {
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1038/s41598-023-39989-4" class="class_1"> <button class="class_1" style="min-width : 200px;">Journal-Open Access</button></a>
  <button onclick="document.getElementById('CITE_Nath_2023').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='block'" class="class_1">
     Cite
-  </button> <span class="class_1"> *Contributed equally  </span>
+  </button> <span style="font-size: 14px;" class="class_1"> *Contributed equally  </span>
   </div>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
