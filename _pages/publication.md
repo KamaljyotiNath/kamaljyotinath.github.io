@@ -716,9 +716,8 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
 </div>
 
 
-{% include 'Background.md' %}
-{% include 'test.html' %}
-{% include test.html %}
+{% include_relative 'test.html' %}
+{% include_relative test.html %}
 
 
 <script>
