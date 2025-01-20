@@ -780,20 +780,16 @@ function copyCITE(abstractId) {
 </script>
 
 
-<script>
- function loadMarkdown(fileUrl, containerId) {
-      fetch(fileUrl)
-        .then(response => {
-          if (!response.ok) throw new Error('Failed to load file');
-          return response.text();
-        })
-        .then(markdownContent => {
-          const htmlContent = marked(markdownContent);  // Convert Markdown to HTML
-          document.getElementById(containerId).innerHTML = htmlContent;
-        })
-        .catch(error => console.error('Error loading Markdown:', error));
-    }
-  loadMarkdown(Background.md)
-</script>
+
+  <script>
+        // Fetch the Markdown file and convert it to HTML
+        fetch('Background.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('markdown-content').innerHTML = marked(text);
+            });
+    </script>
+    
+ 
 
 
