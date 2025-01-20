@@ -209,6 +209,6 @@
 }
       </pre>
   <button onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Gauss').style.display='none'" style="margin-top: 10px;">Close</button>
-<button onclick="copyCITE('CITE_text_Nath_2019_IPC_Gauss)" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+<button onclick="copyCITE('CITE_text_Nath_2019_IPC_Gauss')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
     </div>
   </div>
