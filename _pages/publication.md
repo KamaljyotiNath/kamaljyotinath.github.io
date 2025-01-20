@@ -778,3 +778,20 @@ function copyCITE(abstractId) {
 }
 
 </script>
+
+
+<script>
+  function loadPopupFile(fileName) {
+      fetch(fileName)
+        .then(response => {
+          if (!response.ok) throw new Error(`Failed to load ${fileName}`);
+          return response.text();
+        })
+        .then(data => {
+          document.getElementById('popup-container').innerHTML += data;
+        })
+        .catch(error => console.error(`Error loading ${fileName} content:`, error));
+    }
+</script>
+
+loadPopupFile(Background.md)
