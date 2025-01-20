@@ -102,7 +102,6 @@ function myFunction() {
 }
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- This loads the Markdown library -->
 
 <!-- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- -->
 
@@ -657,7 +656,7 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
   </div>
 </div>
 
-<div data-include="test.html"></div>
+<div my-include-html="test.html"></div>
 
 <!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- --------------------------------- -------- -------- -------- -------- -------- -------- -->
 <!-- ------------ Overlay ---------- -->
@@ -782,27 +781,32 @@ function copyCITE(abstractId) {
 </script>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const includes = document.querySelectorAll('[data-include]');
-        includes.forEach(element => {
-            const includePath = element.getAttribute('data-include');
-            if (includePath) {
-                fetch(includePath)
-                    .then(response => {
-                        if (!response.ok) {
-                            throw new Error(`Failed to fetch ${includePath}: ${response.status} ${response.statusText}`);
-                        }
-                        return response.text();
-                    })
-                    .then(content => {
-                        element.innerHTML = content;
-                    })
-                    .catch(error => {
-                        console.error('Error fetching content:', error);
-                        element.innerHTML = `<p>Failed to load content from file ${includePath}</p>`;
-                    });
-            }
-        });
-    });
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("my-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("my-include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
 </script>
 
