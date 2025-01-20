@@ -781,33 +781,28 @@ function copyCITE(abstractId) {
 
 </script>
 
-
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const includes = document.querySelectorAll('[data-include]');
-    includes.forEach(element => {
-        const includePath = element.getAttribute('data-include');
-        if (includePath) {
-            console.log(`Fetching content from: ${includePath}`);
-            fetch(includePath)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`Failed to fetch ${includePath}: ${response.status} ${response.statusText}`);
-                    }
-                    return response.text();
-                })
-                .then(content => {
-                    console.log(`Content fetched successfully from: ${includePath}`);
-                    element.innerHTML = content;
-                })
-                .catch(error => {
-                    console.error('Error including content:', error);
-                    element.innerHTML = `<p>Failed to load content from ${includePath}</p>`;
-                });
-        } else {
-            console.warn('No "data-include" attribute found on:', element);
-        }
+    document.addEventListener("DOMContentLoaded", function () {
+        const includes = document.querySelectorAll('[data-include]');
+        includes.forEach(element => {
+            const includePath = element.getAttribute('data-include');
+            if (includePath) {
+                fetch(includePath)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`Failed to fetch ${includePath}: ${response.status} ${response.statusText}`);
+                        }
+                        return response.text();
+                    })
+                    .then(content => {
+                        element.innerHTML = content;
+                    })
+                    .catch(error => {
+                        console.error('Error fetching content:', error);
+                        element.innerHTML = `<p>Failed to load content from file ${includePath}</p>`;
+                    });
+            }
+        });
     });
-});
 </script>
 
