@@ -101,7 +101,9 @@ function myFunction() {
 }
 </script>
 
-  <!-- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- -->
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- This loads the Markdown library -->
+
+<!-- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- -->
 
 <a id="top"></a>
 <a target="_blank" rel="noopener noreferrer" href = "https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en"> Google Scholar profile </a>
@@ -778,5 +780,17 @@ function copyCITE(abstractId) {
 
 </script>
 
+<script>
+        // Fetch the Markdown file and convert it to HTML
+        fetch('Background.md')
+            .then(response => response.text())
+            .then(text => {
+                // Convert Markdown content to HTML and inject directly into the section
+                document.getElementById('content').innerHTML = marked(text);
+            });
+    </script>
 
+    <section id="content">
+        <!-- This section will load the Markdown content directly -->
+    </section>
 
