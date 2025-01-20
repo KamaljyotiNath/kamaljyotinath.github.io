@@ -781,7 +781,7 @@ function copyCITE(abstractId) {
 
 
 <script>
-  function loadPopupFile(fileName) {
+ function loadPopupFile(fileName) {
       fetch(fileName)
         .then(response => {
           if (!response.ok) throw new Error(`Failed to load ${fileName}`);
