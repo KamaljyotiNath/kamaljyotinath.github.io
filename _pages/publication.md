@@ -788,7 +788,11 @@ function copyCITE(abstractId) {
           return response.text();
         })
         .then(data => {
-          document.getElementById('popup-container').innerHTML += data;
+          // Convert Markdown to HTML using Marked.js
+          const htmlContent = marked(data);
+
+          // Append the converted HTML into the popup container
+          document.getElementById('popup-container').innerHTML += htmlContent;
         })
         .catch(error => console.error(`Error loading ${fileName} content:`, error));
     }
