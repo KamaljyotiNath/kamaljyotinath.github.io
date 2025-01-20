@@ -307,7 +307,8 @@ function myFunction() {
 
 
 
-
+{% include_relative publication_cite.md %}
+{% include_relative publication_abstract.md %}
 
 <!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- --------------------------------- -------- -------- -------- -------- -------- -------- -->
 <!-- ------------ Overlay ---------- -->
@@ -367,8 +368,7 @@ function myFunction() {
 </div>
 
 
-{% include_relative publication_cite.md %}
-{% include_relative publication_abstract.md %}
+
 
 
 <script>
