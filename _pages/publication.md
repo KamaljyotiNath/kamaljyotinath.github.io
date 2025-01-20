@@ -379,7 +379,6 @@ function myFunction() {
       popup.style.display = 'block';
       overlay.style.display = 'block';
     }
-
     // Close a specific pop-up
     function closePopup(popupId) {
       const popup = document.getElementById(popupId);
@@ -387,7 +386,6 @@ function myFunction() {
       popup.style.display = 'none';
       overlay.style.display = 'none';
     }
-
     // Close pop-ups when clicking outside
     document.addEventListener('click', (event) => {
       const popups = document.querySelectorAll('.popup');
@@ -416,7 +414,6 @@ function myFunction() {
       alert(`Failed to copy text: ${error}`);
     });
 }
-
 function copyCITE(abstractId) {
   const abstractElement = document.getElementById(abstractId);
 
@@ -429,39 +426,8 @@ function copyCITE(abstractId) {
   const abstractText = abstractElement.innerText || abstractElement.textContent;
   copyToClipboard(abstractText);
 }
-
 </script>
 
-<script>
-function includeHTML() {
-  var z, i, elmnt, file, xhttp;
-  /*loop through a collection of all HTML elements:*/
-  z = document.getElementsByTagName("*");
-  for (i = 0; i < z.length; i++) {
-    elmnt = z[i];
-    /*search for elements with a certain atrribute:*/
-    file = elmnt.getAttribute("my-include-html");
-    if (file) {
-      /*make an HTTP request using the attribute value as the file name:*/
-      xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-        if (this.readyState == 4) {
-          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-          /*remove the attribute, and call this function once more:*/
-          elmnt.removeAttribute("my-include-html");
-          includeHTML();
-        }
-      }      
-      xhttp.open("GET", file, true);
-      xhttp.send();
-      /*exit the function:*/
-      return;
-    }
-  }
-};
-document.addEventListener("DOMContentLoaded", includeHTML);
-</script>
 
 
 
