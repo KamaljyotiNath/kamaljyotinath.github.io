@@ -781,14 +781,21 @@ function copyCITE(abstractId) {
 </script>
 
 <script>
-        // Fetch the Markdown file and convert it to HTML
-        fetch('Background.md')
-            .then(response => response.text())
-            .then(text => {
-                // Convert Markdown content to HTML and inject directly into the section
-                document.getElementById('content').innerHTML = marked(text);
-            });
+        document.addEventListener("DOMContentLoaded", function() {
+            // Fetch the Markdown file and convert it to HTML
+            fetch('Background.md')
+                .then(response => response.text())
+                .then(text => {
+                    // Convert Markdown content to HTML and inject directly into the section
+                    document.getElementById('content').innerHTML = marked(text);
+                })
+                .catch(error => {
+                    console.error('Error fetching markdown:', error);
+                });
+        });
     </script>
+    
+
 
     <section id="content">
         <!-- This section will load the Markdown content directly -->
