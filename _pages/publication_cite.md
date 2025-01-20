@@ -9,7 +9,7 @@
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Mariappan_2024_PINN" style="font-size: 12px;" style="color:blue;">
 @article{Mariappan_2024_PINN,
-  author = {Sathesh Mariappan and Kamaljyoti Nath and George Em Karniadakis}
+  author = {Sathesh Mariappan and Kamaljyoti Nath and George Em Karniadakis},
   title = {Learning thermoacoustic interactions in combustors using a physics-informed neural network},
   journal = {Engineering Applications of Artificial Intelligence},
   volume = {138},
