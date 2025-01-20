@@ -101,7 +101,6 @@ function myFunction() {
 }
 </script>
 
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!-- Marked.js for Markdown parsing -->
   <!-- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- -->
 
 <a id="top"></a>
@@ -779,17 +778,5 @@ function copyCITE(abstractId) {
 
 </script>
 
-
-
-  <script>
-        // Fetch the Markdown file and convert it to HTML
-        fetch('Background.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('markdown-content').innerHTML = marked(text);
-            });
-    </script>
-    
- 
 
 
