@@ -815,6 +815,6 @@ function includeHTML() {
 <div w3-include-html="Background.md"></div>
 
     <section id="content">
-        <!-- This section will load the Markdown content directly here -->
+        <!-- This section will load the Markdown content directly -->
     </section>
 
