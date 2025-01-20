@@ -810,3 +810,5 @@ function includeHTML() {
 };
 </script>
 
+document.addEventListener("DOMContentLoaded", includeHTML);
+
