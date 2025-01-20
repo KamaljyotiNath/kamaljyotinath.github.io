@@ -90,6 +90,7 @@ p.p_main {
     }
   
 </style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <button onclick="myFunction()">
 <i class="fa fa-adjust"></i>
@@ -798,6 +799,6 @@ function copyCITE(abstractId) {
 
 
     <section id="content">
-        <!-- This section will load the Markdown content directly -->
+        <!-- This section will load the Markdown content directly here -->
     </section>
 
