@@ -781,21 +781,19 @@ function copyCITE(abstractId) {
 
 
 <script>
- function loadPopupFile(fileName) {
-      fetch(fileName)
+ function loadMarkdown(fileUrl, containerId) {
+      fetch(fileUrl)
         .then(response => {
-          if (!response.ok) throw new Error(`Failed to load ${fileName}`);
+          if (!response.ok) throw new Error('Failed to load file');
           return response.text();
         })
-        .then(data => {
-          // Convert Markdown to HTML using Marked.js
-          const htmlContent = marked(data);
-
-          // Append the converted HTML into the popup container
-          document.getElementById('popup-container').innerHTML += htmlContent;
+        .then(markdownContent => {
+          const htmlContent = marked(markdownContent);  // Convert Markdown to HTML
+          document.getElementById(containerId).innerHTML = htmlContent;
         })
-        .catch(error => console.error(`Error loading ${fileName} content:`, error));
+        .catch(error => console.error('Error loading Markdown:', error));
     }
+  loadMarkdown(Background.md)
 </script>
 
-loadPopupFile(Background.md)
+
