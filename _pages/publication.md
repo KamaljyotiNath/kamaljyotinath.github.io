@@ -808,7 +808,8 @@ function includeHTML() {
     }
   }
 };
+document.addEventListener("DOMContentLoaded", includeHTML);
 </script>
 
-document.addEventListener("DOMContentLoaded", includeHTML);
+
 
