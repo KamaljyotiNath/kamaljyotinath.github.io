@@ -657,7 +657,7 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
   </div>
 </div>
 
-
+<div data-include="test.html"></div>
 
 <!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- --------------------------------- -------- -------- -------- -------- -------- -------- -->
 <!-- ------------ Overlay ---------- -->
@@ -781,33 +781,33 @@ function copyCITE(abstractId) {
 
 </script>
 
-<div data-include="test.html"></div>
 
-
-
-    <script>
-        // JavaScript to dynamically include external content
-        document.addEventListener("DOMContentLoaded", function () {
-            const includes = document.querySelectorAll('[data-include]');
-            includes.forEach(element => {
-                const includePath = element.getAttribute('data-include');
-                if (includePath) {
-                    fetch(includePath)
-                        .then(response => {
-                            if (!response.ok) {
-                                throw new Error(`Failed to fetch ${includePath}: ${response.statusText}`);
-                            }
-                            return response.text();
-                        })
-                        .then(content => {
-                            element.innerHTML = content; // Inject fetched content
-                        })
-                        .catch(error => {
-                            console.error('Error including content:', error);
-                            element.innerHTML = `<p>Failed to load content from ${includePath}</p>`;
-                        });
-                }
-            });
-        });
-    </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const includes = document.querySelectorAll('[data-include]');
+    includes.forEach(element => {
+        const includePath = element.getAttribute('data-include');
+        if (includePath) {
+            console.log(`Fetching content from: ${includePath}`);
+            fetch(includePath)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`Failed to fetch ${includePath}: ${response.status} ${response.statusText}`);
+                    }
+                    return response.text();
+                })
+                .then(content => {
+                    console.log(`Content fetched successfully from: ${includePath}`);
+                    element.innerHTML = content;
+                })
+                .catch(error => {
+                    console.error('Error including content:', error);
+                    element.innerHTML = `<p>Failed to load content from ${includePath}</p>`;
+                });
+        } else {
+            console.warn('No "data-include" attribute found on:', element);
+        }
+    });
+});
+</script>
 
