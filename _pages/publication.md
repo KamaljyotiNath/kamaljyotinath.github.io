@@ -34,8 +34,8 @@ button:hover {
 }  
 
 .class_1 {
-  background-color: #94e5ff;
-  border: none;
+  /*background-color: #94e5ff;*/
+  /*border: none;*/
   border-radius: 6px;
   color: black;
   margin: 3px 3px;
