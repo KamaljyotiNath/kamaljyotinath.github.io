@@ -16,7 +16,7 @@ body {
 }
 
 .button {
-  background-color: #008CBA;
+  /*background-color: #008CBA;*/
   color: white;
   border: none;
   /* padding: 12px 20px; */
@@ -28,7 +28,7 @@ body {
   /* ursor: pointer; */
 }
 button:hover {
-  background-color: #4682B4;
+  /*background-color: #4682B4;*/
   border: none;
   color: white;
 }  
