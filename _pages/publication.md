@@ -16,7 +16,7 @@ body {
 }
 
 .button {
-  /*background-color: #008CBA;*/
+  background-color: #008CBA;
   color: white;
   border: none;
   /* padding: 12px 20px; */
@@ -28,14 +28,14 @@ body {
   /* ursor: pointer; */
 }
 button:hover {
-  /*background-color: #4682B4;*/
+  background-color: #4682B4;
   border: none;
   color: white;
 }  
 
 .class_1 {
-  /*background-color: #94e5ff;*/
-  /*border: none;*/
+  background-color: #94e5ff;
+  border: none;
   border-radius: 6px;
   color: black;
   margin: 3px 3px;
