@@ -47,6 +47,10 @@ button:hover {
       color: #FF5733;
     padding-bottom:-10;
     }
+
+.class_dark_button {
+  border-radius: 50%;
+    }
   
 p.p_class_1 {
   margin: 5pt;
@@ -92,7 +96,7 @@ p.p_main {
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<button onclick="myFunction()" border-radius: 50%;>
+<button onclick="myFunction()" class="class_dark_button">
 <i class="fa fa-adjust"></i>
 </button>
 <script>
