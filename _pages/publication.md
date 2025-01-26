@@ -99,7 +99,7 @@ p.p_main {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <button onclick="myFunction()" class="class_dark_button">
-<i class="fa fa-adjust" style="font-size:48px"></i>
+<i class="fa fa-adjust" style="font-size:36px"></i>
 </button>
 <script>
 function myFunction() {
