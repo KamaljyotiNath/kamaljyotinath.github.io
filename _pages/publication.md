@@ -51,6 +51,7 @@ button:hover {
 .class_dark_button {
   border-radius: 50%;
   border: none;
+  margin: 0px 0px;
     }
   
 p.p_class_1 {
@@ -98,7 +99,7 @@ p.p_main {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <button onclick="myFunction()" class="class_dark_button">
-<i class="fa fa-adjust" style="font-size:48px; ></i>
+<i class="fa fa-adjust" style="font-size:48px></i>
 </button>
 <script>
 function myFunction() {
