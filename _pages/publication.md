@@ -109,7 +109,7 @@ function myFunction() {
 <a target="_blank" rel="noopener noreferrer" href = "https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en"> Google Scholar profile </a>
 
 <!-- * *Contributed equally -->
-
+<body onkeydown="ESCclose(event)"></body>
 <!-- PRIPRINTS -->
 <a id="Preprints"></a>
 ### Preprints
@@ -428,6 +428,13 @@ function copyCITE(abstractId) {
 }
 </script>
 
-
+<script>
+  function ESCclose(evt) {
+  if (evt.keyCode == 27) {
+    //window.close();
+    console.log('close the window...')
+  }
+}
+</script>
 
 
