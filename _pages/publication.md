@@ -92,9 +92,9 @@ p.p_main {
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div onclick="myFunction()">
+<button onclick="myFunction()" border-radius: 50%;>
 <i class="fa fa-adjust"></i>
-</div>
+</button>
 <script>
 function myFunction() {
    var element = document.body;
