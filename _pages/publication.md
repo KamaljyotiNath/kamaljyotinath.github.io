@@ -14,7 +14,8 @@ body {
   background-color: black;
   color: white;
 }
-
+</style>
+<style>
 
 .book-popup {
       visibility: hidden;
@@ -105,7 +106,8 @@ body {
       opacity: 1;
     }  
   
-
+</style>
+<style>
 .button {
   background-color: #008CBA;
   color: white;
@@ -163,10 +165,7 @@ p.p_main {
   /*font-family: 'Courier New', monospace;*/
   /*font-family: Verdana;*/
 }
-
-
-
-
+  
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
