@@ -115,8 +115,9 @@ p{
   <div id="popup" class="popup">
     <span class="close-btn" onclick="hidePopup()">&times;</span>
     <h3>Hello World</h3>
+    <div>
     <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed" width=500 height=500></iframe>
-
+  </div>
   </div>
 
   <script>
