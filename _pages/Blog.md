@@ -132,38 +132,28 @@ p{
   under construction
 </details>
 
-<!-- Open Pop-up Buttons -->
-  <button class="open-btn" onclick="showBookPopup('bookPopup1', 'bookFrame1', 'https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed')">
-    Open Book Chapter on google book
-  </button>
+<button onclick="showPopup()">Open Popup</button>
 
   <!-- Overlay -->
-  <div id="popupOverlay" class="popup-overlay" onclick="hideBookPopup()"></div>
+  <div id="overlay" class="overlay" onclick="hidePopup()"></div>
 
-  <!-- Pop-up 1 -->
-  <div id="bookPopup1" class="book-popup">
-    <span class="close-btn" onclick="hideBookPopup()">&times;</span>
-    <div class="iframe-container">
-      <div class="iframe-wrapper">
-        <iframe id="bookFrame1" frameborder="0" scrolling="no" style="border:0px"></iframe>
-      </div>
-    </div>
+  <!-- Popup -->
+  <div id="popup" class="popup">
+    <span class="close-btn" onclick="hidePopup()">&times;</span>
+    <h3>Hello World</h3>
+    <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed" width=500 height=500></iframe>
+
   </div>
 
   <script>
-    function showBookPopup(popupId, iframeId, bookUrl) {
-      document.getElementById(popupId).classList.add('show');
-      document.getElementById('popupOverlay').style.display = 'block';
-      
-      // Load iframe dynamically by targeting iframeId
-      document.getElementById(iframeId).src = bookUrl;
+    function showPopup() {
+      document.getElementById('popup').classList.add('show');
+      document.getElementById('overlay').style.display = 'block';
     }
 
-    function hideBookPopup() {
-      document.querySelectorAll('.book-popup').forEach(popup => {
-        popup.classList.remove('show');
-      });
-      document.getElementById('popupOverlay').style.display = 'none';
+    function hidePopup() {
+      document.getElementById('popup').classList.remove('show');
+      document.getElementById('overlay').style.display = 'none';
     }
   </script>
 
