@@ -22,7 +22,7 @@ body {
       position: fixed;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translate(50%, 50%);
       width: 80%;
       max-width: 900px;
       background-color: white;
@@ -66,7 +66,7 @@ body {
 
     iframe {
       width: 800px; 
-      height: 100%;
+      height: 1000px;
       border: none;
     }
 
@@ -92,7 +92,7 @@ body {
       font-size: 20px;
       font-weight: bold;
       cursor: pointer;
-      color: #aaa;
+      /*color: #aaa;*/
     }
 
     .close-btn:hover {
