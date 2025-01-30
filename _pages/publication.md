@@ -202,7 +202,7 @@ function myFunction() {
     <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. </p>
 
 <!-- Open Pop-up Button -->
-  <button onclick="BOOKPOP_1()">Open Pop-up</button>
+  <button onclick="BOOKPOP_1()">Read on Google book</button>
 
   <!-- Overlay -->
   <div id="overlay" class="overlay" onclick="closePopup()"></div>
@@ -220,7 +220,7 @@ function myFunction() {
       document.getElementById('overlay').style.display = 'block';
       
       // Set the src for the iframe to load external content
-      document.getElementById('popupIframe').src = '[https://www.example.com](https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed)';  // Example URL
+      document.getElementById('popupIframe').src = 'https://www.example.com](https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed';  // Example URL
     }
 
     function closePopup() {
