@@ -90,7 +90,7 @@ body {
       font-size: 20px;
       font-weight: bold;
       cursor: pointer;
-      color: #aaa;
+      color: #cc1d1d;
     }
 
     .close-btn:hover {
