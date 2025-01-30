@@ -14,16 +14,14 @@ body {
   background-color: black;
   color: white;
 }
-</style>
-<style>
-
-.book-popup {
+/* Popup Styling */
+    .book-popup {
       visibility: hidden;
       opacity: 0;
       position: fixed;
       top: 50%;
       left: 50%;
-      transform: translate(50%, 50%);
+      transform: translate(-50%, -50%);
       width: 80%;
       max-width: 900px;
       background-color: white;
@@ -49,7 +47,7 @@ body {
     /* Scrollable container */
     .iframe-container {
       width: 100%;
-      height: 100%;
+      height: 80vh; /* Adjust to fit the viewport */
       overflow: auto;
       border: 1px solid #ccc;
       display: flex;
@@ -59,15 +57,14 @@ body {
 
     /* Zoom effect inside pop-up */
     .iframe-wrapper {
-      transform: scale(1.5); /* Increase content size */
+      transform: scale(1.2); /* Adjust zoom level */
       transform-origin: center center;
       margin: auto;
-      max-width: fit-content;
     }
 
     iframe {
-      width: 800px; 
-      height: 1000px;
+      width: 100%;  /* Make iframe take up full width of its container */
+      height: 100%; /* Adjust to container's height */
       border: none;
     }
 
@@ -93,7 +90,7 @@ body {
       font-size: 20px;
       font-weight: bold;
       cursor: pointer;
-      /*color: #aaa;*/
+      color: #aaa;
     }
 
     .close-btn:hover {
@@ -104,10 +101,7 @@ body {
     .book-popup.show {
       visibility: visible;
       opacity: 1;
-    }  
-  
-</style>
-<style>
+    }
 .button {
   background-color: #008CBA;
   color: white;
@@ -165,7 +159,6 @@ p.p_main {
   /*font-family: 'Courier New', monospace;*/
   /*font-family: Verdana;*/
 }
-  
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
