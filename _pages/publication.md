@@ -208,8 +208,11 @@ function myFunction() {
 <button class="open-btn" onclick="showBookPopup('bookPopup1', 'https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed')">
     Read on Google Book
   </button>
-<div id="popupOverlay" class="popup-overlay" onclick="hideBookPopup()"></div>
-<div id="bookPopup1" class="book-popup">
+ <!-- Overlay -->
+  <div id="popupOverlay" class="popup-overlay" onclick="hideBookPopup()"></div>
+
+  <!-- Pop-up 1 -->
+  <div id="bookPopup1" class="book-popup">
     <span class="close-btn" onclick="hideBookPopup()">&times;</span>
     <div class="iframe-container">
       <div class="iframe-wrapper">
@@ -217,6 +220,7 @@ function myFunction() {
       </div>
     </div>
   </div>
+
 
 
 <!--
@@ -239,7 +243,6 @@ function myFunction() {
   </div>  -->
   
 </p> </li>
-</p>
 </ol>
 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
@@ -455,6 +458,7 @@ function myFunction() {
 </div>
 
 
+
 <script>
     function showBookPopup(popupId, bookUrl) {
       document.getElementById(popupId).classList.add('show');
@@ -470,7 +474,7 @@ function myFunction() {
       });
       document.getElementById('popupOverlay').style.display = 'none';
     }
-  </script>
+</script>
 
 
 <script>
