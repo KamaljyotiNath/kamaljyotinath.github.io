@@ -73,19 +73,27 @@ p.p_main {
   /*font-family: Verdana;*/
 }
 
-/* Styles for pop-ups */
-.popup {
-      display: none;
+
+
+.book-popup {
+      visibility: hidden;
+      opacity: 0;
       position: fixed;
-      top: 20%;
-      left: 50%
-      width: 40%;
-      transform: translate(-50%, -20%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+      max-width: 900px;
       background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      padding: 20px;
       z-index: 1000;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      overflow: hidden;
+      transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
     }
-    .overlay {
+
+    /* Overlay Styling */
+    .popup-overlay {
       display: none;
       position: fixed;
       top: 0;
@@ -96,20 +104,23 @@ p.p_main {
       z-index: 999;
     }
 
-/* Scrollable container */
+    /* Scrollable container */
     .iframe-container {
       width: 100%;
-      height: 80vh;
+      height: 100%;
       overflow: auto;
       border: 1px solid #ccc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     /* Zoom effect inside pop-up */
     .iframe-wrapper {
-      width: 100%;
-      height: 100%;
-      transform: scale(1);  /* Increase content size */
-      transform-origin: top left;
+      transform: scale(1.5); /* Increase content size */
+      transform-origin: center center;
+      margin: auto;
+      max-width: fit-content;
     }
 
     iframe {
@@ -118,7 +129,7 @@ p.p_main {
       border: none;
     }
 
-/* Button Styling */
+    /* Button Styling */
     .open-btn {
       margin: 10px;
       padding: 10px 15px;
@@ -151,35 +162,6 @@ p.p_main {
     .book-popup.show {
       visibility: visible;
       opacity: 1;
-    }
-
-  .book-popup {
-      visibility: hidden;
-      opacity: 0;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 80%;
-      max-width: 900px;
-      background-color: white;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      padding: 20px;
-      z-index: 1000;
-      overflow: hidden;
-      transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
-    }
-
-    /* Overlay Styling */
-    .popup-overlay {
-      display: none;
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5);
-      z-index: 999;
     }
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
