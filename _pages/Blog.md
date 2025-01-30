@@ -116,7 +116,7 @@ p{
     <span class="close-btn" onclick="hidePopup()">&times;</span>
     <h3>Read online</h3>
     <div>
-    <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed" width=500 height=500></iframe>
+    <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed" width=5 height=5></iframe>
   </div>
   </div>
 
