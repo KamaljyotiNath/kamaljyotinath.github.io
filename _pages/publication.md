@@ -15,65 +15,6 @@ body {
   color: white;
 }
 
-.button {
-  background-color: #008CBA;
-  color: white;
-  border: none;
-  /* padding: 12px 20px; */
-  text-align: center;
-  text-decoration: none;
-  /* display: inline-block; */
-  font-size: 16px;
-  margin: 2px 2px;
-  /* ursor: pointer; */
-}
-button:hover {
-  background-color: #4682B4;
-  border: none;
-  color: white;
-}  
-
-.class_1 {
-  background-color: #94e5ff;
-  border: none;
-  border-radius: 6px;
-  color: black;
-  margin: 3px 3px;
-  font-size: 16px;
-  min-width: 60px;
-  min-height: 20px;} /* #94e5ff,  Blue  #008CBA*/
-
-  details[open] summary {
-      color: #FF5733;
-    padding-bottom:-10;
-    }
-
-.class_dark_button {
-  border-radius: 50%;
-  border: none;
-  margin: 0px 0px;
-  background-color: none;
-    }
-  
-p.p_class_1 {
-  margin: 5pt;
-  padding: 5pt;
-  line-height: 1.5;
-  font-size: 18px;
-  color: blue;
-  text-align: justify;
-  /*font-family: 'Courier New', monospace;*/
-}
-p.p_main {
-  margin: 0pt;
-  padding: 0pt;
-  font-size: 18px;
-  text-align: justify;
-  /*font-family: 'Courier New', monospace;*/
-  /*font-family: Verdana;*/
-}
-
-
 
 .book-popup {
       visibility: hidden;
@@ -162,7 +103,70 @@ p.p_main {
     .book-popup.show {
       visibility: visible;
       opacity: 1;
+    }  
+  
+
+.button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  /* padding: 12px 20px; */
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  margin: 2px 2px;
+  /* ursor: pointer; */
+}
+button:hover {
+  background-color: #4682B4;
+  border: none;
+  color: white;
+}  
+
+.class_1 {
+  background-color: #94e5ff;
+  border: none;
+  border-radius: 6px;
+  color: black;
+  margin: 3px 3px;
+  font-size: 16px;
+  min-width: 60px;
+  min-height: 20px;} /* #94e5ff,  Blue  #008CBA*/
+
+  details[open] summary {
+      color: #FF5733;
+    padding-bottom:-10;
     }
+
+.class_dark_button {
+  border-radius: 50%;
+  border: none;
+  margin: 0px 0px;
+  background-color: none;
+    }
+  
+p.p_class_1 {
+  margin: 5pt;
+  padding: 5pt;
+  line-height: 1.5;
+  font-size: 18px;
+  color: blue;
+  text-align: justify;
+  /*font-family: 'Courier New', monospace;*/
+}
+p.p_main {
+  margin: 0pt;
+  padding: 0pt;
+  font-size: 18px;
+  text-align: justify;
+  /*font-family: 'Courier New', monospace;*/
+  /*font-family: Verdana;*/
+}
+
+
+
+
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -208,6 +212,7 @@ function myFunction() {
 <button class="open-btn" onclick="showBookPopup('bookPopup1', 'https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed')">
     Read on Google Book
   </button>
+  
  <!-- Overlay -->
   <div id="popupOverlay" class="popup-overlay" onclick="hideBookPopup()"></div>
 
