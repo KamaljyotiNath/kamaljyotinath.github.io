@@ -201,8 +201,36 @@ function myFunction() {
   <p class="p_main">
     <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. </p>
 
+<!-- Open Pop-up Button -->
+  <button onclick="BOOKPOP_1()">Open Pop-up</button>
 
-<a target="_blank" rel="noopener noreferrer" <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed" width=500 height=500></iframe>  class="class_1"> <button class="class_1">Read on Google book </button></a>
+  <!-- Overlay -->
+  <div id="overlay" class="overlay" onclick="closePopup()"></div>
+
+  <!-- Pop-up -->
+  <div id="popup" class="popup">
+    <span class="close-btn" onclick="closePopup()">&times;</span>
+    <h3>Embedded Content</h3>
+    <iframe id="popupIframe" src="" frameborder="0" scrolling="yes"></iframe>
+  </div>
+
+  <script>
+    function BOOKPOP_1() {
+      document.getElementById('popup').style.display = 'block';
+      document.getElementById('overlay').style.display = 'block';
+      
+      // Set the src for the iframe to load external content
+      document.getElementById('popupIframe').src = '[https://www.example.com](https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed)';  // Example URL
+    }
+
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+      document.getElementById('overlay').style.display = 'none';
+      
+      // Clear the src to stop loading when the popup is closed
+      document.getElementById('popupIframe').src = '';
+    }
+  </script>
   
 
 
