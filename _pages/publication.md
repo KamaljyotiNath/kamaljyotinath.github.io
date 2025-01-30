@@ -116,7 +116,42 @@ p.p_main {
       width: 800px; 
       height: 100%;
       border: none;
-    }  
+    }
+
+/* Button Styling */
+    .open-btn {
+      margin: 10px;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .open-btn:hover {
+      background-color: #0056b3;
+    }
+
+    /* Close Button */
+    .close-btn {
+      float: right;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #aaa;
+    }
+
+    .close-btn:hover {
+      color: black;
+    }
+
+    /* Show popup */
+    .book-popup.show {
+      visibility: visible;
+      opacity: 1;
+    }
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -159,7 +194,7 @@ function myFunction() {
   <p class="p_main">
     <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. 
 
-<button class="class_1" onclick="showBookPopup('bookPopup1', 'https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed')">
+<button class="open-btn" onclick="showBookPopup('bookPopup1', 'https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed')">
     Read on Google Book
   </button>
 <div id="popupOverlay" class="popup-overlay" onclick="hideBookPopup()"></div>
