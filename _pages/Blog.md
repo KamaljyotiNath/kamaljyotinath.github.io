@@ -11,7 +11,7 @@ body {
   color: black;
 }
 /* Popup Styling */
-    .book-popup {
+popup {
       visibility: hidden;
       opacity: 0;
       position: fixed;
@@ -19,17 +19,16 @@ body {
       left: 50%;
       transform: translate(-50%, -50%);
       width: 80%;
-      max-width: 900px;
+      max-width: 500px;
       background-color: white;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       padding: 20px;
       z-index: 1000;
-      overflow: hidden;
       transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
     }
 
     /* Overlay Styling */
-    .popup-overlay {
+    .overlay {
       display: none;
       position: fixed;
       top: 0;
@@ -40,32 +39,8 @@ body {
       z-index: 999;
     }
 
-    /* Scrollable container */
-    .iframe-container {
-      width: 100%;
-      height: 80vh; /* Adjust to fit the viewport */
-      overflow: auto;
-      border: 1px solid #ccc;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    /* Zoom effect inside pop-up */
-    .iframe-wrapper {
-      transform: scale(1.2); /* Adjust zoom level */
-      transform-origin: center center;
-      margin: auto;
-    }
-
-    iframe {
-      width: 100%;  /* Make iframe take up full width of its container */
-      height: 100%; /* Adjust to container's height */
-      border: none;
-    }
-
     /* Button Styling */
-    .open-btn {
+    button {
       margin: 10px;
       padding: 10px 15px;
       font-size: 16px;
@@ -76,17 +51,16 @@ body {
       border-radius: 5px;
     }
 
-    .open-btn:hover {
+    button:hover {
       background-color: #0056b3;
     }
 
     /* Close Button */
     .close-btn {
-      float: right;
       font-size: 20px;
       font-weight: bold;
       cursor: pointer;
-      color: #cc1d1d;
+      color: #aaa;
     }
 
     .close-btn:hover {
@@ -94,7 +68,7 @@ body {
     }
 
     /* Show popup */
-    .book-popup.show {
+    .popup.show {
       visibility: visible;
       opacity: 1;
     }
