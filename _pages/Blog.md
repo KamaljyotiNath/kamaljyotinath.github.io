@@ -133,7 +133,7 @@ p{
 </details>
 
 <!-- Open Pop-up Buttons -->
-  <button class="open-btn" onclick="showBookPopup('bookPopup1', 'https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed')">
+  <button class="open-btn" onclick="showBookPopup('bookPopup1', 'bookFrame1', 'https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed')">
     Open Book 1
   </button>
 
@@ -145,18 +145,18 @@ p{
     <span class="close-btn" onclick="hideBookPopup()">&times;</span>
     <div class="iframe-container">
       <div class="iframe-wrapper">
-        <iframe id="bookFrame1" frameborder="0" scrolling="no" style="border:0px" width=500 height=500> ffghhg</iframe>
+        <iframe id="bookFrame1" frameborder="0" scrolling="no" style="border:0px"></iframe>
       </div>
     </div>
   </div>
 
   <script>
-    function showBookPopup(popupId, bookUrl) {
+    function showBookPopup(popupId, iframeId, bookUrl) {
       document.getElementById(popupId).classList.add('show');
       document.getElementById('popupOverlay').style.display = 'block';
       
-      // Load iframe dynamically
-      document.querySelector(`#${popupId} iframe`).src = bookUrl;
+      // Load iframe dynamically by targeting iframeId
+      document.getElementById(iframeId).src = bookUrl;
     }
 
     function hideBookPopup() {
