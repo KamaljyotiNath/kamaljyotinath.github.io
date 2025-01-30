@@ -470,7 +470,7 @@ function myFunction() {
       document.getElementById('popupOverlay').style.display = 'block';
       
       // Load iframe dynamically
-      document.querySelector(`#${popupId} iframe`).src = bookUrl;
+      document.querySelector('#${popupId} iframe').src = bookUrl;
     }
 
     function hideBookPopup() {
