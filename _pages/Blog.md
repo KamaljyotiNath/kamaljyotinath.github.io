@@ -134,7 +134,7 @@ p{
 
 <!-- Open Pop-up Buttons -->
   <button class="open-btn" onclick="showBookPopup('bookPopup1', 'bookFrame1', 'https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed')">
-    Open Book 1
+    Open Book Chapter on google book
   </button>
 
   <!-- Overlay -->
