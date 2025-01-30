@@ -95,7 +95,28 @@ p.p_main {
       background-color: rgba(0, 0, 0, 0.5);
       z-index: 999;
     }
-  
+
+/* Scrollable container */
+    .iframe-container {
+      width: 100%;
+      height: 80vh;
+      overflow: auto;
+      border: 1px solid #ccc;
+    }
+
+    /* Zoom effect inside pop-up */
+    .iframe-wrapper {
+      width: 100%;
+      height: 100%;
+      transform: scale(1);  /* Increase content size */
+      transform-origin: top left;
+    }
+
+    iframe {
+      width: 800px; 
+      height: 100%;
+      border: none;
+    }  
 </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -137,8 +158,21 @@ function myFunction() {
 <li> 
   <p class="p_main">
     <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. 
-<br>
-<a target="_blank" rel="noopener noreferrer" href= "https://books.google.co.in/books?hl=en&lr=&id=WV9CEAAAQBAJ&oi=fnd&pg=PA101&ots=ZV74-odli1&sig=sVMdlkKYhhjAPrOLcX4J8R7U1VQ#v=onepage&q&f=false"> <button class="class_1"> Read on Google Book</button> </a> 
+
+<button class="class_1" onclick="showBookPopup('bookPopup1', 'https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed')">
+    Read on Google Book
+  </button>
+<div id="popupOverlay" class="popup-overlay" onclick="hideBookPopup()"></div>
+<div id="bookPopup1" class="book-popup">
+    <span class="close-btn" onclick="hideBookPopup()">&times;</span>
+    <div class="iframe-container">
+      <div class="iframe-wrapper">
+        <iframe id="bookFrame1" frameborder="0" scrolling="no" style="border:0px"></iframe>
+      </div>
+    </div>
+  </div>
+
+
 <!--
 <button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> Cite </button>
 <div id="CITE_Nath_2021_SFEM_Chapter" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
@@ -375,7 +409,22 @@ function myFunction() {
 </div>
 
 
+<script>
+    function showBookPopup(popupId, bookUrl) {
+      document.getElementById(popupId).classList.add('show');
+      document.getElementById('popupOverlay').style.display = 'block';
+      
+      // Load iframe dynamically
+      document.querySelector(`#${popupId} iframe`).src = bookUrl;
+    }
 
+    function hideBookPopup() {
+      document.querySelectorAll('.book-popup').forEach(popup => {
+        popup.classList.remove('show');
+      });
+      document.getElementById('popupOverlay').style.display = 'none';
+    }
+  </script>
 
 
 <script>
