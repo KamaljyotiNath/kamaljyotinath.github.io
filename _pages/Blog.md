@@ -5,7 +5,7 @@ permalink: /Blog/
 author_profile: true
 ---
 # Click the button to open a pop-up
-
+<button onclick="BOOKPOP_1()">Open Pop-up</button>
 <div id="popup" style="display:none;">
     <span onclick="closePopup()" style="cursor:pointer;">&times;</span>
     <h3>Embedded Content</h3>
