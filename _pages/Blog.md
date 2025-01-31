@@ -4,9 +4,14 @@ title:  Blog
 permalink: /Blog/
 author_profile: true
 ---
-
-<style>
-body {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pop-up with src</title>
+  <style>
+    body {
       font-family: Arial, sans-serif;
     }
 
@@ -73,6 +78,8 @@ body {
       color: black;
     }
   </style>
+</head>
+<body>
 
   <!-- Open Pop-up Button -->
   <button onclick="BOOKPOP_1()">Open Pop-up</button>
@@ -84,7 +91,7 @@ body {
   <div id="popup" class="popup">
     <span class="close-btn" onclick="closePopup()">&times;</span>
     <h3>Embedded Content</h3>
-    <!-- iframe id="popupIframe" src="" frameborder="0" scrolling="yes"></iframe> -->
+    <iframe id="popupIframe" src="" frameborder="0" scrolling="yes"></iframe>
   </div>
   
   <script>
@@ -104,6 +111,9 @@ body {
       document.getElementById('popupIframe').src = '';
     }
   </script>
+
+</body>
+</html>
 
 
 <!--
