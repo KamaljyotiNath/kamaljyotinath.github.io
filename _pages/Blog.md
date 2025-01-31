@@ -5,14 +5,6 @@ permalink: /Blog/
 author_profile: true
 ---
 
-# View the Book with Pop-up
-
-To view the book with zoom functionality, [click here](book_pop_up_SFEM.html).
-
-
-
-
-<!--
 <style>
 body {
   background-color: #ededed;
@@ -66,5 +58,4 @@ function myFunction() {
 }
 </script>
 
--->
 
