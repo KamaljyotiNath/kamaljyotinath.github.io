@@ -84,7 +84,7 @@ body {
   <div id="popup" class="popup">
     <span class="close-btn" onclick="closePopup()">&times;</span>
     <h3>Embedded Content</h3>
-    <iframe id="popupIframe" src="" frameborder="0" scrolling="yes"></iframe>
+    <!-- iframe id="popupIframe" src="" frameborder="0" scrolling="yes"></iframe> -->
   </div>
   
   <script>
