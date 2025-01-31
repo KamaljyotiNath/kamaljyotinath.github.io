@@ -202,7 +202,7 @@ function myFunction() {
     <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. </p>
 
 
-<a target="_blank" rel="noopener noreferrer" href ="./Book_SFEM.html" class="class_1"> <button class="class_1"> Read on Google book </button> </a>
+<a target="_blank" rel="noopener noreferrer" href ="kamaljyotinath.github.io/_pages/Book_SFEM.html" class="class_1"> <button class="class_1"> Read on Google book </button> </a>
 
 
 
