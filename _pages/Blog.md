@@ -5,10 +5,6 @@ permalink: /Blog/
 author_profile: true
 ---
 
-[Click here](Blog_1.html)
-
-
-<!--
 <style>
 body {
   background-color: #ededed;
@@ -62,6 +58,5 @@ function myFunction() {
 }
 </script>
 
--->
 
 
