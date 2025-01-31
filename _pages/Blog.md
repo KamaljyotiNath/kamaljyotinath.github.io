@@ -5,17 +5,9 @@ permalink: /Blog/
 author_profile: true
 ---
 
-# Embedded Book with Zoomed Content
+# View the Book with Pop-up
 
-Click on the button below to view the zoomed book content:
-
-<button onclick="BOOKPOP_1()">Open Book</button>
-
-<div id="popup" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background:white; padding:20px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); width:80%; max-width:900px;">
-  <span onclick="document.getElementById('popup').style.display='none';" style="float:right; font-size:20px; cursor:pointer;">&times;</span>
-  <h3>Embedded Content</h3>
-  <iframe src="https://books.google.com/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed" style="width:100%; height:400px; border:none;"></iframe>
-</div>
+To view the book with zoom functionality, [click here](book_pop_up_SFEM.html).
 
 
 
