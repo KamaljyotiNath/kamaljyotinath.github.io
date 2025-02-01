@@ -201,31 +201,11 @@ function myFunction() {
   <p class="p_main">
     <b>  Kamaljyoti Nath</b>, Anjan Dutta, Budhaditya Hazra (2021). <a target="_blank" rel="noopener noreferrer" href="https://www.taylorfrancis.com/chapters/edit/10.1201/9781003194613-8/stochastic-finite-element-method-kamaljyoti-nath-anjan-dutta-budhaditya-hazra?context=ubx&refId=07d53908-1c18-4fad-9beb-be78b05e9096">  Stochastic Finite Element Method </a>. In: Farsangi, E.N., Noori, M., Gardoni, P., Takewaki, I., Varum, H., & Bogdanovic, A. (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. </p>
 
-
+<div style="display: flex; gap: 10px; margin-bottom: 20px;">
 <a target="_blank" rel="noopener noreferrer" href ="https://kamaljyotinath.github.io/_pages/Book_SFEM.html" class="class_1"> <button class="class_1"> Read on Google book </button> </a>
-
-
-
-<!--
-<button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> Cite </button>
-<div id="CITE_Nath_2021_SFEM_Chapter" style="display: none; position: fixed; top: 20%; right: 2%; width: 40%; height: auto; background-color: rgba(0, 0, 0, 0.7);">
-    <div style="position: absolute; background-color: white; margin: 10px; padding: 10px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-      <span onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='none'" style="color: #aaa; font-size: 28px; font-weight: bold; float: right;"> </span>
-      <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
-      <pre style="font-size: 12px;" style="color:blue;">
-@incollection{Nath_2021_SFEM_Chapter,
-  author={Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
-  title={Stochastic Finite Element Method},
-  booktitle={Reliability-Based Analysis and Design of Structures and Infrastructure},
-  pages={101--116},
-  year={2021},
-  publisher={CRC Press}
-}
-      </pre>
-    </div>
-  </div>  -->
-  
-<!-- /p --> </li>
+<button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> Cite  </button>
+</div>
+</li>
 </p>
 </ol>
 
@@ -439,6 +419,11 @@ function myFunction() {
 </div>
 <div id="OVERLAY_CITE_Nath_2019_IPC_Gauss" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Gauss').style.display='none'">
+</div>
+
+<!-- Book Chapter -->
+<div id="OVERLAY_CITE_Nath_2021_SFEM_Chapter" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_SFEM_Chapter').style.display='none'">
 </div>
 
 
