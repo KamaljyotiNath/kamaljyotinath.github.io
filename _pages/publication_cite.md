@@ -212,3 +212,26 @@
 <button onclick="copyCITE('CITE_text_Nath_2019_IPC_Gauss')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
     </div>
   </div>
+
+
+<!-- Book Chapter -->
+
+<div id="CITE_Nath_2021_SFEM_Chapter" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_SFEM_Chapter').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Chapter</h3>
+<pre id="CITE_text_Nath_2021_SFEM_Chapter" style="font-size: 12px;" style="color:blue;">
+@incollection{Nath_2021_SFEM_Chapter,
+  author={Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
+  title={Stochastic Finite Element Method},
+  booktitle={Reliability-Based Analysis and Design of Structures and Infrastructure},
+  pages={101--116},
+  year={2021},
+  publisher={CRC Press}
+}
+      </pre><button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_SFEM_Chapter').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Nath_2021_SFEM_Chapter')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+    </div>
+  </div>
+  
