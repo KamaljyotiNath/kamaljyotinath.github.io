@@ -203,6 +203,9 @@ function myFunction() {
 Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Aleksandra Bogdanovic, (Eds.) <a href ="https://doi.org/10.1201/9781003194613">  <i> Reliability-Based Analysis and Design of Structures and Infrastructure (1st ed.) </i> </a> (pp. 101-116). CRC Press. </p>
 
 <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+<button onclick="document.getElementById('Abstract_Nath_2021_SFEM_Chapter').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> 
+    Abstract
+  </button>  
 <a target="_blank" rel="noopener noreferrer" href ="https://kamaljyotinath.github.io/_pages/Book_SFEM.html" class="class_1"> <button class="class_1"> Read on Google book </button> </a>
 <button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> Cite  </button>
 </div>
@@ -391,6 +394,13 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 <div id="OVERLAY_Abstract_Nath_2019_IPC_Gauss" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Nath_2019_IPC_Gauss').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2019_IPC_Gauss').style.display='none'">
 </div>
+
+
+<!-- Book Chapter -->
+<div id="OVERLAY_Abstract_Nath_2021_SFEM_Chapter" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('Abstract_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_SFEM_Chapter').style.display='none'">
+</div>
+
 
 
 <!-- Overlay CITE -->
