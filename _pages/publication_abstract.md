@@ -135,3 +135,19 @@ A new approach for solution of Stochastic structural Mechanics problem with rand
  10px;">Close</button>
   </div>
 </div>
+
+<!-- ----------- Book Chapter----------------------- -->
+<div id="Abstract_Nath_2021_SFEM_Chapter" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('Abstract_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_SFEM_Chapter').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
+    <h2 style="font-size: 18px; color: blue;"> Stochastic Finite Element Method </h2>
+    <h3 style="font-size: 18px; color: blue;">Abstract</h3>
+    <p class="p_class_1">
+The conventional finite element method does not consider the randomness in its parameters. However, it is found that the load and material characteristics in structural mechanics problems may be random in nature. The effect of random nature of material with and without random loading is studied using stochastic finite element method (SFEM). It is the branch of FEM, where approximate solutions of the stochastic system are sought to be evaluated by combining with a probabilistic model. This chapter discusses SFEM for the solution of stochastic structural mechanics problems with an emphasis to polynomial chaos (PC) based method. The curse of dimensionality of PC-based method is discussed along with a detailed discussion on iterative PC-based method for overcoming the same. Further, it discusses solution of stochastic structural mechanics problems under dynamic loading using time-dependent generalized PC. The representation and discretization of Gaussian and non-Gaussian random field are also discussed.
+    </p>
+    <button onclick="document.getElementById('Abstract_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_SFEM_Chapter').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
+
