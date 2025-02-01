@@ -226,8 +226,10 @@
   author={Nath, Kamaljyoti and Dutta, Anjan and Hazra, Budhaditya},
   title={Stochastic Finite Element Method},
   booktitle={Reliability-Based Analysis and Design of Structures and Infrastructure},
+  editor = {Ehsan {Noroozinejad Farsangi} and Mohammad Noori and Paolo Gardoni and Izuru Takewaki and Humberto Varum and Aleksandra Bogdanovic},  
   pages={101--116},
   year={2021},
+  edition = {1st},
   publisher={CRC Press}
 }
       </pre><button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2021_SFEM_Chapter').style.display='none'" style="margin-top: 10px;">Close</button>
