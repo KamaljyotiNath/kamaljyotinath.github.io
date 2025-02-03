@@ -151,3 +151,20 @@ The conventional finite element method does not consider the randomness in its p
   </div>
 </div>
 
+
+<div id="HTML_Nath_2021_SFEM_Chapter" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+  <div style="position: relative; margin: 10px; padding: 10px;">
+    <span onclick="document.getElementById('HTML_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_HTML_Nath_2021_SFEM_Chapter').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
+    <h2 style="font-size: 18px; color: blue;"> Stochastic Finite Element Method </h2>
+    <h3 style="font-size: 18px; color: blue;">Read</h3>
+    <p class="p_class_1">
+<div style="text-align: center;">
+  <iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=WV9CEAAAQBAJ&lpg=PA101&lr&pg=PA101&output=embed" width="800" height="98%"></iframe>
+</div>
+    </p>
+    <button onclick="document.getElementById('HTML_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_HTML_Nath_2021_SFEM_Chapter').style.display='none'" style="margin-top: 
+ 10px;">Close</button>
+  </div>
+</div>
+
