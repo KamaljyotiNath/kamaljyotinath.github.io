@@ -208,10 +208,6 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
   </button>  
 <a target="_blank" rel="noopener noreferrer" href ="https://kamaljyotinath.github.io/_pages/Book_SFEM.html" class="class_1"> <button class="class_1"> Read on Google book </button> </a>
 <button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> Cite  </button>
-
-
-  <button onclick="document.getElementById('HTML_Nath_2021_SFEM_Chapter').style.display='block'; document.getElementById('OVERLAY_HTML_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> 
-    Read
   </button>  
 </div>
 </li>
@@ -405,11 +401,6 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 <div id="OVERLAY_Abstract_Nath_2021_SFEM_Chapter" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('Abstract_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2021_SFEM_Chapter').style.display='none'">
 </div>
-
-<div id="OVERLAY_HTML_Nath_2021_SFEM_Chapter" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
-     onclick="document.getElementById('HTML_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_HTML_Nath_2021_SFEM_Chapter').style.display='none'">
-</div>
-
 
 
 <!-- Overlay CITE -->
