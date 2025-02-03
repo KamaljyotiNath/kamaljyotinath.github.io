@@ -208,7 +208,6 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
   </button>  
 <a target="_blank" rel="noopener noreferrer" href ="https://kamaljyotinath.github.io/_pages/Book_SFEM.html" class="class_1"> <button class="class_1"> Read on Google book </button> </a>
 <button onclick="document.getElementById('CITE_Nath_2021_SFEM_Chapter').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2021_SFEM_Chapter').style.display='block'" class="class_1"> Cite  </button>
-  </button>  
 </div>
 </li>
 </p>
