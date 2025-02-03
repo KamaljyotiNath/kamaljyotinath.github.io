@@ -157,7 +157,7 @@ The conventional finite element method does not consider the randomness in its p
     <span onclick="document.getElementById('HTML_Nath_2021_SFEM_Chapter').style.display='none'; document.getElementById('OVERLAY_HTML_Nath_2021_SFEM_Chapter').style.display='none'" 
           style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
     <h2 style="font-size: 18px; color: blue;"> Stochastic Finite Element Method </h2>
-    <h3 style="font-size: 18px; color: blue;">Read</h3>
+    <h3 style="font-size: 18px; color: blue;">Read online </h3>
     <p class="p_class_1">
     {% include_relative Book_SFEM.html %}
     </p>
