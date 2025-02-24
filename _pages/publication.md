@@ -189,7 +189,7 @@ function myFunction() {
       <p class="p_main"> Peter Rivera-Casillas, Sourav Dutta, Shukai Cai, Mark Loveland, <b>Kamaljyoti Nath</b>, Khemraj Shukla, Corey Trahan, Jonghyun Lee, Matthew Farthing, Clint Dawson (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2502.14782"> A Neural Operator-Based Emulator for Regional Shallow Water Dynamics </a>
       </p>
     </li> 
-    
+    <!--  -->
     <li> 
       <p class="p_main">  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2024) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2412.11967">  A Digital twin for Diesel Engines: Operator-infused PINNs with Transfer Learning for Engine Health Monitoring </a>
       </p>
