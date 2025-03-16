@@ -28,7 +28,7 @@ function myFunction() {
 
 <a id="top"></a>
 <p style='text-align: justify;'>
-<h1>Journal Reviewer</h1>
+<h2>Journal Reviewer</h2>
 </p>
 - Engineering Applications of Artificial Intelligence
 - Journal of computational physics
