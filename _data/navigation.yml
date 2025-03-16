@@ -5,7 +5,10 @@ main:
 
   - title: "Publications"
     url: /publications/
-  
+
+  - title: "Miscellaneous"
+    url: /Miscellaneous/
+
  # - title: "Background"
  #   url: /Background/
    
