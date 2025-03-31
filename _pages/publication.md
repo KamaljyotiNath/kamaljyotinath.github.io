@@ -176,7 +176,7 @@ function myFunction() {
 <!-- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- --------------- -->
 
 <a id="top"></a>
-<a target="_blank" rel="noopener noreferrer" href = "https://scholar.google.co.in/citations?user=U9Vf1IwAAAAJ&hl=en"> Google Scholar profile </a>
+<a target="_blank" rel="noopener noreferrer" href = "https://scholar.google.com/citations?user=U9Vf1IwAAAAJ&hl"> Google Scholar profile </a>
 
 <!-- * *Contributed equally -->
 <body onkeydown="ESCclose(event)"></body>
