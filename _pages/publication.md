@@ -186,6 +186,13 @@ function myFunction() {
 <ol  reversed="reversed"  start="2">
   <p style='text-align: justify;'>
     <li> 
+      <p class="p_main"> <b>Kamaljyoti Nath</b>, Khemraj Shukla, Victor C. Tsai, Umair bin Waheed, Christian Huber, Omer Alpak, Chuen-Song Chen, Ligang Lu, Amik St-Cyr
+   (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2504.10720"> Leveraging Deep Operator Networks (DeepONet) for Acoustic Full Waveform Inversion (FWI) </a>
+      </p>
+    </li> 
+    <!--  -->
+    
+    <li> 
       <p class="p_main"> Peter Rivera-Casillas, Sourav Dutta, Shukai Cai, Mark Loveland, <b>Kamaljyoti Nath</b>, Khemraj Shukla, Corey Trahan, Jonghyun Lee, Matthew Farthing, Clint Dawson (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2502.14782"> A Neural Operator-Based Emulator for Regional Shallow Water Dynamics </a>
       </p>
     </li> 
