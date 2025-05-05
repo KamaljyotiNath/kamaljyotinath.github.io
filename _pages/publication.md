@@ -281,8 +281,8 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
   <button onclick="document.getElementById('Abstract_Nath_2023').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2023').style.display='block'" class="class_1">
       Abstract
     </button>  
-  <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2304.13799" class="class_1"> <button class="class_1">arXiv</button></a>
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1038/s41598-023-39989-4" class="class_1"> <button class="class_1">Journal-Open Access</button></a>
+  <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2304.13799" class="class_1"> <button class="class_1">arXiv</button></a>
  <button onclick="document.getElementById('CITE_Nath_2023').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2023').style.display='block'" class="class_1">
     Cite
   </button> <span style="font-size: 16px;" > *Contributed equally  </span>
