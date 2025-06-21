@@ -295,8 +295,7 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
   <button onclick="document.getElementById('Abstract_Nath_2022_Ad_KL').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2022_Ad_KL').style.display='block'" class="class_1">
       Abstract
     </button>  
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1007/s00366-021-01326-6" class="class_1"> <button class="class_1">Journal</button></a>
-  <a target="_blank" rel="noopener noreferrer" href = "https://www.researchgate.net/publication/349365418_An_adaptive_scheme_for_random_field_discretization_using_KL_expansion#fullTextFileContent" class="class_1"> <button class="class_1"> ResearchGate (Full-text) </button>  </a>   
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1007/s00366-021-01326-6" class="class_1"> <button class="class_1">Journal</button></a>  
   <button onclick="document.getElementById('CITE_Nath_2022_Ad_KL').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2022_Ad_KL').style.display='block'" class="class_1">
     Cite
   </button>
@@ -340,7 +339,6 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
       Abstract
     </button>  
   <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1002/nme.6086" class="class_1"> <button class="class_1">Journal</button></a>
-  <a target="_blank" rel="noopener noreferrer" href = "https://www.researchgate.net/publication/332733782_An_iterative_polynomial_chaos_approach_toward_stochastic_elastostatic_structural_analysis_with_non-Gaussian_randomness#fullTextFileContent" class="class_1"> <button class="class_1"> ResearchGate (Full-text) </button>  </a>   
   <button onclick="document.getElementById('CITE_Nath_2019_IPC_Non_Gauss').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2019_IPC_Non_Gauss').style.display='block'" class="class_1">
     Cite
   </button>
