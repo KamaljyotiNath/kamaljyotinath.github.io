@@ -47,6 +47,7 @@ I grew up in <a target="_blank" rel="noopener noreferrer" href="https://www.goog
 - <p style='text-align: justify;'> B. Tech in Civil Engineering, National Institute of Technology Silchar, Silchar, Assam, India. (2004 - 2008) </p>
 
 ## Industrial Experience
+- <p style='text-align: justify;'> From January 2024 to June 2024, I worked as a Part-time Consultant for Avrio Industry LLC, a Californian corporation for developing a physics-informed machine learning-based health monitoring and control demonstration on a battery electric vehicle. </p>
 - <p style='text-align: justify;'> From August 2008 to July 2013, I worked at TATA Consulting Engineers Limited, where I worked on Modelling, analysis, design and design review of civil structures of thermal power plants. Detailing and checking of civil construction drawings. </p>
 
 ## Links
