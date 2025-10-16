@@ -183,7 +183,7 @@ function myFunction() {
 <!-- PRIPRINTS -->
 <a id="Preprints"></a>
 ### Preprints
-<ol  reversed="reversed"  start="3">
+<ol  reversed="reversed">
   <p style='text-align: justify;'>
     <li> 
       <p class="p_main"> <b>Kamaljyoti Nath</b>, Additi Pandey, Bryan T. Susi, Hessam Babaee, George Em Karniadakis (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2510.12999"> AMORE: Adaptive Multi-Output Operator Network for Stiff Chemical Kinetics </a>
