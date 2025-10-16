@@ -186,6 +186,11 @@ function myFunction() {
 <ol  reversed="reversed"  start="3">
   <p style='text-align: justify;'>
     <li> 
+      <p class="p_main"> <b>Kamaljyoti Nath</b> Additi Pandey, Bryan T. Susi, Hessam Babaee, George Em Karniadakis (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2510.12999"> AMORE: Adaptive Multi-Output Operator Network for Stiff Chemical Kinetics </a>
+      </p>
+    </li> 
+<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
+    <li> 
       <p class="p_main"> <b>Kamaljyoti Nath</b>, Khemraj Shukla, Victor C. Tsai, Umair bin Waheed, Christian Huber, Omer Alpak, Chuen-Song Chen, Ligang Lu, Amik St-Cyr
    (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2504.10720"> Leveraging Deep Operator Networks (DeepONet) for Acoustic Full Waveform Inversion (FWI) </a>
       </p>
@@ -197,7 +202,7 @@ function myFunction() {
     </li> 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
     <li> 
-      <p class="p_main">  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2024) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2412.11967">  A Digital twin for Diesel Engines: Operator-infused PINNs with Transfer Learning for Engine Health Monitoring </a>
+      <p class="p_main">  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2412.11967">  A Digital Twin for Diesel Engines: Operator-infused Physics-Informed Neural Networks with Transfer Learning for Engine Health Monitoring </a>
       </p>
     </li> 
   </p> 
