@@ -38,7 +38,7 @@ My broad area of research is in Uncertainty quantification, Stochastic Finite El
 - Scientific Machine Learning
   - Physics informed neural network
   - Operator learning
-- Structural Health Monitoring
+  - Health Monitoring
 
 <p style='text-align: justify;'>
 Presence of uncertainties in the system properties of structural systems is one of the major concerns in the safety of designed structures and is often studied using Stochastic Finite Element Method (SFEM). The polynomial Chaos (PC) based method is one of the popular methods for the solution of a stochastic system; however, it suffers the curse of dimensionality, which is an exponential increase in the number of terms in the PC expansion with an increase in the number of random variables and/or order of expansion. I worked on developing numerical strategies to address the curse of dimensionality of the PC-based method in the SFEM framework for the solution of stochastic structural systems. Another drawback of the PC-based method is the loss of optimality in the case of time-dependent problems, which can be addressed using time-dependent generalized polynomial chaos (TDgPC) proposed by <a href="https://www.sciencedirect.com/science/article/pii/S0021999110004134"> Gerritsma et al. (2010)</a>. I worked on long-time duration problems in stochastic mechanics using TDgPC. </p>
