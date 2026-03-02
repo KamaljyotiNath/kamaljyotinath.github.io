@@ -32,7 +32,7 @@ function myFunction() {
 </script>
 
 <p style='text-align: justify;'>
-I am Kamaljyoti Nath, a Research Associate in <a target="_blank" rel="noopener noreferrer" href="https://appliedmath.brown.edu/"> Applied Mathematics </a> at Brown University, working in the <a target="_blank" rel="noopener noreferrer" href="https://sites.brown.edu/crunch-group/"> Crunch group </a> with Prof. George Em. Karniadakis
+I am Kamaljyoti Nath, a Research Associate in <a target="_blank" rel="noopener noreferrer" href="https://appliedmath.brown.edu/"> Applied Mathematics </a> at Brown University, working in the <a target="_blank" rel="noopener noreferrer" href="https://sites.brown.edu/crunch-group/"> Crunch group </a> with Prof. George Em Karniadakis.
 <br>
 I completed my PhD in 2020 from <a target="_blank" rel="noopener noreferrer" href="https://www.iitg.ac.in/"> Indian Institute of Technology Guwahati (IITG)</a>, Assam, India, in the Civil Engineering Department (Structural Engineering stream). In Silchar, Assam, India, I received my B.Tech degree in Civil Engineering from the National Institute of Technology Silchar (NITS) in the year 2008. From August 2008 to July 2013, I stayed in Bangalore, India, where I worked at TATA Consulting Engineers Ltd.
 <br>  
