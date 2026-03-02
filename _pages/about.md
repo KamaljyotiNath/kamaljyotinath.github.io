@@ -32,15 +32,15 @@ function myFunction() {
 </script>
 
 <p style='text-align: justify;'>
-I am Kamaljyoti Nath, a Postdoctoral Research Associate in <a target="_blank" rel="noopener noreferrer" href="https://appliedmath.brown.edu/"> Applied Mathematics </a> at Brown University, working in the group of <a target="_blank" rel="noopener noreferrer" href="https://sites.brown.edu/crunch-group/"> Prof. George Karniadakis</a>.
+I am Kamaljyoti Nath, a Research Associate in <a target="_blank" rel="noopener noreferrer" href="https://appliedmath.brown.edu/"> Applied Mathematics </a> at Brown University, working in the <a target="_blank" rel="noopener noreferrer" href="https://sites.brown.edu/crunch-group/"> Crunch group </a> with Prof. George Em. Karniadakis
 <br>
-I completed my PhD in 2020 from <a target="_blank" rel="noopener noreferrer" href="https://www.iitg.ac.in/"> Indian Institute of Technology Guwahati (IITG)</a>, Assam, India in the Civil Engineering Department (Structural Engineering stream). In Silchar, Assam, India, I received my B.Tech degree in Civil Engineering from National Institute of Technology Silchar (NITS) in the year 2008. From August 2008 to July 2013, I stayed in Bangalore, India, where I worked at TATA Consulting Engineers Ltd.
+I completed my PhD in 2020 from <a target="_blank" rel="noopener noreferrer" href="https://www.iitg.ac.in/"> Indian Institute of Technology Guwahati (IITG)</a>, Assam, India, in the Civil Engineering Department (Structural Engineering stream). In Silchar, Assam, India, I received my B.Tech degree in Civil Engineering from the National Institute of Technology Silchar (NITS) in the year 2008. From August 2008 to July 2013, I stayed in Bangalore, India, where I worked at TATA Consulting Engineers Ltd.
 <br>  
 I grew up in <a target="_blank" rel="noopener noreferrer" href="https://www.google.co.in/maps/place/Sipajhar,+Assam+784145/@26.3973272,91.8896913,15z/data=!3m1!4b1!4m5!3m4!1s0x375afe1ae571ac61:0xaf73ffbabdd75b55!8m2!3d26.4009984!4d91.8952713"> Sipajhar, Assam </a>, where I completed my high school in 2002, stayed at Guwahati for two years, and completed my intermediate from Cotton College, Guwahati, Assam, India. 
 </p>
 
 ## Postdoc
-- <p style='text-align: justify;'> Postdoctoral Research Associate, Division of Applied Mathematics, Brown Univerity, Providence, USA (Feb, 2021 - Present)</p>
+- <p style='text-align: justify;'> Postdoctoral Research Associate, Division of Applied Mathematics, Brown University, Providence, USA (Feb, 2021 - Feb, 2026)</p>
 
 ## Education
 - <p style='text-align: justify;'> Doctor of Philosophy in Civil Engineering, Indian Institute of Technology Guwahati, Guwahati, Assam, India. (2013 - 2020)</p>
@@ -48,7 +48,7 @@ I grew up in <a target="_blank" rel="noopener noreferrer" href="https://www.goog
 
 ## Industrial Experience
 - <p style='text-align: justify;'> From January 2024 to June 2024, I worked as a Part-time Consultant for Avrio Industry LLC, a Californian corporation for developing a physics-informed machine learning-based health monitoring and control demonstration on a battery electric vehicle. </p>
-- <p style='text-align: justify;'> From August 2008 to July 2013, I worked at TATA Consulting Engineers Limited, where I worked on Modelling, analysis, design and design review of civil structures of thermal power plants. Detailing and checking of civil construction drawings. </p>
+- <p style='text-align: justify;'> From August 2008 to July 2013, I worked at TATA Consulting Engineers Limited, where I worked on Modelling, analysis, design, and design review of civil structures of thermal power plants. Detailing and checking of civil construction drawings. </p>
 
 ## Links
 Links to my 
