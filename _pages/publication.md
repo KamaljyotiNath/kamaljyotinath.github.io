@@ -229,12 +229,10 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <a id="Journal"></a>
 ### Journals
-<ol reversed="reversed" start="9"> <p style='text-align: justify;'>
+<ol reversed="reversed"> <p style='text-align: justify;'>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-  <li> 
-      <p class="p_main">  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2025) <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2026.114052">  A digital twin for diesel engines: Operator-infused physics-informed neural networks with transfer learning for engine health monitoring  </a>  <i> Engineering Applications of Artificial Intelligence </i> 170, 114052 </p>
-    </li> 
+    <p class="p_main">  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2025) <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2026.114052">  A digital twin for diesel engines: Operator-infused physics-informed neural networks with transfer learning for engine health monitoring  </a>  <i> Engineering Applications of Artificial Intelligence </i> 170, 114052 </p>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
