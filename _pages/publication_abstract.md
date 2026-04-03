@@ -3,6 +3,20 @@
 
 <!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
 <!-- ----------------Abstract------------------ -->
+<div id="Abstract_Nath_2026_PINN_Engine" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('Abstract_Nath_2026_PINN_Engine').style.display='none; document.getElementById('OVERLAY_Abstract_Nath_2026_PINN_Engine').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
+<h2 style="font-size: 18px; color:blue;">A digital twin for diesel engines: Operator-infused physics-informed neural networks with transfer learning for engine health monitoring</h2>
+<h3 style="font-size: 18px; color:blue;">Abstract</h3>
+<p class="p_class_1">
+Improving diesel engine efficiency, reducing emissions, and enabling robust health monitoring have been critical research topics in engine modelling. While recent advancements in the use of neural networks for system monitoring have shown promising results, such methods often focus on component-level analysis, lack generalizability, and physical interpretability. In this study, we propose a novel hybrid framework that combines physics-informed neural networks (PINNs) with deep operator networks (DeepONet) to enable accurate and computationally efficient parameter identification in mean-value diesel engine models. Our method leverages physics-based system knowledge in combination with data-driven training of neural networks to enhance model applicability. Incorporating offline-trained DeepONets to predict actuator dynamics significantly lowers the online computation cost when compared to the existing PINN framework. To address the re-training burden typical of PINNs under varying input conditions, we propose two transfer learning (TL) strategies: (i) a multi-stage TL scheme offering better runtime efficiency than full online training of the PINN model and (ii) a few-shot TL scheme that freezes a shared multi-head network body and computes physics-based derivatives required for model training outside the training loop. The second strategy offers a computationally inexpensive and physics-based approach for predicting engine dynamics and parameter identification, improving computational efficiency over the existing PINN framework. Compared to existing health monitoring methods, our framework combines the interpretability of physics-based models with the flexibility of deep learning, offering substantial gains in generalization, accuracy, and deployment efficiency for diesel engine diagnostics.
+</p>
+<button onclick="document.getElementById('Abstract_Nath_2026_PINN_Engine').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2026_PINN_Engine').style.display='none'" style="margin-top: 
+ 10px;">Close</button>  
+</div>
+</div>
+<!-- --------------------------------------------- -->
 <div id="Abstract_Mariappan_2024_PINN" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'" 
