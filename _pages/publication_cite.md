@@ -12,12 +12,12 @@
   journal = {Engineering Applications of Artificial Intelligence},
   volume = {170},
   pages = {114052},
- year = {2026},
- issn = {0952-1976},
- doi = {https://doi.org/10.1016/j.engappai.2026.114052},
- url = {https://www.sciencedirect.com/science/article/pii/S0952197626003337},
- author = {Kamaljyoti Nath and Varun Kumar and Daniel J. Smith and George Em Karniadakis},
- keywords = {Deep operator network, Inverse problem, Transfer learning, Few shot learning, Digital twin, System-of-systems}
+  year = {2026},
+  issn = {0952-1976},
+  doi = {https://doi.org/10.1016/j.engappai.2026.114052},
+  url = {https://www.sciencedirect.com/science/article/pii/S0952197626003337},
+  author = {Kamaljyoti Nath and Varun Kumar and Daniel J. Smith and George Em Karniadakis},
+  keywords = {Deep operator network, Inverse problem, Transfer learning, Few shot learning, Digital twin, System-of-systems}
 }
 </pre>
   <button onclick="document.getElementById('CITE_Nath_2026_PINN_Engine').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2026_PINN_Engine').style.display='none'" style="margin-top: 10px;">Close</button>
