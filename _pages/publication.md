@@ -232,7 +232,15 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 <ol reversed="reversed"> <p style='text-align: justify;'>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-    <p class="p_main">  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2025) <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2026.114052">  A digital twin for diesel engines: Operator-infused physics-informed neural networks with transfer learning for engine health monitoring  </a>  <i> Engineering Applications of Artificial Intelligence </i> 170, 114052 </p>
+    <p class="p_main">  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2026) A digital twin for diesel engines: Operator-infused physics-informed neural networks with transfer learning for engine health monitoring  <i> Engineering Applications of Artificial Intelligence </i> 170, 114052 </p>
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Nath_2026_PINN_Engine').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2026_PINN_Engine').style.display='block'" class="class_1"> 
+    Abstract
+  </button>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2026.114052" class="class_1"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2412.11967" class="class_1"><button class="class_1"> arXiv </button></a>
+  <button onclick="document.getElementById('CITE_Nath_2026_PINN_Engine').style.display='block'; document.getElementById('OVERLAY_Nath_2026_PINN_Engine').style.display='block'" class="class_1"> Cite  </button>
+  </div>
 </li>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
