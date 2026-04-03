@@ -397,6 +397,8 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 <!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- --------------------------------- -------- -------- -------- -------- -------- -------- -->
 <!-- ------------ Overlay ---------- -->
 <!-- Overlay -->
+<div id="OVERLAY_Abstract_Nath_2026_PINN_Engine" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Nath_2026_PINN_Engine').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2026_PINN_Engine').style.display='none'">
+</div>
 <div id="OVERLAY_Abstract_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Mariappan_2024_PINN').style.display='none'">
 </div>
 <div id="OVERLAY_Abstract_Felipe_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Felipe_2024_PINN').style.display='none'; document.getElementById('OVERLAY_Abstract_Felipe_2024_PINN').style.display='none'">
@@ -429,6 +431,9 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 
 
 <!-- Overlay CITE -->
+<div id="OVERLAY_CITE_Nath_2026_PINN_Engine" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Nath_2026_PINN_Engine').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2026_PINN_Engine').style.display='none'">
+</div>
 <div id="OVERLAY_CITE_Mariappan_2024_PINN" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Mariappan_2024_PINN').style.display='none'; document.getElementById('OVERLAY_CITE_Mariappan_2024_PINN').style.display='none'">
 </div>
