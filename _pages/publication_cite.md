@@ -8,6 +8,7 @@
 <h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
 <pre id="CITE_text_Nath_2026_PINN_Engine" style="font-size: 12px;" style="color:blue;">
 @article{Nath_2026_PINN_Engine,
+  author = {Kamaljyoti Nath and Varun Kumar and Daniel J. Smith and George Em Karniadakis},
   title = {A digital twin for diesel engines: Operator-infused physics-informed neural networks with transfer learning for engine health monitoring},
   journal = {Engineering Applications of Artificial Intelligence},
   volume = {170},
@@ -16,7 +17,6 @@
   issn = {0952-1976},
   doi = {https://doi.org/10.1016/j.engappai.2026.114052},
   url = {https://www.sciencedirect.com/science/article/pii/S0952197626003337},
-  author = {Kamaljyoti Nath and Varun Kumar and Daniel J. Smith and George Em Karniadakis},
   keywords = {Deep operator network, Inverse problem, Transfer learning, Few shot learning, Digital twin, System-of-systems}
 }
 </pre>
