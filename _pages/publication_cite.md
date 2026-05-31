@@ -1,6 +1,32 @@
     
 <!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
 <!-- ----------------CITATION------------------ -->
+<div id="CITE_Nath_2026_AMORE" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Nath_2026_AMORE').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2026_AMORE').style.display='none'" 
+          style="color: #aaa; font-weight: bold; float: right; cursor: pointer;"></span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+<pre id="CITE_text_Nath_2026_AMORE" style="font-size: 12px;" style="color:blue;">
+@article{Nath_2026_AMORE,
+  author = {Kamaljyoti Nath and Additi Pandey and Bryan T. Susi and Hessam Babaee and George Em Karniadakis},
+  title = {AMORE: Adaptive multi-output operator network for stiff chemical kinetics},
+  journal = {Journal of Computational Physics},
+  volume = {562},
+  pages = {115030},
+  year = {2026},
+  issn = {0021-9991},
+  doi = {https://doi.org/10.1016/j.jcp.2026.115030},
+  url = {https://www.sciencedirect.com/science/article/pii/S0021999126003839},
+  keywords = {DeepONet, Stiff dynamical system, Partition of Unity (PoU), Adaptive loss function, Kolmogorov Arnold Networks (KANs), Fourier Neural Operator (FNO)}
+}
+}
+</pre>
+  <button onclick="document.getElementById('CITE_Nath_2026_AMORE').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2026_AMORE').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Nath_2026_AMORE')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+</div>
+</div>
+<!-- --------------------------------------------- -->
+
 <div id="CITE_Nath_2026_PINN_Engine" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Nath_2026_PINN_Engine').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2026_PINN_Engine').style.display='none'" 
