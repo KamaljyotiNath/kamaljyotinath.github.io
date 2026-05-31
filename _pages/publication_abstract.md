@@ -3,6 +3,21 @@
 
 <!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
 <!-- ----------------Abstract------------------ -->
+<div id="Abstract_Nath_2026_AMORE" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('Abstract_Nath_2026_AMORE').style.display='none; document.getElementById('OVERLAY_Abstract_Nath_2026_AMORE').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
+<h2 style="font-size: 18px; color:blue;">AMORE: Adaptive multi-output operator network for stiff chemical kinetics</h2>
+<h3 style="font-size: 18px; color:blue;">Abstract</h3>
+<p class="p_class_1">
+Time integration of stiff systems is a primary source of computational cost in combustion, hypersonics, and other reactive transport systems. This stiffness can introduce time scales significantly smaller than those associated with other physical processes, requiring extremely small time steps in explicit schemes or computationally intensive implicit methods. Consequently, strategies to alleviate challenges posed by stiffness are important. While neural operators (DeepONets) can act as surrogates for stiff kinetics, a reliable operator learning strategy is required to appropriately account for differences in the error between output variables and samples. Here, we develop AMORE, Adaptive Multi-Output Operator Network, a framework comprising an operator capable of predicting multiple outputs and adaptive loss functions ensuring reliable operator learning. The operator predicts all thermochemical states from given initial conditions. We propose two adaptive loss functions within the framework, considering each state variable’s and sample’s error to penalize the loss function. We designed the trunk to automatically satisfy the Partition of Unity. To enforce unity mass-fraction constraint exactly, we propose an invertible analytical map that transforms the n-dimensional species mass-fraction vector into an (n−1)-dimensional space, where DeepONet training is performed. We extend the proposed adaptive loss functions to trunk and branch training in two-step training of DeepONet with multiple outputs. Furthermore, we also implemented another unity mass fraction constraint exactly using a softmax function on the predicted mass fraction. We demonstrate the efficacy and applicability of our models through two examples: the syngas (12 states) and GRI-Mech 3.0 (24 active states out of 54). The proposed DeepONet will be a backbone for future CFD studies to accelerate turbulent combustion simulations. AMORE is a general framework, and here, in addition to DeepONet, we also demonstrate it for FNO.
+</p>
+<button onclick="document.getElementById('Abstract_Nath_2026_AMORE').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2026_AMORE').style.display='none'" style="margin-top: 
+ 10px;">Close</button>  
+</div>
+</div>
+<!-- --------------------------------------------- -->
+
 <div id="Abstract_Nath_2026_PINN_Engine" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('Abstract_Nath_2026_PINN_Engine').style.display='none; document.getElementById('OVERLAY_Abstract_Nath_2026_PINN_Engine').style.display='none'" 
