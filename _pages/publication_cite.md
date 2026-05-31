@@ -19,7 +19,6 @@
   url = {https://www.sciencedirect.com/science/article/pii/S0021999126003839},
   keywords = {DeepONet, Stiff dynamical system, Partition of Unity (PoU), Adaptive loss function, Kolmogorov Arnold Networks (KANs), Fourier Neural Operator (FNO)}
 }
-}
 </pre>
   <button onclick="document.getElementById('CITE_Nath_2026_AMORE').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2026_AMORE').style.display='none'" style="margin-top: 10px;">Close</button>
 <button onclick="copyCITE('CITE_text_Nath_2026_AMORE')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
