@@ -191,11 +191,6 @@ function myFunction() {
    (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2504.10720"> Leveraging Deep Operator Networks (DeepONet) for Acoustic Full Waveform Inversion (FWI) </a>
       </p>
     </li> 
-<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->    
-    <li> 
-      <p class="p_main"> Peter Rivera-Casillas, Sourav Dutta, Shukai Cai, Mark Loveland, <b>Kamaljyoti Nath</b>, Khemraj Shukla, Corey Trahan, Jonghyun Lee, Matthew Farthing, Clint Dawson (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2502.14782"> A Neural Operator-Based Emulator for Regional Shallow Water Dynamics </a>
-      </p>
-    </li> 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
     
   </p> 
@@ -226,6 +221,20 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 <a id="Journal"></a>
 ### Journals
 <ol reversed="reversed"> <p style='text-align: justify;'>
+
+<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
+<li>
+    <p class="p_main"> Peter Rivera-Casillas, Sourav Dutta, Shukai Cai, Mark Loveland, <b> Kamaljyoti Nath </b>, Khemraj Shukla, Corey Trahan, Jonghyun Lee, Matthew Farthing, Clint Dawson (2026), {A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics. <i> Journal of Geophysical Research: Machine Learning and Computation </i>, 3, e2025JH000697 </p>
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Peter_2026_NO').style.display='block'; document.getElementById('OVERLAY_Abstract_Peter_2026_NO').style.display='block'" class="class_1"> 
+    Abstract
+  </button>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1029/2025JH000697" class="class_1"> <button class="class_1">Journal-Open Access</button></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2502.14782" class="class_1"><button class="class_1"> arXiv </button></a>
+  <button onclick="document.getElementById('CITE_Peter_2026_NO').style.display='block'; document.getElementById('OVERLAY_CITE_Peter_2026_NO').style.display='block'" class="class_1"> Cite  </button>
+  </div>
+</li>
+
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
     <p class="p_main">  <b>Kamaljyoti Nath</b>, Additi Pandey, Bryan T. Susi, Hessam Babaee, George Em Karniadakis (2026), AMORE: Adaptive Multi-Output Operator Network for Stiff Chemical Kinetics. <i> Journal of Computational Physics </i>, 562, 115030 </p>
@@ -238,7 +247,6 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
   <button onclick="document.getElementById('CITE_Nath_2026_AMORE').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2026_AMORE').style.display='block'" class="class_1"> Cite  </button>
   </div>
 </li>
-  
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
     <p class="p_main">  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2026), A digital twin for diesel engines: Operator-infused physics-informed neural networks with transfer learning for engine health monitoring. <i> Engineering Applications of Artificial Intelligence </i>, 170, 114052 </p>
@@ -406,7 +414,9 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 
 <!-- -------- --------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- --------------------------------- -------- -------- -------- -------- -------- -------- -->
 <!-- ------------ Overlay ---------- -->
-<!-- Overlay -->
+<!-- Overlay --> 
+<div id="OVERLAY_Abstract_Peter_2026_NO" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Peter_2026_NO').style.display='none'; document.getElementById('OVERLAY_Abstract_Peter_2026_NO').style.display='none'">
+</div>
 <div id="OVERLAY_Abstract_Nath_2026_AMORE" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Nath_2026_AMORE').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2026_AMORE').style.display='none'">
 </div>
 <div id="OVERLAY_Abstract_Nath_2026_PINN_Engine" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" onclick="document.getElementById('Abstract_Nath_2026_PINN_Engine').style.display='none'; document.getElementById('OVERLAY_Abstract_Nath_2026_PINN_Engine').style.display='none'">
@@ -443,6 +453,9 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 
 
 <!-- Overlay CITE -->
+<div id="OVERLAY_CITE_Peter_2026_NO" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
+     onclick="document.getElementById('CITE_Peter_2026_NO').style.display='none'; document.getElementById('OVERLAY_CITE_Peter_2026_NO').style.display='none'">
+</div>
 <div id="OVERLAY_CITE_Nath_2026_AMORE" class="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 999;" 
      onclick="document.getElementById('CITE_Nath_2026_AMORE').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2026_AMORE').style.display='none'">
 </div>
