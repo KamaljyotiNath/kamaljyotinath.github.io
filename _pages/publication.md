@@ -237,7 +237,7 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-    <p class="p_main">  <b>Kamaljyoti Nath</b>, Additi Pandey, Bryan T. Susi, Hessam Babaee, George Em Karniadakis (2026), AMORE: <b>A</b>daptive <b></b>m</b>ulti-output <b>o</b>perato<b>r</b> n<b>e</b>twork for stiff chemical kinetics. <i> Journal of Computational Physics </i>, 562, 115030 </p>
+    <p class="p_main">  <b>Kamaljyoti Nath</b>, Additi Pandey, Bryan T. Susi, Hessam Babaee, George Em Karniadakis (2026), AMORE: <b>A</b>daptive <b>m</b>ulti-output <b>o</b>perato<b>r</b> n<b>e</b>twork for stiff chemical kinetics. <i> Journal of Computational Physics </i>, 562, 115030 </p>
   <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2026_AMORE').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2026_AMORE').style.display='block'" class="class_1"> 
     Abstract
