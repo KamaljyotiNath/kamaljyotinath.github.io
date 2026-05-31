@@ -224,7 +224,7 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-    <p class="p_main"> Peter Rivera-Casillas, Sourav Dutta, Shukai Cai, Mark Loveland, <b> Kamaljyoti Nath </b>, Khemraj Shukla, Corey Trahan, Jonghyun Lee, Matthew Farthing, Clint Dawson (2026), A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics. <i> Journal of Geophysical Research: Machine Learning and Computation </i>, 3, e2025JH000697 </p>
+    <p class="p_main"> Peter Rivera-Casillas, Sourav Dutta, Shukai Cai, Mark Loveland, <b> Kamaljyoti Nath</b>, Khemraj Shukla, Corey Trahan, Jonghyun Lee, Matthew Farthing, Clint Dawson (2026), A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics. <i> Journal of Geophysical Research: Machine Learning and Computation </i>, 3, e2025JH000697 </p>
   <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Peter_2026_NO').style.display='block'; document.getElementById('OVERLAY_Abstract_Peter_2026_NO').style.display='block'" class="class_1"> 
     Abstract
@@ -237,7 +237,7 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
-    <p class="p_main">  <b>Kamaljyoti Nath</b>, Additi Pandey, Bryan T. Susi, Hessam Babaee, George Em Karniadakis (2026), AMORE: Adaptive Multi-Output Operator Network for Stiff Chemical Kinetics. <i> Journal of Computational Physics </i>, 562, 115030 </p>
+    <p class="p_main">  <b>Kamaljyoti Nath</b>, Additi Pandey, Bryan T. Susi, Hessam Babaee, George Em Karniadakis (2026), AMORE: <b>A</b>daptive <b></b>m</b>ulti-output <b>o</b>perato<b>r</b> n<b>e</b>twork for stiff chemical kinetics. <i> Journal of Computational Physics </i>, 562, 115030 </p>
   <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2026_AMORE').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2026_AMORE').style.display='block'" class="class_1"> 
     Abstract
