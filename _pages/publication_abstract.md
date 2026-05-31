@@ -3,6 +3,20 @@
 
 <!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
 <!-- ----------------Abstract------------------ -->
+<div id="Abstract_Peter_2026_NO" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('Abstract_Peter_2026_NO').style.display='none; document.getElementById('OVERLAY_Abstract_Peter_2026_NO').style.display='none'" 
+          style="color: #aaa; font-size: 28px; font-weight: bold; float: right; cursor: pointer;"> </span>
+<h2 style="font-size: 18px; color:blue;">A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics</h2>
+<h3 style="font-size: 18px; color:blue;">Abstract</h3>
+<p class="p_class_1">
+Coastal regions and river floodplains are particularly vulnerable to the impacts of extreme weather events. Accurate real-time forecasting of hydrodynamic processes in these areas is essential for infrastructure planning and climate adaptation. Yet high-fidelity numerical models are often too computationally expensive for real-time use, and lower-cost approaches, such as traditional model order reduction algorithms or conventional neural networks, typically struggle to generalize to out-of-distribution conditions. In this study, we present the Multiple-Input Temporal Operator Network (MITONet), a novel autoregressive neural emulator that employs latent-space operator learning to efficiently approximate high-dimensional numerical solvers for complex, nonlinear problems that are governed by time-dependent, parameterized partial differential equations. We showcase MITONet's predictive capabilities by forecasting regional tide-driven dynamics in the Shinnecock Inlet in New York and riverine flow in a section of the Red River in Louisiana, both described by the two-dimensional shallow-water equations (2D shallow water equations), while incorporating initial conditions, time-varying boundary conditions, and domain parameters such as the bottom friction coefficient. Despite the distinct flow regimes, the complex geometries and meshes, and the wide range of bottom friction coefficients studied, MITONet displays consistently high predictive skill, with anomaly correlation coefficients above 0.9, a maximum normalized root mean square error of 0.011, and computational speedups between mathematical equation, even for 175 days of autoregressive rollout forecast from random initial conditions and with unseen parameter values.
+</p>
+<button onclick="document.getElementById('Abstract_Peter_2026_NO').style.display='none'; document.getElementById('OVERLAY_Abstract_Peter_2026_NO').style.display='none'" style="margin-top: 
+ 10px;">Close</button>  
+</div>
+</div>
+<!-- --------------------------------------------- -->
 <div id="Abstract_Nath_2026_AMORE" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('Abstract_Nath_2026_AMORE').style.display='none; document.getElementById('OVERLAY_Abstract_Nath_2026_AMORE').style.display='none'" 
