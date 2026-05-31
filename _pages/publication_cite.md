@@ -1,6 +1,34 @@
     
 <!-- -------- -------- -------- -------- -------- ---- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -------- -->
-<!-- ----------------CITATION------------------ -->
+<!-- ----------------CITATION------------------ --> 
+<div id="CITE_Peter_2026_NO" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+<div style="position: relative; margin: 10px; padding: 10px;">
+<span onclick="document.getElementById('CITE_Peter_2026_NO').style.display='none'; document.getElementById('OVERLAY_CITE_Peter_2026_NO').style.display='none'" 
+          style="color: #aaa; font-weight: bold; float: right; cursor: pointer;"></span>
+<h3 style="font-size: 18px;" style="color:blue;">Cite Article</h3>
+<pre id="CITE_text_Peter_2026_NO" style="font-size: 12px;" style="color:blue;">
+@article{Peter_2026_NO,
+  author = {Rivera-Casillas, Peter and Dutta, Sourav and Cai, Shukai and Loveland, Mark and Nath, Kamaljyoti and Shukla, Khemraj and Trahan, Corey and Lee, Jonghyun and Farthing, Matthew and Dawson, Clint},
+  title = {A Neural Operator Emulator for Coastal and Riverine Shallow Water Dynamics},
+  journal = {Journal of Geophysical Research: Machine Learning and Computation},
+  volume = {3},
+  number = {3},
+  pages = {e2025JH000697},
+  keywords = {neural operator, coastal dynamics, surrogate model, autoregressive, shallow water equations, MITONet},
+  doi = {https://doi.org/10.1029/2025JH000697},
+  url = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2025JH000697},
+  eprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2025JH000697},
+  note = {e2025JH000697 2025JH000697},
+  year = {2026}
+}
+}
+</pre>
+  <button onclick="document.getElementById('CITE_Peter_2026_NO').style.display='none'; document.getElementById('OVERLAY_CITE_Peter_2026_NO').style.display='none'" style="margin-top: 10px;">Close</button>
+<button onclick="copyCITE('CITE_text_Peter_2026_NO')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
+</div>
+</div>
+<!-- --------------------------------------------- -->
+
 <div id="CITE_Nath_2026_AMORE" class="popup" style="display: none; position: fixed; top: 20%; left: 50%; transform: translate(-50%, -20%); width: 50%; background-color: white; z-index: 1000; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
 <div style="position: relative; margin: 10px; padding: 10px;">
 <span onclick="document.getElementById('CITE_Nath_2026_AMORE').style.display='none'; document.getElementById('OVERLAY_CITE_Nath_2026_AMORE').style.display='none'" 
