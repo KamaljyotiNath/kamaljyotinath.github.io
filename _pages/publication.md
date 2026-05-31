@@ -185,10 +185,6 @@ function myFunction() {
 ### Preprints
 <ol  reversed="reversed">
   <p style='text-align: justify;'>
-    <li> 
-      <p class="p_main"> <b>Kamaljyoti Nath</b>, Additi Pandey, Bryan T. Susi, Hessam Babaee, George Em Karniadakis (2025) <a target="_blank" rel="noopener noreferrer" href = "https://arxiv.org/abs/2510.12999"> AMORE: Adaptive Multi-Output Operator Network for Stiff Chemical Kinetics </a>
-      </p>
-    </li> 
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
     <li> 
       <p class="p_main"> <b>Kamaljyoti Nath</b>, Khemraj Shukla, Victor C. Tsai, Umair bin Waheed, Christian Huber, Omer Alpak, Chuen-Song Chen, Ligang Lu, Amik St-Cyr
@@ -232,12 +228,25 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
 <ol reversed="reversed"> <p style='text-align: justify;'>
 <!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
 <li>
+    <p class="p_main">  <b>Kamaljyoti Nath</b>, Additi Pandey, Bryan T. Susi, Hessam Babaee, George Em Karniadakis (2026), AMORE: Adaptive Multi-Output Operator Network for Stiff Chemical Kinetics. <i> Journal of Computational Physics </i>, 562, 115030 </p>
+  <div style="display: flex; gap: 10px; margin-bottom: 20px;">
+  <button onclick="document.getElementById('Abstract_Nath_2026_AMORE').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2026_AMORE').style.display='block'" class="class_1"> 
+    Abstract
+  </button>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.jcp.2026.115030" class="class_1"> <button class="class_1">Journal-Open Access</button></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2510.12999" class="class_1"><button class="class_1"> arXiv </button></a>
+  <button onclick="document.getElementById('CITE_Nath_2026_AMORE').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2026_AMORE').style.display='block'" class="class_1"> Cite  </button>
+  </div>
+</li>
+  
+<!-- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- -->
+<li>
     <p class="p_main">  <b>  Kamaljyoti Nath</b>, Varun Kumar, Daniel J. Smith, George Em Karniadakis (2026), A digital twin for diesel engines: Operator-infused physics-informed neural networks with transfer learning for engine health monitoring. <i> Engineering Applications of Artificial Intelligence </i>, 170, 114052 </p>
   <div style="display: flex; gap: 10px; margin-bottom: 20px;">
   <button onclick="document.getElementById('Abstract_Nath_2026_PINN_Engine').style.display='block'; document.getElementById('OVERLAY_Abstract_Nath_2026_PINN_Engine').style.display='block'" class="class_1"> 
     Abstract
   </button>
-  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2026.114052" class="class_1"> <button class="class_1">Journal</button></a>
+  <a target="_blank" rel="noopener noreferrer" href = "https://doi.org/10.1016/j.engappai.2026.114052" class="class_1"> <button class="class_1">Journal-Open Access</button></a>
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2412.11967" class="class_1"><button class="class_1"> arXiv </button></a>
   <button onclick="document.getElementById('CITE_Nath_2026_PINN_Engine').style.display='block'; document.getElementById('OVERLAY_CITE_Nath_2026_PINN_Engine').style.display='block'" class="class_1"> Cite  </button>
   </div>
@@ -278,7 +287,8 @@ Farsangi, Mohammad Noori, Paolo Gardoni, Izuru Takewaki, Humberto Varum, and Ale
       Abstract
     </button>  
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.4208/cicp.OA-2023-0078" class="class_1"><button  class="class_1">Journal</button></a> 
-  <a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" class="class_1"> <button class="class_1"> ResearchGate (Full-text) </button>  </a>   
+  <!-- a target="_blank" rel="noopener noreferrer" href="https://www.researchgate.net/publication/381733362_A_Causality-DeepONet_for_Causal_Responses_of_Linear_Dynamical_Systems" class="class_1"> <button class="class_1"> ResearchGate (Full-text) </button>  </a>   
+    -->
   <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.48550/arXiv.2209.08397" class="class_1"> <button  class="class_1">arXiv</button> </a> 
   <button onclick="document.getElementById('CITE_Liu_2022_Causality').style.display='block'; document.getElementById('OVERLAY_CITE_Liu_2022_Causality').style.display='block'" class="class_1">
     Cite
