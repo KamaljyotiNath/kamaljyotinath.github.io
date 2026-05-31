@@ -21,7 +21,6 @@
   note = {e2025JH000697 2025JH000697},
   year = {2026}
 }
-}
 </pre>
   <button onclick="document.getElementById('CITE_Peter_2026_NO').style.display='none'; document.getElementById('OVERLAY_CITE_Peter_2026_NO').style.display='none'" style="margin-top: 10px;">Close</button>
 <button onclick="copyCITE('CITE_text_Peter_2026_NO')" style="margin-top: 10px;">Copy Cite to Clipboard</button>
